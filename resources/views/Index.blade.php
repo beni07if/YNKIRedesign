@@ -207,9 +207,9 @@
         </div>
 
     </div>
+    <iframe src="https://storymaps.arcgis.com/stories/05e9c2f09e454ab89e64cb62899b7112" width="100%" height="1000px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
 
     </div>
-    <iframe src="https://storymaps.arcgis.com/stories/05e9c2f09e454ab89e64cb62899b7112" width="100%" height="1000px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
 
 </section><!-- End Story Maps Section -->
 
