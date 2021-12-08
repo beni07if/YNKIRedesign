@@ -100,7 +100,7 @@
 
                     <div class="entry-content">
                         <p class="tinymce-editor">
-                            {{ $post->deskripsi }}
+                            {{ $post->caption }}
                         </p>
                         <div class="read-more">
                             <a href="{{ route('DetailRilis', $post->id) }}">Read More</a>
