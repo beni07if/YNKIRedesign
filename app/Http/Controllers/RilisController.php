@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Postinganmedia;
 use App\Http\Controllers\RilisController;
+use RealRashid\SweetAlert\SweetAlertServiceProvider;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class RilisController extends Controller
 {

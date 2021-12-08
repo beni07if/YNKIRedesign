@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Staf;
 use App\Models\Postinganmedia;
+use RealRashid\SweetAlert\SweetAlertServiceProvider;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class WebViewController extends Controller
 {
