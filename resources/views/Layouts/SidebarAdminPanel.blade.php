@@ -154,7 +154,7 @@
         <li class="nav-item">
             <a class="nav-link collapsed" href="{{ route('logout') }}" onclick="event.preventDefault();
                         document.getElementById('logout-form').submit();">
-                <i class="nav-icon fas fa-sign-out-alt text-info"></i>
+                <i class="bi bi-person"></i>
                 <p>Logout</p>
             </a>
             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
