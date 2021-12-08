@@ -18,13 +18,13 @@ class CreatePostinganmediaTable extends Migration
             $table->integer('id_user');
             $table->string('judul');
             $table->string('title')->nullable();
-            $table->string('caption');
+            $table->string('caption')->nullable();
             $table->string('captions')->nullable();
             $table->string('kategori');
-            $table->string('categories')->nullable();
-            $table->string('deskripsi');
+            $table->string('categories');
+            $table->string('deskripsi')->nullable();
             $table->string('description')->nullable();
-            $table->string('foto');
+            $table->string('foto')->nullable();
             $table->timestamps();
         });
     }

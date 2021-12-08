@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use App\Http\Controllers\RilisController;
 
+// use App\Http\Controllers\ProgramLanskapController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -48,14 +50,14 @@ Route::get('staf-ynki', 'App\Http\Controllers\WebViewController@Staf')->name('St
 Route::get('detail-staf/{id}', 'App\Http\Controllers\WebViewController@DetailStaf')->name('DetailStaf');
 Route::resource('partner', 'App\Http\Controllers\PartnerController');
 
-Route::resource('program-lanskap', 'App\Http\Controllers\ProgramLanskapController');
-Route::resource('komoditas-masyarakat', 'App\Http\Controllers\KomoditasMasyarakatController');
-Route::resource('kebijakan-keberlanjutan', 'App\Http\Controllers\KebijakanKeberlanjutanController');
+// Route::resource('program-lanskap', 'App\Http\Controllers\ProgramLanskapController');
+// Route::resource('komoditas-masyarakat', 'App\Http\Controllers\KomoditasMasyarakatController');
+// Route::resource('kebijakan-keberlanjutan', 'App\Http\Controllers\KebijakanKeberlanjutanController');
 
-Route::resource('pemulihan-lingkungan', 'App\Http\Controllers\PemulihanLingkunganController');
-Route::resource('psem', 'App\Http\Controllers\PSEMController');
-Route::resource('rehabilitasi-dan-restorasi', 'App\Http\Controllers\RehabilitasiDanRestorasiController');
-Route::resource('advokasi-kebijakan', 'App\Http\Controllers\AdvokasiKebijakanController');
+// Route::resource('pemulihan-lingkungan', 'App\Http\Controllers\PemulihanLingkunganController');
+// Route::resource('psem', 'App\Http\Controllers\PSEMController');
+// Route::resource('rehabilitasi-dan-restorasi', 'App\Http\Controllers\RehabilitasiDanRestorasiController');
+// Route::resource('advokasi-kebijakan', 'App\Http\Controllers\AdvokasiKebijakanController');
 
 Route::resource('rilis', 'App\Http\Controllers\RilisController');
 Route::get('/list-rilis', 'App\Http\Controllers\WebViewController@ListRilis')->name('ListRilis');
@@ -63,8 +65,8 @@ Route::get('/detail-rilis/{id}', 'App\Http\Controllers\WebViewController@DetailR
 Route::resource('opini', 'App\Http\Controllers\OpiniController');
 Route::resource('kabar-dari-lapangan', 'App\Http\Controllers\KabarDariLapanganController');
 
-Route::resource('karir', 'App\Http\Controllers\KarirController');
-Route::resource('program-magang', 'App\Http\Controllers\ProgramMagangController');
-Route::resource('ikut-terlibat', 'App\Http\Controllers\IkutTerlibatController');
+// Route::resource('karir', 'App\Http\Controllers\KarirController');
+// Route::resource('program-magang', 'App\Http\Controllers\ProgramMagangController');
+// Route::resource('ikut-terlibat', 'App\Http\Controllers\IkutTerlibatController');
 
 Route::resource('kontak-kami', 'App\Http\Controllers\KontakKamiController');

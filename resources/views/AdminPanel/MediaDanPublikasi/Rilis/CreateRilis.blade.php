@@ -80,25 +80,19 @@
                                 </div>
                             </div>
                             <div class="row mb-3">
-                                <label for="deskripsi" class="col-sm-3 col-form-label">Deskripsi</label>
-                                <!-- <p>Quill editor with full toolset</p> -->
+                                <label for="foto" class="col-sm-3 col-form-label">Deskripsi</label>
                                 <div class="col-sm-9">
-                                    <!-- <div class="quill-editor-full"> -->
-                                    <textarea type="text" name="deskripsi">
-                                    </textarea>
-                                    <!-- </div> -->
-
+                                    <!-- TinyMCE Editor -->
+                                    <textarea class="tinymce-editor" name="deskripsi">
+                                        </textarea><!-- End TinyMCE Editor -->
                                 </div>
                             </div>
                             <div class="row mb-3">
-                                <label for="description" class="col-sm-3 col-form-label">Description</label>
-                                <!-- <p>Quill editor with full toolset</p> -->
+                                <label for="foto" class="col-sm-3 col-form-label">Description</label>
                                 <div class="col-sm-9">
-                                    <!-- <div class="quill-editor-full"> -->
-                                    <textarea type="text" name="description">
-                                    </textarea>
-                                    <!-- </div> -->
-
+                                    <!-- TinyMCE Editor -->
+                                    <textarea class="tinymce-editor" name="description">
+                                        </textarea><!-- End TinyMCE Editor -->
                                 </div>
                             </div>
                             <br><br><br><br><br>

@@ -18,33 +18,98 @@
     </div>
 </section><!-- End Breadcrumbs -->
 
-<!-- ======= Recent Blog Posts Section ======= -->
-<section id="recent-blog-posts" class="recent-blog-posts">
-
+<!-- ======= Blog Section ======= -->
+<section id="blog" class="blog">
     <div class="container">
 
-        <header class="section-header">
-            <h2>Rilis</h2>
-            <p>Detail rilis page</p>
-        </header>
-
         <div class="row">
-            @foreach($detailRilis as $rilis)
 
-            <div class="col-lg-3">
-                <div class="post-box">
-                    <div class="post-img"><img src="assetAdmin/img/PostinganMedia/{{$rilis->foto}}" class="img-fluid" alt=""></div>
-                    <span class="post-date">{{$rilis->created_at}}</span>
-                    <h3 class="post-title">{{$rilis->judul}}</h3>
-                    <a href="{{Route('DetailRilis', $rilis->id)}}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div>
+            <div class="col-lg-8 entries">
+                @foreach( $postDetail as $post )
 
-            @endforeach
+                <article class="entry">
+
+                    <div class="entry-img">
+                        <img src="assetAdmin/img/PostinganMedia/{{$post->foto}}" alt="" class="img-fluid">
+                    </div>
+
+                    <h2 class="entry-title">
+                        <a href="{{route('staf.index')}}">{{ $post->judul }}</a>
+                    </h2>
+
+                    <div class="entry-meta">
+                        <ul>
+                            <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-single.html">YNKI</a></li>
+                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">{{ $post->created_at}}</time></a></li>
+                            <!-- <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-single.html">12 Comments</a></li> -->
+                        </ul>
+                    </div>
+
+                    <div class="entry-content">
+                        <p>
+                            {{ $post->deskripsi }}
+                        </p>
+                        <!-- <div class="read-more">
+                            <a href="#">Read More</a>
+                        </div> -->
+                    </div>
+
+                </article><!-- End blog entry -->
+                @endforeach
+
+                <!-- <div class="blog-pagination">
+                    <ul class="justify-content-center">
+                        <li><a href="#">1</a></li>
+                        <li class="active"><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                    </ul>
+                </div> -->
+
+            </div><!-- End blog entries list -->
+
+            <div class="col-lg-4">
+
+                <div class="sidebar">
+
+                    <!-- <h3 class="sidebar-title">Search</h3>
+                    <div class="sidebar-item search-form">
+                        <form action="">
+                            <input type="text">
+                            <button type="submit"><i class="bi bi-search"></i></button>
+                        </form>
+                    </div> -->
+                    <!-- End sidebar search formn-->
+
+                    <h3 class="sidebar-title">Rilis Lainnya </h3>
+                    <div class="sidebar-item recent-posts">
+                        @foreach($postinganmedia as $post)
+                        <div class="post-item clearfix">
+                            <img src="assetAdmin/img/PostinganMedia/{{ $post->foto }}" alt="">
+                            <h4><a href="{{ route('DetailRilis', $post->id) }}">{{$post->judul}}</a></h4>
+                            <time datetime="2020-01-01">{{$post->created_at}}</time>
+                        </div>
+                        @endforeach
+                    </div><!-- End sidebar recent posts-->
+
+                    <h3 class="sidebar-title">Kategori</h3>
+                    <div class="sidebar-item tags">
+                        <ul>
+                            <li><a href="#">Rilis</a></li>
+                            <li><a href="#">Opini</a></li>
+                            <li><a href="#">Kabar Dari Lapangan</a></li>
+                            <li><a href="#">Karakteristik Lanskap</a></li>
+                            <li><a href="#">Teory of Change</a></li>
+                            <li><a href="#">Library</a></li>
+                        </ul>
+                    </div><!-- End sidebar tags-->
+
+                </div><!-- End sidebar -->
+
+            </div><!-- End blog sidebar -->
 
         </div>
 
     </div>
-
-</section><!-- End Recent Blog Posts Section -->
-@endsection
+    <!-- </section> -->
+    <!-- End Blog Section -->
+    @endsection

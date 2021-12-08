@@ -4,9 +4,15 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Staf;
+use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 
 class StafController extends Controller
 {
+    // public function __construct()
+    // {
+    //     $this->middleware('auth');
+    // }
     /**
      * Display a listing of the resource.
      *
@@ -63,7 +69,8 @@ class StafController extends Controller
         $staf->created_at = now();
         $staf->updated_at = now();
         $staf->save();
-        return redirect()->route('staf.index');
+        return redirect()->route('staf.index')->withSuccess('Data staf berhasil ditambahkan..');
+        // return redirect('tasks')->withSuccess('Task Created Successfully!');
         // return back()->with('message', 'Mahasiswa berhasil ditambahkan');
     }
 

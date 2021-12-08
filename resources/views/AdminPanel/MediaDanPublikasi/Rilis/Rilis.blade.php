@@ -47,7 +47,7 @@
                                     <td>{{$postingan->judul}}</td>
                                     <td>{{$postingan->kategori}}</td>
                                     <td>{{$postingan->tanggal}}</td>
-                                    <td><a href="#"><span class="badge bg-info"><i class="bxs-user-plus me-1"></i>Edit</span></a></td>
+                                    <td><a href="{{route('rilis.edit', $postingan->id)}}"><span class="badge bg-info"><i class="bxs-user-plus me-1"></i>Edit</span></a></td>
                                 </tr>
                                 @endforeach
                             </tbody>
@@ -59,6 +59,7 @@
 
             </div>
         </div>
+        @include('sweetalert::alert')
     </section>
 
 </main><!-- End #main -->

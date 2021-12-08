@@ -15,7 +15,8 @@ class WebViewController extends Controller
      */
     public function index()
     {
-        $postingan = Postinganmedia::all();
+        // $postDesc = Postinganmedia::orderBy('id', 'DESC', 'deskripsi')->limit(1)->get();
+        $postingan = Postinganmedia::orderBy('id', 'DESC')->limit(1)->get();
         return view('Index', compact('postingan'));
     }
 
@@ -93,13 +94,13 @@ class WebViewController extends Controller
     public function Staf()
     {
         $staf = Staf::all();
-        return view('TentangKami.Staf', compact('staf'));
+        return view('TentangKami.Staf.Staf', compact('staf'));
     }
 
     public function DetailStaf($id)
     {
         $staf = Staf::where('id', $id)->get();
-        return view('TentangKami.DetailStaf', compact('staf'));
+        return view('TentangKami.Staf.DetailStaf', compact('staf'));
     }
 
     public function ListRilis()
@@ -110,8 +111,9 @@ class WebViewController extends Controller
 
     public function DetailRilis($id)
     {
-        $detailRilis = Postinganmedia::where('id', $id)->get();
-        return view('MediaDanPublikasi.Rilis.DetailRilis', compact('detailRilis'));
-        // return $detailRilis;
+        $postDetail = Postinganmedia::where('id', $id)->get();
+        $postinganmedia = Postinganmedia::where('kategori', 'Rilis')->get();
+        return view('MediaDanPublikasi.Rilis.DetailRilis', compact('postDetail', 'postinganmedia'));
+        // return $postDetail;
     }
 }

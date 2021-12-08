@@ -20,17 +20,13 @@
 
 <!-- ======= Recent Blog Posts Section ======= -->
 <section id="recent-blog-posts" class="recent-blog-posts">
-
     <div class="container" data-aos="fade-up">
-
         <header class="section-header">
             <h2>Rilis</h2>
             <p>Rilis page</p>
         </header>
-
         <div class="row">
             @foreach($listRilis as $rilis)
-
             <div class="col-lg-4">
                 <div class="post-box">
                     <div class="post-img"><img src="assetAdmin/img/PostinganMedia/{{$rilis->foto}}" class="img-fluid" alt=""></div>
@@ -39,12 +35,8 @@
                     <a href="{{Route('DetailRilis', $rilis->id)}}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
-
             @endforeach
-
         </div>
-
     </div>
-
 </section><!-- End Recent Blog Posts Section -->
 @endsection

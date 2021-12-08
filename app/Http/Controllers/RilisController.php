@@ -61,7 +61,7 @@ class RilisController extends Controller
         $post->created_at = now();
         $post->updated_at = now();
         $post->save();
-        return redirect()->route('rilis.index');
+        return redirect()->route('rilis.index')->withSuccess('Rilis berhasil ditambahkan..');
     }
 
     /**
@@ -72,7 +72,8 @@ class RilisController extends Controller
      */
     public function show($id)
     {
-        //
+        $postinganmedia = Postinganmedia::find($id);
+        return view('AdminPanel.MediaDanPublikasi.Rilis.DetailRilis', compact('postinganmedia'));
     }
 
     /**
@@ -83,7 +84,8 @@ class RilisController extends Controller
      */
     public function edit($id)
     {
-        //
+        $postinganmedia = Postinganmedia::find($id);
+        return view('AdminPanel.MediaDanPublikasi.Rilis.EditRilis', compact('postinganmedia'));
     }
 
     /**
@@ -95,7 +97,31 @@ class RilisController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request, [
+            'foto' => 'required|image|mimes:jpg,png,jpeg'
+        ]);
+        $post = Postinganmedia::findOrFail($id);
+        $post->id_user = $request->input('id_user');
+        $post->judul = $request->input('judul');
+        $post->title = $request->input('title');
+        $post->caption = $request->input('caption');
+        $post->captions = $request->input('captions');
+        $post->kategori = $request->input('kategori');
+        $post->categories = $request->input('categories');
+        $post->deskripsi = $request->input('deskripsi');
+        $post->description = $request->input('description');
+        $file       = $request->file('foto');
+        $fileName   = $file->getClientOriginalName();
+        $request->file('foto')->move("assetAdmin/img/PostinganMedia/", $fileName);
+        $post->foto = $fileName;
+        // $tambah->save();
+
+        // return redirect()->to('/');
+        $post->created_at = now();
+        $post->updated_at = now();
+        $post->save($request->all());
+        // $post->save($request());
+        return redirect()->route('rilis.index')->withSuccess('Rilis berhasil diubah..');
     }
 
     /**
@@ -112,5 +138,11 @@ class RilisController extends Controller
     public function ListRilis()
     {
         return view('AdminPanel.MediaDanPublikasi.Rilis.ListRilis');
+    }
+
+    public function DetailRilis($id)
+    {
+        $postinganmedia = Postinganmedia::find($id);
+        return view('AdminPanel.MediaDanPublikasi.Rilis.DetailRilis', compact('postinganmedia'));
     }
 }

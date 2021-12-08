@@ -83,27 +83,43 @@
                 <article class="entry">
 
                     <div class="entry-img">
-                        <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+                        <img src="assetAdmin/img/PostinganMedia/{{$post->foto}}" alt="" class="img-fluid">
                     </div>
 
                     <h2 class="entry-title">
-                        <a href="#">{{$post->judul}}</a>
+                        <a href="{{ route('DetailRilis', $post->id) }}">{{$post->judul}}</a>
                     </h2>
 
                     <div class="entry-meta">
                         <ul>
-                            <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-single.html">Adira</a></li>
+                            <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-single.html">YNKI</a></li>
                             <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">{{$post->created_at}}</time></a></li>
                             <!-- <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-single.html">12 Comments</a></li> -->
                         </ul>
                     </div>
 
                     <div class="entry-content">
-                        <p>
-                            {{$post->deskripsi}}
-                        </p>
+                        <!-- <p class="tinymce-editor"> -->
+                        <ol>
+                            <li>heh</li>
+                            <li>hoho</li>
+                        </ol>
+                        <ul>
+                            <li>haha</li>
+                            <li>hihi</li>
+                        </ul>
+                        trait_exists
+                        {{ $post->deskripsi }}
+                        test
+                        <p>Oke&nbsp;<strong>Mantap</strong></p>
+                        <ol>
+                            <li><strong>dfasd</strong></li>
+                            <li><strong>fd</strong></li>
+                            <li>Emezing</li>
+                        </ol>
+                        <!-- </p> -->
                         <div class="read-more">
-                            <a href="#">Read More</a>
+                            <a href="{{ route('DetailRilis', $post->id) }}">Read More</a>
                         </div>
                     </div>
 

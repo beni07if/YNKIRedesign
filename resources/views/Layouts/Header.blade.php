@@ -3,7 +3,7 @@
     <div class="container d-flex align-items-center">
 
         <h1 class="logo me-auto"><a href="{{route('index')}}">YNKI</a></h1>
-        <!-- <img src="assets/img/logo-ynki/logo-ynki-bulat.JPG" alt=""> -->
+        <!-- <img style="height: 50px; width:300px;" src="assets/img/logo-ynki/logo-ynki-panjang.JPG" alt=""> -->
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="{{route('home.index')}}" class="logo me-auto"><img src="assets/img/logo-ynki/logo-ynki-panjang.JPG" alt="" class="img-fluid"></a> -->
 
@@ -15,7 +15,7 @@
                         <li><a href="{{route('profil.index')}}">Profil</a></li>
                         <li><a href="{{route('StafYnki')}}">Team</a></li>
                         <li><a href="{{route('partner.index')}}">Partner</a></li>
-                        <li><a href="#">Independent Supervisory Rebort</a></li>
+                        <li><a href="#">Independent Supervisory Board</a></li>
                         <li class="dropdown"><a href="#"><span>Pendekatan Kami</span> <i class="bi bi-chevron-right"></i></a>
                             <ul>
                                 <li><a href="#">Pendekatan Lanskap</a></li>

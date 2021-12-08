@@ -60,7 +60,7 @@
             </div>
 
             <div class="col-lg-6">
-                <img src="assetAdmin/img/staf/{{$team->foto}}" class="img-fluid" alt="">
+                <img src="{{ asset('assetAdmin/img/staf/'.$team->foto)}}" class="img-fluid" alt="">
             </div>
 
 

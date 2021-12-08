@@ -30,10 +30,15 @@
                         <i class="bi bi-circle"></i><span>Partner</span>
                     </a>
                 </li>
+                <li>
+                    <a href="#">
+                        <i class="bi bi-circle"></i><span>Independent Supervisory Board</span>
+                    </a>
+                </li>
                 <li class="nav-heading">Pendekatan Kami</li>
                 <li>
                     <a href="#">
-                        <i class="bi bi-circle"></i><span>Program Lanskap</span>
+                        <i class="bi bi-circle"></i><span>Pendekatan Lanskap</span>
                     </a>
                 </li>
                 <li>
@@ -57,7 +62,7 @@
                 <li class="nav-heading">Program Kami</li>
                 <li>
                     <a href="#">
-                        <i class="bi bi-circle"></i><span>Pemulihan Lingkungan</span>
+                        <i class="bi bi-circle"></i><span>Rehabilitasi Lanskap</span>
                     </a>
                 </li>
                 <li>
@@ -67,7 +72,7 @@
                 </li>
                 <li>
                     <a href="#">
-                        <i class="bi bi-circle"></i><span>Rehabilitasi dan Restorasi</span>
+                        <i class="bi bi-circle"></i><span>Climate Smart Agriculture</span>
                     </a>
                 </li>
                 <li>
@@ -96,6 +101,21 @@
                 <li>
                     <a href="#">
                         <i class="bi bi-circle"></i><span>Kabar Dari Lapangan</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bi bi-circle"></i><span>Karakteristik Lanskap</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bi bi-circle"></i><span>Teory of Change</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bi bi-circle"></i><span>Library</span>
                     </a>
                 </li>
             </ul>
