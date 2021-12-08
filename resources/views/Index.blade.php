@@ -99,25 +99,9 @@
                     </div>
 
                     <div class="entry-content">
-                        <!-- <p class="tinymce-editor"> -->
-                        <ol>
-                            <li>heh</li>
-                            <li>hoho</li>
-                        </ol>
-                        <ul>
-                            <li>haha</li>
-                            <li>hihi</li>
-                        </ul>
-                        test start
-                        {{ $post->deskripsi }}
-                        test end
-                        <p>Oke&nbsp;<strong>Mantap</strong></p>
-                        <ol>
-                            <li><strong>dfasd</strong></li>
-                            <li><strong>fd</strong></li>
-                            <li>Emezing</li>
-                        </ol>
-                        <!-- </p> -->
+                        <p class="tinymce-editor">
+                            {{ $post->deskripsi }}
+                        </p>
                         <div class="read-more">
                             <a href="{{ route('DetailRilis', $post->id) }}">Read More</a>
                         </div>
