@@ -108,9 +108,9 @@
                             <li>haha</li>
                             <li>hihi</li>
                         </ul>
-                        trait_exists
+                        test start
                         {{ $post->deskripsi }}
-                        test
+                        test end
                         <p>Oke&nbsp;<strong>Mantap</strong></p>
                         <ol>
                             <li><strong>dfasd</strong></li>
