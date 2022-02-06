@@ -82,7 +82,7 @@
                 @foreach($postingan as $post)
                 <article class="entry">
 
-                    <div class="entry-img">
+                    <div class="">
                         <img src="assetAdmin/img/PostinganMedia/{{$post->foto}}" alt="" class="img-fluid">
                     </div>
 
