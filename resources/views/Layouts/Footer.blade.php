@@ -21,8 +21,8 @@
                 <p>
                     Jalan Karna Sosial No.88 <br>
                     Kota Pontianak<br><br>
-                    <strong>Phone:</strong> +1 5589 55488 55<br>
-                    <strong>Email:</strong> naturalkapital@gmail.com<br>
+                    <strong>Phone:</strong> +628 9829 5053 1<br>
+                    <strong>Email:</strong> sekretariat@naturalkapital.com<br>
                 </p>
             </div>
 
@@ -32,8 +32,7 @@
                     <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
                     <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
                     <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="{{route('Dashboard')}}">Login</a></li>
                 </ul>
             </div>
 
@@ -46,7 +45,6 @@
                     <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                     <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                     <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                    <!-- <a href="{{route('staf.index')}}" style="color: black;"></i>Login</a> -->
                 </div>
             </div>
 

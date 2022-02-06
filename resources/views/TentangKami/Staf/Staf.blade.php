@@ -44,8 +44,8 @@
                         </div>
                     </div>
                     <div class="member-info">
-                        <h4>{{$team->nama}}</h4>
-                        <span>{{$team->jabatan}}</span>
+                        <h4>{!!$team->nama!!}</h4>
+                        <span>{!!$team->jabatan!!}</span>
                         <a href="{{route('DetailStaf', $team->id)}}">Curriculum Vitae..</a>
                     </div>
                 </div>

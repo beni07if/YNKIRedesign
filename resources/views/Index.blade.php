@@ -92,7 +92,7 @@
 
                     <div class="entry-meta">
                         <ul>
-                            <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-single.html">YNKI</a></li>
+                            <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-single.html">{{$post->kategori}} YNKI</a></li>
                             <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">{{$post->created_at}}</time></a></li>
                             <!-- <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-single.html">12 Comments</a></li> -->
                         </ul>
@@ -139,9 +139,9 @@
                             <!-- <li><a href="#">Rilis <span>(25)</span></a></li>
                             <li><a href="#">Opini <span>(12)</span></a></li>
                             <li><a href="#">Kabar Dari Lapangan <span>(5)</span></a></li> -->
-                            <li><a href="#">Rilis </a></li>
-                            <li><a href="#">Opini </a></li>
-                            <li><a href="#">Kabar Dari Lapangan </a></li>
+                            <li><a href="{{route('ListRilis')}}">Rilis </a></li>
+                            <li><a href="{{route('ListOpini')}}">Opini </a></li>
+                            <li><a href="{{route('ListKabarDariLapangan')}}">Kabar Dari Lapangan </a></li>
                         </ul>
                     </div><!-- End sidebar categories-->
 

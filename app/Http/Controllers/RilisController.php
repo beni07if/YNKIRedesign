@@ -54,7 +54,6 @@ class RilisController extends Controller
         $post->caption = $request->caption;
         $post->captions = $request->captions;
         $post->kategori = $request->kategori;
-        $post->categories = $request->categories;
         $post->deskripsi = $request->deskripsi;
         $post->description = $request->description;
         $file       = $request->file('foto');
@@ -67,7 +66,7 @@ class RilisController extends Controller
         $post->created_at = now();
         $post->updated_at = now();
         $post->save();
-        return redirect()->route('rilis.index')->withSuccess('Rilis berhasil ditambahkan..');
+        return redirect()->route('rilis.index')->withSuccess('Data berhasil ditambahkan..');
     }
 
     /**
@@ -113,7 +112,6 @@ class RilisController extends Controller
         $post->caption = $request->input('caption');
         $post->captions = $request->input('captions');
         $post->kategori = $request->input('kategori');
-        $post->categories = $request->input('categories');
         $post->deskripsi = $request->input('deskripsi');
         $post->description = $request->input('description');
         $file       = $request->file('foto');

@@ -560,6 +560,13 @@ section {
     color: #37517e;
 }
 
+.container h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    color: #37517e;
+}
+
 .section-title h2sip {
     font-size: 32px;
     font-weight: bold;

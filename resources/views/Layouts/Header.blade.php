@@ -2,14 +2,14 @@
 <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-        <h1 class="logo me-auto"><a href="{{route('index')}}">YNKI</a></h1>
-        <!-- <img style="height: 50px; width:300px;" src="assets/img/logo-ynki/logo-ynki-panjang.JPG" alt=""> -->
+        <!-- <h1 class="logo me-auto"><a href="{{route('index')}}">YNKI</a></h1> -->
+        <a href="{{route('index')}}"><img style="height: 70px; width:270px;" src="assets/img/logo-ynki/logo-ynki.PNG" alt=""></a>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="{{route('home.index')}}" class="logo me-auto"><img src="assets/img/logo-ynki/logo-ynki-panjang.JPG" alt="" class="img-fluid"></a> -->
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto active" href="{{route('index')}}">Beranda</a></li>
+                <li><a class="nav-link scrollto " href="{{route('index')}}">Beranda</a></li>
                 <li class="dropdown"><a href="#"><span>Tentang Kami</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="{{route('profil.index')}}">Profil</a></li>
@@ -36,13 +36,14 @@
                                 <li><a href="#">Climate Smart Agriculture</a></li>
                             </ul>
                         </li>
+                        <li><a href="{{route('ListProgramStrategi')}}"><span>Program Strategi</span> </a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#"><span>Media dan Publikasi</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="{{route('ListRilis')}}">Rilis</a></li>
-                        <li><a href="{{route('opini.index')}}">Opini</a></li>
-                        <li><a href="{{route('kabar-dari-lapangan.index')}}">Kabar Dari Lapangan</a></li>
+                        <li><a href="{{route('ListOpini')}}">Opini</a></li>
+                        <li><a href="{{route('ListKabarDariLapangan')}}">Kabar Dari Lapangan</a></li>
                         <li><a href="#">Karakteristik Lanskap</a></li>
                         <li><a href="#">Teory of Change</a></li>
                         <li><a href="#">Library</a></li>
@@ -78,8 +79,9 @@
             </ul>
           </li>
           <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
+                <!-- <i><a class="getstarted scrollto" href="{{route('Dashboard')}}">Login</a></i> -->
             </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
+
         </nav><!-- .navbar -->
 
     </div>

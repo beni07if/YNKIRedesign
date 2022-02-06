@@ -13,7 +13,7 @@
             <li><a href="#">Home</a></li>
             <li>Anggota Team YNKI</li>
         </ol>
-        <h2>Anggota Team YNKI</h2>
+        <h2>Anggota Team YNKI</h2><a href="{{route('StafYnki')}}"><span class="badge bg-info"><i class="bxs-user-plus me-1"></i>Staf Lainnya</span></a>
 
     </div>
 </section><!-- End Breadcrumbs -->
@@ -50,9 +50,9 @@
                         <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p> -->
                         <div class="d-flex align-items-center mb-2">
                             <!-- <i class="bi bi-check2"></i> -->
-                            <h4>{{$team->jabatan}}</h4>
+                            <h4>{!!$team->jabatan!!}</h4>
                         </div>
-                        <p>{{$team->biodata}}</p>
+                        <p>{!!$team->biodata!!}</p>
                     </div><!-- End Tab 1 Content -->
 
                 </div>

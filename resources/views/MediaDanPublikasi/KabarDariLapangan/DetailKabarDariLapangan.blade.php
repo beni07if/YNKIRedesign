@@ -1,7 +1,7 @@
 @extends('Layouts.MasterWeb')
 
 @section('title')
-<title>Detail Rilis Page</title>
+<title>Detail Kabar Dari Lapangan Page</title>
 @endsection
 
 @section('slideShow')
@@ -11,7 +11,7 @@
 
         <ol>
             <li><a href="{{route('home.index')}}">Home</a></li>
-            <li>Halaman Rilis</li>
+            <li>Halaman Kabar Dari Lapangan</li>
         </ol>
         @foreach($postDetail as $post)
         <h4>{{$post->judul}}</h4>
@@ -82,12 +82,12 @@
                     </div> -->
                     <!-- End sidebar search formn-->
 
-                    <h3 class="sidebar-title">Rilis Lainnya </h3>
+                    <h3 class="sidebar-title">Kabar Dari Lapangan Lainnya </h3>
                     <div class="sidebar-item recent-posts">
                         @foreach($postinganmedia as $post)
                         <div class="post-item clearfix">
                             <img src="{!! url('assetAdmin/img/PostinganMedia/'. $post->foto) !!}" alt="">
-                            <h4><a href="{{ route('DetailRilis', $post->id) }}">{{$post->judul}}</a></h4>
+                            <h4><a href="{{ route('DetailKabarDariLapangan', $post->id) }}">{{$post->judul}}</a></h4>
                             <time datetime="2020-01-01">{{$post->created_at}}</time>
                         </div>
                         @endforeach
@@ -96,9 +96,9 @@
                     <h3 class="sidebar-title">Kategori</h3>
                     <div class="sidebar-item tags">
                         <ul>
-                            <li><a href="{{route('ListRilis')}}">Rilis</a></li>
-                            <li><a href="{{route('ListOpini')}}">Opini</a></li>
-                            <li><a href="{{route('ListKabarDariLapangan')}}">Kabar Dari Lapangan</a></li>
+                            <li><a href="{{ route('ListRilis') }}">Rilis</a></li>
+                            <li><a href="{{ route('ListOpini') }}">Opini</a></li>
+                            <li><a href="{{ route('ListKabarDariLapangan') }}">Kabar Dari Lapangan</a></li>
                             <li><a href="#">Karakteristik Lanskap</a></li>
                             <li><a href="#">Teory of Change</a></li>
                             <li><a href="#">Library</a></li>

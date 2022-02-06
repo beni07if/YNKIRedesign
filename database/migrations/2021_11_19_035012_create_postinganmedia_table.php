@@ -21,7 +21,7 @@ class CreatePostinganmediaTable extends Migration
             $table->string('caption')->nullable();
             $table->string('captions')->nullable();
             $table->string('kategori');
-            $table->string('categories');
+            // $table->string('categories');
             $table->text('deskripsi')->nullable();
             $table->text('description')->nullable();
             $table->string('foto')->nullable();

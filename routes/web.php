@@ -42,7 +42,7 @@ Auth::routes();
 Route::resource('home', 'App\Http\Controllers\HomeController');
 Route::resource('/', 'App\Http\Controllers\WebViewController');
 // Route::get('/index', 'App\Http\Controllers\WebViewController@index');
-Route::get('/dashboard', 'App\Http\Controllers\WebViewController@DashboardAdminPanel')->name('Dashboard');
+Route::get('/dashboard', 'App\Http\Controllers\HomeController@DashboardAdminPanel')->name('Dashboard');
 
 Route::resource('profil', 'App\Http\Controllers\ProfilController');
 Route::resource('staf', 'App\Http\Controllers\StafController');
@@ -58,12 +58,19 @@ Route::resource('partner', 'App\Http\Controllers\PartnerController');
 // Route::resource('psem', 'App\Http\Controllers\PSEMController');
 // Route::resource('rehabilitasi-dan-restorasi', 'App\Http\Controllers\RehabilitasiDanRestorasiController');
 // Route::resource('advokasi-kebijakan', 'App\Http\Controllers\AdvokasiKebijakanController');
+Route::resource('ProgramStrategi', 'App\Http\Controllers\ProgramStrategiController');
+Route::get('/list-program-strategi', 'App\Http\Controllers\WebViewController@ListProgramStrategi')->name('ListProgramStrategi');
+Route::get('/list-program-strategi/{id}', 'App\Http\Controllers\WebViewController@ListProgramStrategi')->name('DetailListProgramStrategi');
 
 Route::resource('rilis', 'App\Http\Controllers\RilisController');
 Route::get('/list-rilis', 'App\Http\Controllers\WebViewController@ListRilis')->name('ListRilis');
 Route::get('/detail-rilis/{id}', 'App\Http\Controllers\WebViewController@DetailRilis')->name('DetailRilis');
 Route::resource('opini', 'App\Http\Controllers\OpiniController');
+Route::get('/list-opini', 'App\Http\Controllers\WebViewController@ListOpini')->name('ListOpini');
+Route::get('/detail-opini/{id}', 'App\Http\Controllers\WebViewController@DetailOpini')->name('DetailOpini');
 Route::resource('kabar-dari-lapangan', 'App\Http\Controllers\KabarDariLapanganController');
+Route::get('/list-kabar-dari-lapangan', 'App\Http\Controllers\WebViewController@ListKabarDariLapangan')->name('ListKabarDariLapangan');
+Route::get('/detail-kabar-dari-lapangan/{id}', 'App\Http\Controllers\WebViewController@DetailKabarDariLapangan')->name('DetailKabarDariLapangan');
 
 // Route::resource('karir', 'App\Http\Controllers\KarirController');
 // Route::resource('program-magang', 'App\Http\Controllers\ProgramMagangController');

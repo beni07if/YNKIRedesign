@@ -74,14 +74,11 @@
                                 </div>
                             </div>
                             <div class="row mb-3">
-                                <label for="biodata" class="col-sm-3 col-form-label">Biodata</label>
-                                <!-- <p>Quill editor with full toolset</p> -->
+                                <label for="foto" class="col-sm-3 col-form-label">Biodata</label>
                                 <div class="col-sm-9">
-                                    <!-- <div class="quill-editor-full"> -->
-                                    <textarea type="text" name="biodata">
-                                    </textarea>
-                                    <!-- </div> -->
-
+                                    <!-- TinyMCE Editor -->
+                                    <textarea class="tinymce-editor" name="biodata">
+                                        </textarea><!-- End TinyMCE Editor -->
                                 </div>
                             </div>
                             <div class="row mb-3" hidden>

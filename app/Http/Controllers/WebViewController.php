@@ -118,4 +118,38 @@ class WebViewController extends Controller
         return view('MediaDanPublikasi.Rilis.DetailRilis', compact('postDetail', 'postinganmedia'));
         // return $postDetail;
     }
+
+    public function ListOpini()
+    {
+        $listOpini = Postinganmedia::where('kategori', 'Opini')->get();
+        return view('MediaDanPublikasi.Opini.ListOpini', compact('listOpini'));
+    }
+
+    public function DetailOpini($id)
+    {
+        $postDetail = Postinganmedia::where('id', $id)->get();
+        $postinganmedia = Postinganmedia::where('kategori', 'Opini')->get();
+        return view('MediaDanPublikasi.Opini.DetailOpini', compact('postDetail', 'postinganmedia'));
+        // return $postDetail;
+    }
+
+    public function ListKabarDariLapangan()
+    {
+        $listKabarDariLapangan = Postinganmedia::where('kategori', 'Kabar Dari Lapangan')->get();
+        return view('MediaDanPublikasi.KabarDariLapangan.ListKabarDariLapangan', compact('listKabarDariLapangan'));
+    }
+
+    public function DetailKabarDariLapangan($id)
+    {
+        $postDetail = Postinganmedia::where('id', $id)->get();
+        $postinganmedia = Postinganmedia::where('kategori', 'Kabar Dari Lapangan')->get();
+        return view('MediaDanPublikasi.KabarDariLapangan.DetailKabarDariLapangan', compact('postDetail', 'postinganmedia'));
+        // return $postDetail;
+    }
+
+    public function ListProgramStrategi()
+    {
+        $ListProgramStrategi = Postinganmedia::where('kategori', 'KabarDariLapangan')->get();
+        return view('Program.ProgramStrategi.ListProgramStrategi', compact('ListProgramStrategi'));
+    }
 }

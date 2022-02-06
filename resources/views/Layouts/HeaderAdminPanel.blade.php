@@ -218,6 +218,12 @@
                             <span>Sign Out</span>
                         </a>
                     </li>
+                    <li>
+                        <a class="dropdown-item d-flex align-items-center" href="/">
+                            <i class="bi bi-box-arrow-right"></i>
+                            <span>Back to website</span>
+                        </a>
+                    </li>
 
                 </ul><!-- End Profile Dropdown Items -->
             </li><!-- End Profile Nav -->
