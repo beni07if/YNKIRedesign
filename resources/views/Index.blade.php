@@ -150,7 +150,7 @@
                     <h3 class="sidebar-title">Postingan Media Sosial</h3>
                     <div class="sidebar-item search-form">
                         <blockquote class="twitter-tweet">
-                            <p lang="in" dir="ltr">RPPEG Kalbar: Mengelola 1,7 juta ha Gambut <a href="https://t.co/O6L33BKcTa">https://t.co/O6L33BKcTa</a> via <a href="https://twitter.com/LinkedIn?ref_src=twsrc%5Etfw">@LinkedIn</a></p>&mdash; NaturalKapitalIndonesia (@kapital_natural) <a href="https://twitter.com/kapital_natural/status/1433735539924951041?ref_src=twsrc%5Etfw">September 3, 2021</a>
+                            <p lang="in" dir="ltr">Kalimantan Barat memiliki sebaran lahan basah yang beragam, yaitu gambut di hulu dan pesisir DAS Kapuas, mangrove, ekosistem riparian dan flood plain, terumbu karang, dan delta-delta di muara sungai. Semua lahan basah berada di dataran rendah yang berada disekitar aktivitas(cont) <a href="https://t.co/1tpm2aRMqI">pic.twitter.com/1tpm2aRMqI</a></p>&mdash; Natural Kapital Foundation (@kapital_natural) <a href="https://twitter.com/kapital_natural/status/1489190243156697094?ref_src=twsrc%5Etfw">February 3, 2022</a>
                         </blockquote>
                         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         <!-- <a class="twitter-timeline" href="https://twitter.com/kapital_natural?ref_src=twsrc%5Etfw">Tweets by kapital_natural</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
