@@ -31,7 +31,7 @@
 
                 <article class="entry">
 
-                    <div class="entry-img">
+                    <div class="">
                         <img src="{{asset('assetAdmin/img/PostinganMedia/'.$post->foto.'')}}" alt="" class="img-fluid">
                     </div>
 
