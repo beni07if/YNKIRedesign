@@ -13,13 +13,13 @@
             <li><a href="{{route('home.index')}}">Home</a></li>
             <li>Halaman Profil</li>
         </ol>
-        <h2>Halaman Profil</h2>
+        <!-- <h2>Halaman Profil</h2> -->
 
     </div>
 </section><!-- End Breadcrumbs -->
 @endsection
 
-@section('profil')
+@section('MainContent')
 <!-- ======= Icon Boxes Section ======= -->
 <section id="icon-boxes" class="icon-boxes">
     <div class="container">
@@ -63,272 +63,209 @@
     </div>
 </section><!-- End Icon Boxes Section -->
 
-<!-- ======= Blog Section ======= -->
-<section id="blog" class="blog">
-    <div class="container" data-aos="fade-up">
+<!-- ======= Why Us Section ======= -->
+<section id="why-us" class="why-us section-bg">
+    <div class="container-fluid" data-aos="fade-up">
 
         <div class="row">
 
-            <div class="col-lg-8 entries">
+            <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
-                <article class="entry">
+                <div class="content">
+                    <h3><strong>YNKI</strong> - Organisasi - Yasasan Sosial - Lingkungan - bekerja untuk Visi Kesejahteraa Masyarakat dan Pembangunan Berkelanjutan </h3>
+                    <p>
+                        Yayasan Natural Kapital Indonesia (YNKI) adalah organisasi non pemerintah yang dibentuk pada tahun 2019 di Pontianak, Kalimantan Barat. Organisasi ini didirikan dengan visi menyelamatkan modal alam termasuk fungsi ekologis di dalamnya, memastikan pengelolaan dan manfaat yang adil dan berkelanjutan bagi seluruh elemen bangsa untuk kesejahteraan masyarakat. <br>
+                        Bekerja dengan pendekatan lanskap terpada (<i> integrated landscape apporoach/eccosystem based approach </i>), dengan menerapkan aspek pengelolaan lanskap multi-fungsi (<i> multi functional </i>), prinsip-prinsip demokrasi (<i> multi stakeholder </i>), dan pengelolaan multi skala dari batasan-batasan pengelolaan konvensional administrasi maupun izin konsesi (<i> multi-scale </i>)
+                    </p>
+                </div>
 
-                    <div class="entry-img">
-                        <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
-                    </div>
+                <div class="accordion-list">
+                    <ul>
+                        <li>
+                            <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Misi <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                                <p>
+                                    Menghimpun potensi bersama guna menyelamatkan modal alam dan fungsi-fungsi ekologis, menjamin pengelolaan dan manfaat yang berkeadilan dan berkelanjutan untuk semua elemen bangsa dan kesejahteraan masyarakat.
+                                    Mempromosikan partisipasi masyarakat lokal dan para pihak dalam pengelolaan lanskap, masyarakat lokal adalah pihak utama penerima manfaat, sebagai korban, sebagai ancaman, sekaligus solusi pengelolaan. (co- management).
 
-                    <h2 class="entry-title">
-                        <a href="blog-single.html">Training GAP Pengelolaan Kebun yang Lebih Baik untuk Petani Swadaya, Kecamatan Parindu Kabupaten Sanggau</a>
-                    </h2>
+                                </p>
+                            </div>
+                        </li>
 
-                    <div class="entry-meta">
-                        <ul>
-                            <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-single.html">John Doe</a></li>
-                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
-                            <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-single.html">12 Comments</a></li>
-                        </ul>
-                    </div>
+                        <li>
+                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Pendekatan Kerja <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                                <p>
+                                    Pembangunan Lanskap Berkelanjutan
+                                </p>
+                            </div>
+                        </li>
 
-                    <div class="entry-content">
-                        <p>
-                            Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
-                            Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.
-                        </p>
-                        <div class="read-more">
-                            <a href="blog-single.html">Read More</a>
-                        </div>
-                    </div>
+                        <li>
+                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Sosisal Media <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                                <p>
+                                    Website: https://www.naturalkapital.or.id <br>
+                                    Instagram: https://www.instagram.com/yayasannaturalkapital/ <br>
+                                    Facebook: https://www.facebook.com/naturalkapital <br>
+                                    LinkedIn: https://www.linkedin.com/in/natural-kapital-foundation-731a4a1b5/ <br>
+                                    Twitter: https://twitter.com/kapital_natural
 
-                </article><!-- End blog entry -->
+                                </p>
+                            </div>
+                        </li>
 
-                <article class="entry">
-
-                    <div class="entry-img">
-                        <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
-                    </div>
-
-                    <h2 class="entry-title">
-                        <a href="blog-single.html">Training on Landscape Level Management (High Level) for KPH</a>
-                    </h2>
-
-                    <div class="entry-meta">
-                        <ul>
-                            <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-single.html">John Doe</a></li>
-                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
-                            <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-single.html">12 Comments</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="entry-content">
-                        <p>
-                            Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et. Quo libero rerum voluptatem pariatur nam.
-                            Ad impedit qui officiis est in non aliquid veniam laborum. Id ipsum qui aut. Sit aliquam et quia molestias laboriosam. Tempora nam odit omnis eum corrupti qui aliquid excepturi molestiae. Facilis et sint quos sed voluptas. Maxime sed tempore enim omnis non alias odio quos distinctio.
-                        </p>
-                        <div class="read-more">
-                            <a href="blog-single.html">Read More</a>
-                        </div>
-                    </div>
-
-                </article><!-- End blog entry -->
-
-                <article class="entry">
-
-                    <div class="entry-img">
-                        <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
-                    </div>
-
-                    <h2 class="entry-title">
-                        <a href="blog-single.html">Pelatihan POC dan Demplot Pertanian</a>
-                    </h2>
-
-                    <div class="entry-meta">
-                        <ul>
-                            <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-single.html">John Doe</a></li>
-                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
-                            <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-single.html">12 Comments</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="entry-content">
-                        <p>
-                            Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem dolorem labore omnis et. Eum temporibus fugiat voluptate enim tenetur sunt omnis.
-                            Doloremque est saepe laborum aut. Ipsa cupiditate ex harum at recusandae nesciunt. Ut dolores velit.
-                        </p>
-                        <div class="read-more">
-                            <a href="blog-single.html">Read More</a>
-                        </div>
-                    </div>
-
-                </article><!-- End blog entry -->
-
-                <div class="blog-pagination">
-                    <ul class="justify-content-center">
-                        <li><a href="#">1</a></li>
-                        <li class="active"><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
                     </ul>
                 </div>
 
-            </div><!-- End blog entries list -->
+            </div>
 
-            <div class="col-lg-4">
-
-                <div class="sidebar">
-                    <h3 class="sidebar-title">Recent Posts</h3>
-                    <div class="sidebar-item recent-posts">
-                        <div class="post-item clearfix">
-                            <img src="assets/img/guide-principle/participatory-development.JPG" alt="">
-                            <h4><a href="blog-single.html">Training GAP Pengelolaan Kebun Sawit Swadaya, Sanggau</a></h4>
-                            <time datetime="2020-01-01">Jan 1, 2020</time>
-                        </div>
-
-                        <div class="post-item clearfix">
-                            <img src="assets/img/guide-principle/biodiversity-management.JPG" alt="">
-                            <h4><a href="blog-single.html">Training on Landscape Level Management</a></h4>
-                            <time datetime="2020-01-01">Jan 1, 2020</time>
-                        </div>
-                    </div><!-- End sidebar recent posts-->
-
-                    <h3 class="sidebar-title">Categories</h3>
-                    <div class="sidebar-item categories">
-                        <ul>
-                            <li><a href="#">Rilis <span>(25)</span></a></li>
-                            <li><a href="#">Opini <span>(12)</span></a></li>
-                            <li><a href="#">Kabar Dari Lapangan <span>(5)</span></a></li>
-                        </ul>
-                    </div><!-- End sidebar categories-->
-
-
-
-                    <h3 class="sidebar-title">Postingan Media Sosial</h3>
-                    <div class="sidebar-item search-form">
-                        <blockquote class="twitter-tweet">
-                            <p lang="in" dir="ltr">RPPEG Kalbar: Mengelola 1,7 juta ha Gambut <a href="https://t.co/O6L33BKcTa">https://t.co/O6L33BKcTa</a> via <a href="https://twitter.com/LinkedIn?ref_src=twsrc%5Etfw">@LinkedIn</a></p>&mdash; NaturalKapitalIndonesia (@kapital_natural) <a href="https://twitter.com/kapital_natural/status/1433735539924951041?ref_src=twsrc%5Etfw">September 3, 2021</a>
-                        </blockquote>
-                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                        <!-- <a class="twitter-timeline" href="https://twitter.com/kapital_natural?ref_src=twsrc%5Etfw">Tweets by kapital_natural</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-
-                    </div><!-- End sidebar search formn-->
-
-                </div><!-- End sidebar -->
-
-            </div><!-- End blog sidebar -->
-
+            <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/foto-ynki/ynki-project.jpg");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
         </div>
 
     </div>
-</section><!-- End Blog Section -->
+</section><!-- End Why Us Section -->
 
-<!-- ======= Cta Section ======= -->
-<section id="cta" class="cta">
-    <div class="container" data-aos="zoom-in">
-
-        <div class="section-title">
-            <h2sip>BASE ON</h2sip>
-        </div>
-
-        <div class="row" data-aos="zoom-in">
-
-            <div class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src="assets/img/logo-ynki/logo-sdgs.png" class="img-fluid" alt="">
-            </div>
-
-            <div id="img" class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src="assets/img/logo-ynki/logo-paris-agreement.png" class="img-fluid" alt="">
-            </div>
-
-            <div id="img" class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src="assets/img/logo-ynki/logo-convention-biologi-diversity.png" class="img-fluid" alt="">
-            </div>
-
-        </div>
-
-    </div>
-</section><!-- End Cta Section -->
-
-<!-- ======= Story Maps Section ======= -->
-<section id="blog" class="blog">
+<!-- ======= About Us Section ======= -->
+<section id="about" class="about">
     <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-            <!-- <h2sip>Story Maps</h2sip> -->
-            <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
-            <iframe src="https://storymaps.arcgis.com/stories/9a28c27cca9d4072bf1560d7cbc3e9d2" width="100%" height="1000px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
+            <h2>Key Expertise</h2>
+        </div>
+
+        <div class="row content">
+            <div class="col-lg-6">
+                <ul>
+                    <li><i class="ri-check-double-line"></i> Inisisasi dan fasilitasi, inisiasi forum dan pengkondisian stakeholder pada lanskap termasuk awareness campaign dan lobby.</li>
+                    <li><i class="ri-check-double-line"></i> Jurisdictional approach and rural development policy integration on climate change mitigation.</li>
+                    <li><i class="ri-check-double-line"></i> Spatial Analysis , GIS, Mapping untuk mitigasi perubahan iklim dan REDD+</li>
+                    <li><i class="ri-check-double-line"></i> Pendampingan program perhutanan sosial dan lanskap agroforestry.</li>
+                    <li><i class="ri-check-double-line"></i> Pendampingan kelompok petani kecil mandiri (smallholders) dan koperasi pada komoditas Kelapa Sawit, Hortikultura dan Tanaman Pangan</li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <ul>
+                    <li><i class="ri-check-double-line"></i> Konstruksi program remediasi dan kompensasi dari kebijakan RSPO dan NDPE pada tingkat lanskap.</li>
+                    <li><i class="ri-check-double-line"></i> Identifikasi, Pengelolaan dan monitoring High Conservation Value (HCV) dan High Carbon Stock (HCS) forest.</li>
+                    <li><i class="ri-check-double-line"></i> Social impact assessment (SIA), Social Action Plan and CSR</li>
+                    <li><i class="ri-check-double-line"></i> Baseline karakterisasi lingkungan, sosial, ekonomi dan budaya.</li>
+                </ul>
+            </div>
         </div>
 
     </div>
+</section><!-- End About Us Section -->
 
-    </div>
-</section><!-- End Story Maps Section -->
-
-<!-- ======= Contact Section ======= -->
-<section id="contact" class="contact">
+<!-- ======= Frequently Asked Questions Section ======= -->
+<section id="faq" class="faq section-bg">
     <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-            <h2>Contact</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <h2>Mitra Kerja</h2>
+            <p>Berkedudukan di Pontianak, Kalimantan Barat, YNKI telah bekerja dan berkontribusi pada pengembangan dan implementasi konsep pembangunan lanskap terpadu antara lain;</p>
         </div>
 
-        <div class="row">
-
-            <div class="col-lg-5 d-flex align-items-stretch">
-                <div class="info">
-                    <div class="address">
-                        <i class="bi bi-geo-alt"></i>
-                        <h4>Location:</h4>
-                        <p>A108 Adam Street, New York, NY 535022</p>
+        <div class="faq-list">
+            <ul>
+                <li data-aos="fade-up" data-aos-delay="100">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1"> Aidenvironment Asia <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                        <p>
+                            Jangka Waktu : September - Desember 2019<br>
+                            Contact Person : Ihwan Rafina, rafina@aidenvironment.asia <br>
+                            Bidang Teknis : Membangun program model pemulihan (remediasi dan kompensasi) untuk PT. Graha
+                            Agro Nusantara terkait dengan kebijakan NDPE Wilmar di Kalimantan Barat, Indonesia.
+                        </p>
                     </div>
+                </li>
 
-                    <div class="email">
-                        <i class="bi bi-envelope"></i>
-                        <h4>Email:</h4>
-                        <p>info@example.com</p>
+                <li data-aos="fade-up" data-aos-delay="200">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">WWF Indonesia <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            Jangka Waktu : November 2019 - April 2020<br>
+                            Contact Person : Syahirsyah, syahirsyah@wwf.or.id <br>
+                            Bidang Teknis : Penilaian Nilai Konservasi Tinggi dan Hutan Stok Karbon Tinggi terintegrasi pada lanskap
+                            di lanskap Agropolitan Kapuas Hulu, Kalimantan Barat, Indonesia.
+                        </p>
                     </div>
+                </li>
 
-                    <div class="phone">
-                        <i class="bi bi-phone"></i>
-                        <h4>Call:</h4>
-                        <p>+1 5589 55488 55s</p>
+                <li data-aos="fade-up" data-aos-delay="300">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">NMI (Nordic Microfinance Initiave) <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            Jangka Waktu : Februari - Agustus 2020<br>
+                            Contact Person : Hans Smit, hh.smit@gmail.com <br>
+                            Bidang Teknis : Analisis Spasial Lanskap untuk memitigasi dampak deforestasi lebih lanjut dari petani
+                            kecil Kelapa Sawit di Kabupaten Sintang dan Sanggau.
+                        </p>
                     </div>
+                </li>
 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
-                </div>
+                <li data-aos="fade-up" data-aos-delay="400">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Aidenvironment - Earth Qualizer, WWF Indonesia, ICRAF <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            Jangka Waktu : Desember 2020 – Saat ini<br>
+                            Contact Person : Ihwan Rafina, Anas Nashrullah, Happy Hendrawan <br>
+                            Bidang Teknis : Inisiasi Pengelolaan dan Pemulihan Multi-Pihak pada Lanskap gambut pesisir
+                            Delta-Kapuas
+                        </p>
+                    </div>
+                </li>
 
-            </div>
+                <li data-aos="fade-up" data-aos-delay="500">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">WWF-US-EFN Reforestation grant <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            Jangka Waktu : Maret - Oktober 2020<br>
+                            Contact Person : Erin Knight, Erin.knight@wwf.org <br>
+                            Bidang Teknis : Reforestasi, restorasi revegetasi gambut pada areal Hutan Desa Kalibandung
+                        </p>
+                    </div>
+                </li>
 
-            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                    <div class="row">
-                        <div class="form-group col-md-6">
-                            <label for="name">Your Name</label>
-                            <input type="text" name="name" class="form-control" id="name" required>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="name">Your Email</label>
-                            <input type="email" class="form-control" name="email" id="email" required>
-                        </div>
+                <li data-aos="fade-up" data-aos-delay="500">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-6" class="collapsed">GIZ West Kalimantan <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            Jangka Waktu : Juli – Agustus 2020<br>
+                            Contact Person : Jumtani, jumtani.jumtani@giz.de <br>
+                            Bidang Teknis : Pengembangan Rencana Strategis Betung Kerihun Danau Sentarum
+                            Cagar biosfer Kapuas Hulu (BKDS Kapuas Hulu)
+                        </p>
                     </div>
-                    <div class="form-group">
-                        <label for="name">Subject</label>
-                        <input type="text" class="form-control" name="subject" id="subject" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="name">Message</label>
-                        <textarea class="form-control" name="message" rows="10" required></textarea>
-                    </div>
-                    <div class="my-3">
-                        <div class="loading">Loading</div>
-                        <div class="error-message"></div>
-                        <div class="sent-message">Your message has been sent. Thank you!</div>
-                    </div>
-                    <div class="text-center"><button type="submit">Send Message</button></div>
-                </form>
-            </div>
+                </li>
 
+                <li data-aos="fade-up" data-aos-delay="500">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-7" class="collapsed">NMI (Nordic Microfinance Initiative) <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-7" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            Jangka Waktu : Februari - Agustus 2021<br>
+                            Contact Person : Hans Smit, hh.smit@gmail.com <br>
+                            Bidang Teknis : Analisis spasial lanskap dan pemetaan untuk memitigasi dampak deforestasi lebih lanjut
+                            dari petani kecil Kelapa Sawit di Provinsi Kalimantan Barat.
+                        </p>
+                    </div>
+                </li>
+
+                <li data-aos="fade-up" data-aos-delay="500">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-8" class="collapsed">WWF Indonesia <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-8" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            Jangka Waktu : September – Desember 2021<br>
+                            Contact Person : Anas Nashrullah anasrullah@wwf.id) <br>
+                            Bidang Teknis : Arut Belantikan – Ronga Perai forest landscape management strategy
+                        </p>
+                    </div>
+                </li>
+
+            </ul>
         </div>
 
     </div>
-</section><!-- End Contact Section -->
+</section><!-- End Frequently Asked Questions Section -->
 
 @endsection

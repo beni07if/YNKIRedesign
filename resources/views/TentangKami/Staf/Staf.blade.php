@@ -11,9 +11,9 @@
 
         <ol>
             <li><a href="#">Home</a></li>
-            <li>Anggota Team YNKI</li>
+            <li>Team YNKI</li>
         </ol>
-        <h2>Anggota Team YNKI</h2>
+        <h2>Keluarga Besar YNKI</h2>
 
     </div>
 </section><!-- End Breadcrumbs -->
@@ -26,7 +26,7 @@
     <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-            <h2>Team YNKI</h2>
+            <h2>Keluarga Besar YNKI</h2>
             <p>Keluarga Besar Yayasan Natural Kapital Indonesia</p>
         </header>
 

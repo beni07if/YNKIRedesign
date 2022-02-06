@@ -145,8 +145,6 @@
                         </ul>
                     </div><!-- End sidebar categories-->
 
-
-
                     <h3 class="sidebar-title">Media Sosial YNKI</h3>
                     <div class="sidebar-item search-form">
                         <blockquote class="twitter-tweet">
@@ -165,6 +163,7 @@
 
     </div>
 </section><!-- End Blog Section -->
+
 
 <!-- ======= Cta Section ======= -->
 <section id="cta" class="cta">
