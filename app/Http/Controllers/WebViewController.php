@@ -18,7 +18,7 @@ class WebViewController extends Controller
     public function index()
     {
         // $postDesc = Postinganmedia::orderBy('id', 'DESC', 'deskripsi')->limit(1)->get();
-        $postingan = Postinganmedia::orderBy('id', 'DESC')->limit(1)->get();
+        $postingan = Postinganmedia::orderBy('id', 'DESC')->limit(2)->get();
         return view('Index', compact('postingan'));
     }
 
