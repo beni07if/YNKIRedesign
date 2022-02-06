@@ -124,7 +124,7 @@
                 <div class="sidebar">
                     <h3 class="sidebar-title">Recent Posts</h3>
                     <div class="sidebar-item recent-posts">
-                        @foreach($postingan as $post)
+                        @foreach($postinganmore as $post)
                         <div class="post-item clearfix">
                             <img src="assetAdmin/img/PostinganMedia/{{$post->foto}}" alt="">
                             <h4><a href="#">{{$post->judul}}</a></h4>
