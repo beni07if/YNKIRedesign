@@ -74,43 +74,35 @@
                 <div class="content">
                     <h3><strong>YNKI</strong> - Organisasi - Yasasan Sosial - Lingkungan - bekerja untuk Visi Kesejahteraa Masyarakat dan Pembangunan Berkelanjutan </h3>
                     <p>
-                        Yayasan Natural Kapital Indonesia (YNKI) adalah organisasi non pemerintah yang dibentuk pada tahun 2019 di Pontianak, Kalimantan Barat. Organisasi ini didirikan dengan visi menyelamatkan modal alam termasuk fungsi ekologis di dalamnya, memastikan pengelolaan dan manfaat yang adil dan berkelanjutan bagi seluruh elemen bangsa untuk kesejahteraan masyarakat. <br>
-                        Bekerja dengan pendekatan lanskap terpada (<i> integrated landscape apporoach/eccosystem based approach </i>), dengan menerapkan aspek pengelolaan lanskap multi-fungsi (<i> multi functional </i>), prinsip-prinsip demokrasi (<i> multi stakeholder </i>), dan pengelolaan multi skala dari batasan-batasan pengelolaan konvensional administrasi maupun izin konsesi (<i> multi-scale </i>)
+                        Natural Kapital Foundation Indonesia (YNKI) is non-government organization that works for the vision of nature resiliencies for people good living and well-being. YNKI's mission is to transform the land use sector, and its value chain actor of which benefiting for landscape productivity and climate resiliencies through mainstreaming landscape approach. Established in 2019, YNKI is based in Pontianak West Kalimantan, Indonesia and currently supported by 14 staff and 4 Internships. YNKI strategic program of; 1). Landscape research on social-environment characteristics and resiliencies. 2). Stakeholder and Smallholders empowerment on mainstreaming land use of best practice. 3). stakeholder engagements and Policy advocacy for land use policy and transformation. YNKI relevant experience and partner, includes;
                     </p>
                 </div>
 
                 <div class="accordion-list">
                     <ul>
                         <li>
-                            <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Misi <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> 1. Landscape Research and Strategy development <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                                 <p>
-                                    Menghimpun potensi bersama guna menyelamatkan modal alam dan fungsi-fungsi ekologis, menjamin pengelolaan dan manfaat yang berkeadilan dan berkelanjutan untuk semua elemen bangsa dan kesejahteraan masyarakat.
-                                    Mempromosikan partisipasi masyarakat lokal dan para pihak dalam pengelolaan lanskap, masyarakat lokal adalah pihak utama penerima manfaat, sebagai korban, sebagai ancaman, sekaligus solusi pengelolaan. (co- management).
-
+                                    Landscape Recovery and Reforestation Model development of Delta Kapuas Coastal Peat Landscape, Kubu Raya district West Kalimantan. Partners with KPN group plantation and aidenvironment, Ihwan Rafina. irafina@gmail.com -/- a). Landscape HCV and HCS study of Kapuas Hulu Agropolitan and, b). Forest Landscape Arut-Belantikan Strategy development, partners with WWF Id, igunawan@wwf.or.id) -/- Landscape and Oil Palm Independent Smallholder mapping and baseline survey for Sintang, Sanggu, Sekadau, Landak and Ketapang district West Kalimantan. Partners with NMI-CSMF, Harmen Smit, hh.smit@gmail.com
                                 </p>
                             </div>
                         </li>
 
                         <li>
-                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Pendekatan Kerja <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> 2. Villages and Smallholder Empowerment mainstreaming best practice and knowledge sharing <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                                 <p>
-                                    Pembangunan Lanskap Berkelanjutan
+                                    Peat Restoration-Reforestation and Institutional capacity building of Kalibandung Village Forest, Kubu Raya, partners with WWF-US, stephanie.eiseman@wwfus.org -/- Smallholder demo plot for non-irrigation Rice, horticulture, organic fertilizer, Sanggau West Kalimantan, partners with NMI-CSMF, hh.smit@gmail.com. -/- Institutional Capacity Building on administrative and financial management, Gema Sawit Lestari cooperative (Sanggau) and Rimba Harapan (Sintang district) West Kalimantan, YNKI Internal project. -/- Woman Smallholder Group Training on Horticulture, Organic Fertilizer and Product Innovation on Kalibandung, Limbung and Tebang Kacang Villages in Kubu Raya, YNKI Internal Project -/- Horticulture Demo Plot and Organic fertilizer training for Women Smallholders Group, Kayu Bunga-Melawi and Sungai Segak Villages-Sintang District, West Kalimantan, partners with WWF Indonesia anashrullah@wwf.id and PT. East West Seed Indonesia.
                                 </p>
                             </div>
                         </li>
 
                         <li>
-                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Sosisal Media <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> 3. Policy advocacy and stakeholder engagements for landscape governance improvement. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                                 <p>
-                                    Website: https://www.naturalkapital.or.id <br>
-                                    Instagram: https://www.instagram.com/yayasannaturalkapital/ <br>
-                                    Facebook: https://www.facebook.com/naturalkapital <br>
-                                    LinkedIn: https://www.linkedin.com/in/natural-kapital-foundation-731a4a1b5/ <br>
-                                    Twitter: https://twitter.com/kapital_natural
-
+                                    Landscape Delta Kapuas Peat Recovery and Restoration Workshop, Shared Knowledge and Stakeholders Partnership. Collaborations with Kubu Raya District Government, district planning Agency (BaPPeDA), WWF Indonesia, aidenvironment and BRGM (mangrove and peat restoration taskforce). -/- Basic and Advance Training on Landscape Level Management for 17 KPH (FMU) of West Kalimantan. Partners with BPHP VIII-ADB-FIP program, Herculana Elsinta (ernipandan@yahoo.com) -/- Webinar series of Hulu Kapuas, Melawi and Ketungau Watershed management, Sintang Flood impact and Stakeholder participation for watershed rehabilitation and reforestation, in collaborations with Mongabay Indonesia, Inside Pontianak and Governor of West Kalimantan. Further regard YNKI program implementation please refer into Website https://www.naturalkapital.or.id and Social Media; https://twitter.com/kapital_natural, https://www.linkedin.com/company/natural-kapital-foundation, https://web.facebook.com/naturalkapital, https://www.instagram.com/yayasannaturalkapital/
                                 </p>
                             </div>
                         </li>
