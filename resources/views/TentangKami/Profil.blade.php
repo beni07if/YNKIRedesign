@@ -81,7 +81,7 @@
                 <div class="accordion-list">
                     <ul>
                         <li>
-                            <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> 1. Landscape Research and Strategy development <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span>Landscape Research and Strategy development <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                                 <p>
                                     Landscape Recovery and Reforestation Model development of Delta Kapuas Coastal Peat Landscape, Kubu Raya district West Kalimantan. Partners with KPN group plantation and aidenvironment, Ihwan Rafina. irafina@gmail.com -/- a). Landscape HCV and HCS study of Kapuas Hulu Agropolitan and, b). Forest Landscape Arut-Belantikan Strategy development, partners with WWF Id, igunawan@wwf.or.id) -/- Landscape and Oil Palm Independent Smallholder mapping and baseline survey for Sintang, Sanggu, Sekadau, Landak and Ketapang district West Kalimantan. Partners with NMI-CSMF, Harmen Smit, hh.smit@gmail.com
@@ -90,7 +90,7 @@
                         </li>
 
                         <li>
-                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> 2. Villages and Smallholder Empowerment mainstreaming best practice and knowledge sharing <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span>Villages and Smallholder Empowerment mainstreaming best practice and knowledge sharing <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                                 <p>
                                     Peat Restoration-Reforestation and Institutional capacity building of Kalibandung Village Forest, Kubu Raya, partners with WWF-US, stephanie.eiseman@wwfus.org -/- Smallholder demo plot for non-irrigation Rice, horticulture, organic fertilizer, Sanggau West Kalimantan, partners with NMI-CSMF, hh.smit@gmail.com. -/- Institutional Capacity Building on administrative and financial management, Gema Sawit Lestari cooperative (Sanggau) and Rimba Harapan (Sintang district) West Kalimantan, YNKI Internal project. -/- Woman Smallholder Group Training on Horticulture, Organic Fertilizer and Product Innovation on Kalibandung, Limbung and Tebang Kacang Villages in Kubu Raya, YNKI Internal Project -/- Horticulture Demo Plot and Organic fertilizer training for Women Smallholders Group, Kayu Bunga-Melawi and Sungai Segak Villages-Sintang District, West Kalimantan, partners with WWF Indonesia anashrullah@wwf.id and PT. East West Seed Indonesia.
@@ -99,7 +99,7 @@
                         </li>
 
                         <li>
-                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> 3. Policy advocacy and stakeholder engagements for landscape governance improvement. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span>Policy advocacy and stakeholder engagements for landscape governance improvement. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                                 <p>
                                     Landscape Delta Kapuas Peat Recovery and Restoration Workshop, Shared Knowledge and Stakeholders Partnership. Collaborations with Kubu Raya District Government, district planning Agency (BaPPeDA), WWF Indonesia, aidenvironment and BRGM (mangrove and peat restoration taskforce). -/- Basic and Advance Training on Landscape Level Management for 17 KPH (FMU) of West Kalimantan. Partners with BPHP VIII-ADB-FIP program, Herculana Elsinta (ernipandan@yahoo.com) -/- Webinar series of Hulu Kapuas, Melawi and Ketungau Watershed management, Sintang Flood impact and Stakeholder participation for watershed rehabilitation and reforestation, in collaborations with Mongabay Indonesia, Inside Pontianak and Governor of West Kalimantan. Further regard YNKI program implementation please refer into Website https://www.naturalkapital.or.id and Social Media; https://twitter.com/kapital_natural, https://www.linkedin.com/company/natural-kapital-foundation, https://web.facebook.com/naturalkapital, https://www.instagram.com/yayasannaturalkapital/
@@ -118,33 +118,56 @@
     </div>
 </section><!-- End Why Us Section -->
 
+
 <!-- ======= About Us Section ======= -->
 <section id="about" class="about">
     <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-            <h2>Key Expertise</h2>
+            <h2>Roles and Strategy</h2>
         </div>
 
         <div class="row content">
-            <div class="col-lg-6">
+
+            <div class="col-lg-3">
+                <h4>Research</h4>
                 <ul>
-                    <li><i class="ri-check-double-line"></i> Inisisasi dan fasilitasi, inisiasi forum dan pengkondisian stakeholder pada lanskap termasuk awareness campaign dan lobby.</li>
-                    <li><i class="ri-check-double-line"></i> Jurisdictional approach and rural development policy integration on climate change mitigation.</li>
-                    <li><i class="ri-check-double-line"></i> Spatial Analysis , GIS, Mapping untuk mitigasi perubahan iklim dan REDD+</li>
-                    <li><i class="ri-check-double-line"></i> Pendampingan program perhutanan sosial dan lanskap agroforestry.</li>
-                    <li><i class="ri-check-double-line"></i> Pendampingan kelompok petani kecil mandiri (smallholders) dan koperasi pada komoditas Kelapa Sawit, Hortikultura dan Tanaman Pangan</li>
+                    <li><i class="ri-check-double-line"></i> Characterization of environmental & social landscape</li>
+                    <li><i class="ri-check-double-line"></i> Value chain & treacebility study</li>
+                    <li><i class="ri-check-double-line"></i> Business model analysis - commodity product & NTFP</li>
+                    <li><i class="ri-check-double-line"></i> Lancscape risk assessment</li>
+                    <li><i class="ri-check-double-line"></i> Landscape opportunity</li>
+                    <li><i class="ri-check-double-line"></i> Knowledge management</li>
+                    <li><i class="ri-check-double-line"></i> Stakeholder analysis</li>
+                    <li><i class="ri-check-double-line"></i> Policy & governance analysis</li>
+                    <li><i class="ri-check-double-line"></i> Natural resources valuation & environmental service</li>
                 </ul>
             </div>
+
             <div class="col-lg-6">
+                <div class="col-lg-12 align-items-stretch "><img src="assets/img/foto-ynki/roles-and-strategy3.jpg" alt="" class="img-fluid"></div>
+            </div>
+
+            <div class="col-lg-3">
+                <h4>Advisory & Empowerment</h4>
+                <p>Awareness :</p>
                 <ul>
-                    <li><i class="ri-check-double-line"></i> Konstruksi program remediasi dan kompensasi dari kebijakan RSPO dan NDPE pada tingkat lanskap.</li>
-                    <li><i class="ri-check-double-line"></i> Identifikasi, Pengelolaan dan monitoring High Conservation Value (HCV) dan High Carbon Stock (HCS) forest.</li>
-                    <li><i class="ri-check-double-line"></i> Social impact assessment (SIA), Social Action Plan and CSR</li>
-                    <li><i class="ri-check-double-line"></i> Baseline karakterisasi lingkungan, sosial, ekonomi dan budaya.</li>
+                    <li><i class="ri-check-double-line"></i> Sense of place, risk & benefit</li>
+                    <li><i class="ri-check-double-line"></i> Sense of social</li>
+                    <li><i class="ri-check-double-line"></i> Sense of critical ecologi</li>
+                    <li><i class="ri-check-double-line"></i> Inisiative forum</li>
+                    <li><i class="ri-check-double-line"></i> Public business strategy</li>
+                    <li><i class="ri-check-double-line"></i> Best practice</li>
+                    <li><i class="ri-check-double-line"></i> Environmental service</li>
+                    <li><i class="ri-check-double-line"></i> Land use integration</li>
+                    <li><i class="ri-check-double-line"></i> Inovation of land use integration</li>
                 </ul>
             </div>
+
         </div>
+
+
+
 
     </div>
 </section><!-- End About Us Section -->
