@@ -8,23 +8,21 @@
 <!-- ======= Breadcrumbs ======= -->
 <section id="breadcrumbs" class="breadcrumbs">
     <div class="container">
-
         <ol>
             <li><a href="{{route('home.index')}}">Home</a></li>
             <li>Halaman Rilis</li>
         </ol>
         <h2>Rilis YNKI</h2>
-
     </div>
 </section><!-- End Breadcrumbs -->
 
 <!-- ======= Recent Blog Posts Section ======= -->
 <section id="recent-blog-posts" class="recent-blog-posts">
     <div class="container" data-aos="fade-up">
-        <header class="section-header">
+        <!-- <header class="section-header">
             <h2>Rilis</h2>
             <p>Rilis page</p>
-        </header>
+        </header> -->
         <div class="row">
             @foreach($listRilis as $rilis)
             <div class="col-lg-4">

@@ -8,23 +8,21 @@
 <!-- ======= Breadcrumbs ======= -->
 <section id="breadcrumbs" class="breadcrumbs">
     <div class="container">
-
         <ol>
             <li><a href="{{route('home.index')}}">Home</a></li>
             <li>Halaman Opini</li>
         </ol>
         <h2>Opini YNKI</h2>
-
     </div>
 </section><!-- End Breadcrumbs -->
 
 <!-- ======= Recent Blog Posts Section ======= -->
 <section id="recent-blog-posts" class="recent-blog-posts">
     <div class="container" data-aos="fade-up">
-        <header class="section-header">
+        <!-- <header class="section-header">
             <h2>Opini</h2>
             <p>Opini page</p>
-        </header>
+        </header> -->
         <div class="row">
             @foreach($listOpini as $Opini)
             <div class="col-lg-4">
