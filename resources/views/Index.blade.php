@@ -127,7 +127,7 @@
                         @foreach($postinganmore as $post)
                         <div class="post-item clearfix">
                             <img src="assetAdmin/img/PostinganMedia/{{$post->foto}}" alt="">
-                            <h4><a href="#">{{$post->judul}}</a></h4>
+                            <h4><a href="{{ route('DetailRilis', $post->id) }}">{{$post->judul}}</a></h4>
                             <time datetime="2020-01-01">{{$post->created_at}}</time>
                         </div>
                         @endforeach
