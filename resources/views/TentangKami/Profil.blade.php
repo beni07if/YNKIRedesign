@@ -72,7 +72,7 @@
             <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
                 <div class="content">
-                    <h3><strong>YNKI</strong> Natural Kapital Foundation, Indonesia - Democracy for Nature </h3>
+                    <h3>Natural Kapital Foundation (<strong>YNKI</strong> ), Indonesia - Democracy for Nature </h3>
                     <p>
                         Natural Kapital Foundation Indonesia (YNKI) is non-government organization that works for the vision of nature resiliencies for people good living and well-being. YNKI's mission is to transform the land use sector, and its value chain actor of which benefiting for landscape productivity and climate resiliencies through mainstreaming landscape approach. Established in 2019, YNKI is based in Pontianak West Kalimantan, Indonesia and currently supported by 14 staff and 4 Internships. YNKI strategic program of; 1). Landscape research on social-environment characteristics and resiliencies. 2). Stakeholder and Smallholders empowerment on mainstreaming land use of best practice. 3). stakeholder engagements and Policy advocacy for land use policy and transformation. YNKI relevant experience and partner, includes;
                     </p>
