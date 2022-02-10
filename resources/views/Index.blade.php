@@ -148,11 +148,9 @@
                     <h3 class="sidebar-title">Media Sosial YNKI</h3>
                     <div class="sidebar-item search-form">
                         <blockquote class="twitter-tweet">
-                            <p lang="in" dir="ltr">Kalimantan Barat memiliki sebaran lahan basah yang beragam, yaitu gambut di hulu dan pesisir DAS Kapuas, mangrove, ekosistem riparian dan flood plain, terumbu karang, dan delta-delta di muara sungai. Semua lahan basah berada di dataran rendah yang berada disekitar aktivitas(cont) <a href="https://t.co/1tpm2aRMqI">pic.twitter.com/1tpm2aRMqI</a></p>&mdash; Natural Kapital Foundation (@kapital_natural) <a href="https://twitter.com/kapital_natural/status/1489190243156697094?ref_src=twsrc%5Etfw">February 3, 2022</a>
+                            <p lang="in" dir="ltr">YNKI menjadi guru tamu dalam workshop pengolahan kopi pasca panen di SMK Negeri 1 Sungai Kakap pada 28 Januari 2022. Kegiatan ini dimaksudkan untuk berbagi pengalaman mengenai proses pengolahan kopi pasca panen menggunakan alat-alat pengolahan hasil produksi pertanian. <a href="https://t.co/mX4QRVzsPw">pic.twitter.com/mX4QRVzsPw</a></p>&mdash; Natural Kapital Foundation (@kapital_natural) <a href="https://twitter.com/kapital_natural/status/1491393733304406018?ref_src=twsrc%5Etfw">February 9, 2022</a>
                         </blockquote>
                         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                        <!-- <a class="twitter-timeline" href="https://twitter.com/kapital_natural?ref_src=twsrc%5Etfw">Tweets by kapital_natural</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-
                     </div><!-- End sidebar search formn-->
 
                 </div><!-- End sidebar -->
@@ -163,7 +161,6 @@
 
     </div>
 </section><!-- End Blog Section -->
-
 
 <!-- ======= Cta Section ======= -->
 <section id="cta" class="cta">
