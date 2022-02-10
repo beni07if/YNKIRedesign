@@ -170,7 +170,7 @@
     <div class="container" data-aos="zoom-in">
 
         <div class="section-title">
-            <h2sip>BASE ON</h2sip>
+            <h2sip>BASED ON</h2sip>
         </div>
 
         <div class="row" data-aos="zoom-in">
