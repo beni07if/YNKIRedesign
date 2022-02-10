@@ -195,21 +195,7 @@
 <!-- ======= Story Maps Section ======= -->
 <section id="blog" class="blog">
     <!-- <iframe src="https://storymaps.arcgis.com/stories/05e9c2f09e454ab89e64cb62899b7112" width="100%" height="500px" frameborder="0" allowfullscreen allow="geolocation"></iframe> -->
-    <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-            <!-- <h2sip>Story Maps</h2sip> -->
-            <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
-            <!-- <iframe src="https://storymaps.arcgis.com/stories/9a28c27cca9d4072bf1560d7cbc3e9d2" width="100%" height="1000px" frameborder="0" allowfullscreen allow="geolocation"></iframe> -->
-
-
-        </div>
-
-    </div>
-
-    </div>
-    <iframe src="https://storymaps.arcgis.com/stories/05e9c2f09e454ab89e64cb62899b7112" width="100%" height="1000px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
-
+    <!-- <iframe src="https://storymaps.arcgis.com/stories/05e9c2f09e454ab89e64cb62899b7112" width="100%" height="1000px" frameborder="0" allowfullscreen allow="geolocation"></iframe> -->
 </section><!-- End Story Maps Section -->
 
 <!-- ======= Contact Section ======= -->

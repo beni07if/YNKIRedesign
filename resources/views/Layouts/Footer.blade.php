@@ -41,10 +41,10 @@
                 <h4>Sosial Media YNKI</h4>
                 <p>Kunjungi sosial media kami..</p>
                 <div class="social-links mt-3">
-                    <a href="https://twitter.com/kapital_natural" class="twitter"><i class="bx bxl-twitter"></i></a>
-                    <a href="https://www.facebook.com/search/top?q=natural%20kapital%20foundation" class="facebook"><i class="bx bxl-facebook"></i></a>
-                    <a href="https://www.instagram.com/yayasannaturalkapital/" class="instagram"><i class="bx bxl-instagram"></i></a>
-                    <a href="https://www.linkedin.com/company/natural-kapital-foundation/mycompany/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://twitter.com/kapital_natural" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://www.facebook.com/search/top?q=natural%20kapital%20foundation" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://www.instagram.com/yayasannaturalkapital/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/natural-kapital-foundation/mycompany/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                 </div>
             </div>
 
