@@ -31,14 +31,14 @@
                 <div class="member">
                     <div class="member-img">
                         <img src="assetAdmin/img/staf/{{$team->foto}}" class="img-fluid" alt="">
-                        <div class="social">
+                        <!-- <div class="social">
                             <a href=""><i class="bi bi-twitter"></i></a>
                             <a href=""><i class="bi bi-facebook"></i></a>
                             <a href=""><i class="bi bi-instagram"></i></a>
                             <a href=""><i class="bi bi-linkedin"></i></a>
-                        </div>
+                        </div> -->
                     </div>
-                    <div class="member-info">
+                    <div>
                         <h4><a href="{{route('DetailStaf', $team->id)}}">{!!$team->nama!!}</a></h4>
                         <span>{!!$team->jabatan!!}</span>
                     </div>
