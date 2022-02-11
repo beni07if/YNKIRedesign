@@ -3,8 +3,9 @@
       <div class="container d-flex align-items-center">
 
           <h1 class="logo me-auto"><a href="{{route('index')}}">YNKI</a></h1>
+          <!-- <a href="{{route('index')}}"><img style="height: 70px; width:270px;" src="assets/img/logo-ynki/logo-ynki.PNG" alt=""></a> -->
           <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          <!-- <a href="{{route('home.index')}}" class="logo me-auto"><img src="assets/img/logo-ynki/logo-ynki-panjang.JPG" alt="" class="img-fluid"></a> -->
 
           <nav id="navbar" class="navbar">
               <ul>
@@ -57,11 +58,8 @@
                   </li>
                   <li><a class="nav-link scrollto" href="{{route('kontak-kami.index')}}">Kontak Kami</a></li>
               </ul>
-              <i class="bi bi-list mobile-nav-toggle"></i>
+
           </nav><!-- .navbar -->
 
       </div>
   </header><!-- End Header -->
-
-
-  <!-- Masukan data dibawah ke atas -->
