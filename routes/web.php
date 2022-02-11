@@ -35,6 +35,8 @@ require __DIR__ . '/auth.php';
 
 Auth::routes();
 
+Route::any('/register', [App\Http\Controllers\HomeController::class, 'index']);
+
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 // Route::resource('rilis', [App\Http\Controllers\RilisController::class, 'index']);
