@@ -37,7 +37,7 @@
                             <a href=""><i class="bi bi-instagram"></i></a>
                             <a href=""><i class="bi bi-linkedin"></i></a>
                         </div> -->
-                    </div>
+                    </div><br>
                     <div>
                         <h4><a href="{{route('DetailStaf', $team->id)}}">{!!$team->nama!!}</a></h4>
                         <span>{!!$team->jabatan!!}</span>
