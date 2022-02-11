@@ -25,11 +25,6 @@
 
     <div class="container" data-aos="fade-up">
 
-        <header class="section-header">
-            <h2>Keluarga Besar YNKI</h2>
-            <p>Keluarga Besar Yayasan Natural Kapital Indonesia</p>
-        </header>
-
         <div class="row gy-4">
             @foreach($staf as $team)
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
