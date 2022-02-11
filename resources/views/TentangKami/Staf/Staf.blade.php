@@ -44,7 +44,7 @@
                         </div>
                     </div>
                     <div class="member-info">
-                        <h4><a href="{{route('DetailStaf', $team->id)}}"></a>{!!$team->nama!!}</h4>
+                        <h4><a href="{{route('DetailStaf', $team->id)}}">{!!$team->nama!!}</a></h4>
                         <span>{!!$team->jabatan!!}</span>
                     </div>
                 </div>
