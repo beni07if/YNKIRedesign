@@ -112,7 +112,7 @@
 
             </div>
 
-            <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img"><img src="assets/img/foto-ynki/ynki-project.jpg" alt="" class="img-fluid"></div>
+            <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img"><img src="assets/img/foto-ynki/ynki-project.JPG" alt="" class="img-fluid"></div>
         </div>
 
     </div>
@@ -145,7 +145,7 @@
             </div>
 
             <div class="col-lg-6">
-                <div class="col-lg-12 align-items-stretch "><img src="assets/img/foto-ynki/roles-and-strategy3.jpg" alt="" class="img-fluid"></div>
+                <div class="col-lg-12 align-items-stretch "><img src="assets/img/foto-ynki/roles-and-strategy3.JPG" alt="" class="img-fluid"></div>
             </div>
 
             <div class="col-lg-3">
