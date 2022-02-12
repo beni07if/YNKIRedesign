@@ -2,9 +2,9 @@
   <header id="header" class="fixed-top ">
       <div class="container d-flex align-items-center">
 
-          <h1 class="logo me-auto"><a href="{{route('index')}}">YNKI</a></h1>
+          <!-- <h1 class="logo me-auto"><a href="{{route('index')}}">YNKI</a></h1> -->
           <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          <a href="{{route('index')}}" class="logo me-auto"><img src="assets/img/logo-ynki/logo-ynki.png" style="width:250px; height:200px;" alt="" class="img-fluid"></a>
 
           <nav id="navbar" class="navbar">
               <ul>
