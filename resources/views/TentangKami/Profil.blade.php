@@ -19,6 +19,30 @@
 </section><!-- End Breadcrumbs -->
 @endsection
 
+@section('slideShow')
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex align-items-center">
+    <img src="assets/img/foto-ynki/homepage-11.JPG" style="width: 1900px;" alt="" class="img-fluid">
+    <!-- <div class="container">
+
+        <div class="row">
+            <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+                <h1>NATURAL KAPITAL FOUNDATION</h1>
+                <h2>For Sustainable Resilience Landscape</h2>
+                <div class="d-flex justify-content-center justify-content-lg-start">
+                    <a href="#about" class="btn-get-started scrollto">Get Started</a>
+                    <a href="https://www.youtube.com/watch?v=s7XDGI5Lnqo&t=2186s" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+                </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+                <img src="assets/img/pakperi.png" class="img-fluid animated" alt="">
+            </div>
+        </div>
+    </div> -->
+
+</section><!-- End Hero -->
+@endsection
+
 @section('MainContent')
 <!-- ======= Icon Boxes Section ======= -->
 <section id="icon-boxes" class="icon-boxes">
@@ -72,7 +96,7 @@
             <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
                 <div class="content">
-                    <h3>Natural Kapital Foundation (<strong>YNKI</strong> ), Indonesia - Democracy for Nature </h3>
+                    <h3>Natural Kapital Foundation <strong>(YNKI)</strong>, Indonesia - Sustainable Resilience Landscape </h3>
                     <p>
                         Natural Kapital Foundation Indonesia (YNKI) is non-government organization that works for the vision of nature resiliencies for people good living and well-being. YNKI's mission is to transform the land use sector, and its value chain actor of which benefiting for landscape productivity and climate resiliencies through mainstreaming landscape approach. Established in 2019, YNKI is based in Pontianak West Kalimantan, Indonesia and currently supported by 14 staff and 4 Internships. YNKI strategic program of; 1). Landscape research on social-environment characteristics and resiliencies. 2). Stakeholder and Smallholders empowerment on mainstreaming land use of best practice. 3). stakeholder engagements and Policy advocacy for land use policy and transformation. YNKI relevant experience and partner, includes;
                     </p>
