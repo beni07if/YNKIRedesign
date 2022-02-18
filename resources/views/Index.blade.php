@@ -7,7 +7,7 @@
 @section('slideShow')
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
-    <img src="assets/img/foto-ynki/homepage-11.JPG" style="width: 100%;" alt="" class="img-fluid">
+    <img src="public/assets/img/foto-ynki/homepage-11.JPG" style="width: 100%;" alt="" class="img-fluid">
     <!-- <div class="container">
         <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
