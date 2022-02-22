@@ -172,15 +172,15 @@
         <div class="row" data-aos="zoom-in">
 
             <div class="col-lg-4 col-md-4 col-4 d-flex align-items-center justify-content-center">
-                <img src="assets/img/logo-ynki/logo-sdgs.png" class="img-fluid" alt="">
+                <a href=" https://www.undp.org/sustainable-development-goals" target="blank"><img src="assets/img/logo-ynki/logo-sdgs.png" class="img-fluid" alt=""></a>
             </div>
 
             <div id="img" class="col-lg-4 col-md-4 col-4 d-flex align-items-center justify-content-center">
-                <img src="assets/img/logo-ynki/logo-paris-agreement.png" class="img-fluid" alt="">
+                <a href="https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement" target="blank"><img src="assets/img/logo-ynki/logo-paris-agreement.png" class="img-fluid" alt=""></a>
             </div>
 
             <div id="img" class="col-lg-4 col-md-4 col-4 d-flex align-items-center justify-content-center">
-                <img src="assets/img/logo-ynki/logo-convention-biologi-diversity.png" class="img-fluid" alt="">
+                <a href="https://www.cbd.int/convention/" target="blank"><img src="assets/img/logo-ynki/logo-convention-biologi-diversity.png" class="img-fluid" alt=""></a>
             </div>
 
         </div>
