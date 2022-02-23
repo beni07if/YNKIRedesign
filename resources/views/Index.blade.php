@@ -7,7 +7,25 @@
 @section('slideShow')
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
-    <img src="assets/img/foto-ynki/home1.jpg" style="width: 100%;" alt="" class="img-fluid">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 100%;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/foto-ynki/home1.jpg" style="width: 100%;" alt="First slide" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/foto-ynki/home2.jpg" style="width: 100%;" alt="Second slide" class="img-fluid">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- <img src="assets/img/foto-ynki/home1.jpg" style="width: 100%;" alt="" class="img-fluid"> -->
     <!-- <div class="container">
         <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
@@ -166,7 +184,7 @@
     <div class="container" data-aos="zoom-in">
 
         <div class="section-title">
-            <h2sip>BASED ON</h2sip>
+            <h2sip style="color: #fff;">BASED ON</h2sip>
         </div>
 
         <div class="row" data-aos="zoom-in">
