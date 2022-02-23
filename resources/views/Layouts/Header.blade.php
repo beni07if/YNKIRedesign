@@ -16,8 +16,10 @@
                           <li><a href="{{route('StafYnki')}}">Team</a></li>
                           <li><a href="{{route('partner.index')}}">Partner</a></li>
                           <li><a href="#">Independent Supervisory Board</a></li>
+                          <li><a href="#">Portofolio</a></li>
                           <li class="dropdown"><a href="#"><span>Pendekatan Kami</span> <i class="bi bi-chevron-right"></i></a>
                               <ul>
+                                  <li><a href="#">Program dan Pendekatan Kerja</a></li> <!-- ini = ToC -->
                                   <li><a href="#">Pendekatan Lanskap</a></li>
                                   <li><a href="#">Komoditas Masyarakat</a></li>
                                   <li><a href="#">Kebijakan Keberlanjutan</a></li>
@@ -31,7 +33,6 @@
                               <ul>
                                   <li><a href="#">Rehabilitasi Lanskap</a></li>
                                   <li><a href="#">Peningkatan Sosial Ekonomi Masyarakat</a></li>
-                                  <!-- <li><a href="#">Rehabilitasi dan Restorasi</a></li> -->
                                   <li><a href="#">Advokasi Kebijakan</a></li>
                                   <li><a href="#">Climate Smart Agriculture</a></li>
                               </ul>
@@ -45,7 +46,7 @@
                           <li><a href="{{route('ListOpini')}}">Opini</a></li>
                           <li><a href="{{route('ListKabarDariLapangan')}}">Kabar Dari Lapangan</a></li>
                           <li><a href="#">Karakteristik Lanskap</a></li>
-                          <li><a href="#">Teory of Change</a></li>
+                          <!-- <li><a href="#">Teory of Change</a></li> -->
                           <li><a href="#">Library</a></li>
                       </ul>
                   </li>
