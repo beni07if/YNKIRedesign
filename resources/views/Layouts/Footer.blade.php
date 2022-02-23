@@ -17,7 +17,8 @@
         <div class="row">
 
             <div class="col-lg-4 col-md-6 footer-contact">
-                <h3>YNKI</h3>
+                <!-- <h3>YNKI</h3> -->
+                <img src="assets/img/logo-ynki/logo-ynki-terbaru.png" style="background-color: #5F9EA0; width:200px;" alt="">
                 <p>
                     Jalan Karna Sosial No.88 <br>
                     Kota Pontianak<br><br>
@@ -27,24 +28,29 @@
             </div>
 
             <div class="col-lg-4 col-md-6 footer-links">
-                <h4>Layanan Kami</h4>
+                <!-- <h4>Layanan Kami</h4>
                 <ul>
                     <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
                     <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
                     <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                    <!-- <li><i class="bx bx-chevron-right"></i> <a href="{{route('Dashboard')}}">Login</a></li> -->
-                </ul>
+                </ul> -->
             </div>
 
             <div class="col-lg-4 col-md-6 footer-links">
                 <!-- <h4>Our Social Networks</h4> -->
                 <h4>Sosial Media YNKI</h4>
                 <p>Kunjungi sosial media kami..</p>
-                <div class="social-links mt-3">
-                    <a href="https://twitter.com/kapital_natural" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <!-- <div class="social-links mt-3"> -->
+                <div class="mt-3">
+                    <!-- <a href="https://twitter.com/kapital_natural" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
                     <a href="https://www.facebook.com/search/top?q=natural%20kapital%20foundation" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
                     <a href="https://www.instagram.com/yayasannaturalkapital/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
-                    <a href="https://www.linkedin.com/company/natural-kapital-foundation/mycompany/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/company/natural-kapital-foundation/mycompany/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+                    <a href="https://twitter.com/kapital_natural" target="_blank" class="twitter"><img src="assets/img/logo-sosmed/twitter.png" style="width: 35px;" alt=""></a>
+                    <a href="https://www.facebook.com/search/top?q=natural%20kapital%20foundation" target="_blank" class="facebook"><img src="assets/img/logo-sosmed/facebook.png" style="width: 35px;" alt=""></a>
+                    <a href="https://www.instagram.com/yayasannaturalkapital/" target="_blank" class="instagram"><img src="assets/img/logo-sosmed/instagram.png" style="width: 35px;" alt=""></a>
+                    <a href="https://www.linkedin.com/company/natural-kapital-foundation/mycompany/" target="_blank" class="linkedin"><img src="assets/img/logo-sosmed/linkedin.png" style="width: 35px;" alt=""></a>
+                    <a href="https://www.youtube.com/channel/UCEpioIu1zY91ExzVTUfKTJA" target="_blank" class="linkedin"><img src="assets/img/logo-sosmed/youtube.png" style="width: 35px;" alt="">
                 </div>
             </div>
 
