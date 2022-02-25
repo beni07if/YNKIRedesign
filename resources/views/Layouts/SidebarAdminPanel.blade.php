@@ -26,8 +26,18 @@
                     </a>
                 </li>
                 <li>
+                    <a href="{{route('mitra.index')}}">
+                        <i class="bi bi-circle"></i><span>Mitra Kerja / Partner</span>
+                    </a>
+                </li>
+                <li>
                     <a href="#">
-                        <i class="bi bi-circle"></i><span>Partner</span>
+                        <i class="bi bi-circle"></i><span>Portofolio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bi bi-circle"></i><span>Kontak Kami</span>
                     </a>
                 </li>
                 <li>
@@ -36,6 +46,11 @@
                     </a>
                 </li>
                 <li class="nav-heading">Pendekatan Kami</li>
+                <li>
+                    <a href="#">
+                        <i class="bi bi-circle"></i><span>Program dan Pendekatan Kerja</span>
+                    </a>
+                </li>
                 <li>
                     <a href="#">
                         <i class="bi bi-circle"></i><span>Pendekatan Lanskap</span>
@@ -116,11 +131,6 @@
                 </li>
                 <li>
                     <a href="#">
-                        <i class="bi bi-circle"></i><span>Teory of Change</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
                         <i class="bi bi-circle"></i><span>Library</span>
                     </a>
                 </li>
@@ -149,13 +159,6 @@
                 </li>
             </ul>
         </li><!-- End Charts Nav -->
-
-        <li class="nav-item">
-            <a class="nav-link collapsed" href="#">
-                <i class="bi bi-person"></i>
-                <span>Kontak Kami</span>
-            </a>
-        </li><!-- End Profile Page Nav -->
 
         <li class="nav-item">
             <a class="nav-link collapsed" href="{{ route('logout') }}" onclick="event.preventDefault();

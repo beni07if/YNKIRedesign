@@ -25,6 +25,14 @@
 <!-- Template Main CSS File -->
 <link href="{{asset('assetAdmin/css/style.css')}}" rel="stylesheet">
 
+<!-- sweetalert  -->
+<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css"> -->
+<!-- <script src="http://demo.itsolutionstuff.com/plugin/jquery.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+<meta name="csrf-token" content="{{ csrf_token() }}"> -->
+<!-- sweetalert end  -->
+
 <!-- =======================================================
   * Template Name: NiceAdmin - v2.1.0
   * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/

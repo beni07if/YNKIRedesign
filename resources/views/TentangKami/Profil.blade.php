@@ -96,7 +96,7 @@
             <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
                 <div class="content">
-                    <h3>Natural Kapital Foundation <strong>(YNKI)</strong>, Indonesia - Sustainable Resilience Landscape </h3>
+                    <h3>Natural Kapital Foundation Indonesia <strong>(YNKI)</strong> - Sustainable Resilience Landscape </h3>
                     <p>
                         Natural Kapital Foundation Indonesia (YNKI) is non-government organization that works for the vision of nature resiliencies for people good living and well-being. YNKI's mission is to transform the land use sector, and its value chain actor of which benefiting for landscape productivity and climate resiliencies through mainstreaming landscape approach. Established in 2019, YNKI is based in Pontianak West Kalimantan, Indonesia and currently supported by 14 staff and 4 Internships. YNKI strategic program of; 1). Landscape research on social-environment characteristics and resiliencies. 2). Stakeholder and Smallholders empowerment on mainstreaming land use of best practice. 3). stakeholder engagements and Policy advocacy for land use policy and transformation. YNKI relevant experience and partner, includes;
                     </p>
@@ -169,7 +169,7 @@
             </div>
 
             <div class="col-lg-6">
-                <div class="col-lg-12 align-items-stretch "><img src="assets/img/foto-ynki/roles-and-strategy3.JPG" alt="" class="img-fluid"></div>
+                <div class="col-lg-12 align-items-stretch "><img src="assets/img/foto-ynki/roles-and-strategy3.JPG" style="width: 550px; padding-left:100px" alt="" class="img-fluid"></div>
             </div>
 
             <div class="col-lg-3">
@@ -295,7 +295,7 @@
                     <div id="faq-list-8" class="collapse" data-bs-parent=".faq-list">
                         <p>
                             Jangka Waktu : September – Desember 2021<br>
-                            Contact Person : Anas Nashrullah anasrullah@wwf.id) <br>
+                            Contact Person : Anas Nashrullah anasrullah@wwf.id <br>
                             Bidang Teknis : Arut Belantikan – Ronga Perai forest landscape management strategy
                         </p>
                     </div>
@@ -306,5 +306,38 @@
 
     </div>
 </section><!-- End Frequently Asked Questions Section -->
+
+<!-- ======= Frequently Asked Questions Section ======= -->
+<!-- <section id="faq" class="faq section-bg">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>Mitra Kerja</h2>
+            <p>Berkedudukan di Pontianak, Kalimantan Barat, YNKI telah bekerja dan berkontribusi pada pengembangan dan implementasi konsep pembangunan lanskap terpadu antara lain;</p>
+        </div>
+
+        <div class="faq-list">
+            ini dipakai untuk kedepannya jika partner bertambah dan dapat diupdate di admin panel, untuk fitur create dan update mitra kerja sudah dibuat
+            <ul>
+                @foreach ($mitrakerja as $mitra)
+                <li data-aos="fade-up" data-aos-delay="100">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1"> {!!$mitra->nama_mitra!!} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                        <p>
+
+                            Jangka Waktu : {!!$mitra->waktu_mulai!!} - {!!$mitra->waktu_selesai!!}<br>
+                            Contact Person : {!!$mitra->email!!} <br>
+                            Bidang Teknis : {!!$mitra->bidang_teknis!!}
+
+                        </p>
+                    </div>
+                </li>
+                @endforeach
+            </ul>
+        </div>
+
+    </div>
+</section> -->
+<!-- End Frequently Asked Questions Section -->
 
 @endsection

@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\MitraKerja;
+
 
 class ProfilController extends Controller
 {
@@ -13,7 +15,8 @@ class ProfilController extends Controller
      */
     public function index()
     {
-        return view('TentangKami.Profil');
+        $mitrakerja = MitraKerja::all();
+        return view('TentangKami.Profil', compact('mitrakerja'));
     }
 
     /**

@@ -95,7 +95,8 @@ class StafController extends Controller
      */
     public function edit($id)
     {
-        //
+        $staf = Staf::find($id);
+        return view('AdminPanel.TentangKami.Staf.EditStaf', compact('staf'));
     }
 
     /**
@@ -107,7 +108,29 @@ class StafController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request, [
+            'foto' => 'required|image|mimes:jpg,png,jpeg'
+        ]);
+        $staf = Staf::findOrFail($id);
+        $staf->nama = $request->input('nama');
+        $staf->email = $request->input('email');
+        $staf->alamat = $request->input('alamat');
+        $staf->jenis_kelamin = $request->input('jenis_kelamin');
+        $staf->jabatan = $request->input('jabatan');
+        $staf->no_hp = $request->input('no_hp');
+        $file       = $request->file('foto');
+        $fileName   = $file->getClientOriginalName();
+        $request->file('foto')->move("assetAdmin/img/staf/", $fileName);
+        $staf->foto = $fileName;
+        $staf->biodata = $request->input('biodata');
+        $staf->password = $request->input('password');
+        // $tambah->save();
+
+        // return redirect()->to('/');
+        $staf->created_at = now();
+        $staf->updated_at = now();
+        $staf->save($request->all());
+        return redirect()->route('staf.index')->withSuccess('Data berhasil diubah..');
     }
 
     /**
@@ -118,7 +141,9 @@ class StafController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $delete = Staf::find($id);
+        $delete->delete();
+        return redirect()->route('staf.index')->withSuccess('Data berhasil dihapus..');
     }
 
     public function ListStaf()

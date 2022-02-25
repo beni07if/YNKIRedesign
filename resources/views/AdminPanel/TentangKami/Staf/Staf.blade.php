@@ -36,6 +36,7 @@
                                     <th scope="col">Email</th>
                                     <th scope="col">Position</th>
                                     <th scope="col">Description</th>
+                                    <th scope="col">Action</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -47,7 +48,13 @@
                                     <td>{{$team->nama}}</td>
                                     <td>{{$team->email}}</td>
                                     <td>{{$team->jabatan}}</td>
-                                    <td><a href="#"><span class="badge bg-info"><i class="bxs-user-plus me-1"></i>Biodata</span></a></td>
+                                    <td><a href="{{route('staf.edit', $team->id)}}"><span class="badge bg-info"><i class="bxs-user-plus me-1"></i>Biodata</span></a></td>
+                                    <td>
+                                        <form action="{{route('staf.destroy', $team->id)}}" method="post">
+                                            @csrf @method('DELETE')
+                                            <button class="badge bg-danger">Hapus</button>
+                                        </form>
+                                    </td>
                                 </tr>
                                 @endforeach
                             </tbody>

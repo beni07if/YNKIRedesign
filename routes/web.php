@@ -51,6 +51,7 @@ Route::resource('staf', 'App\Http\Controllers\StafController');
 Route::get('staf-ynki', 'App\Http\Controllers\WebViewController@Staf')->name('StafYnki');
 Route::get('detail-staf/{id}', 'App\Http\Controllers\WebViewController@DetailStaf')->name('DetailStaf');
 Route::resource('partner', 'App\Http\Controllers\PartnerController');
+Route::resource('mitra', 'App\Http\Controllers\MitraKerjaController');
 
 // Route::resource('program-lanskap', 'App\Http\Controllers\ProgramLanskapController');
 // Route::resource('komoditas-masyarakat', 'App\Http\Controllers\KomoditasMasyarakatController');
