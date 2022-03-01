@@ -46,7 +46,6 @@
                           <li><a href="{{route('ListOpini')}}">Opini</a></li>
                           <li><a href="{{route('ListKabarDariLapangan')}}">Kabar Dari Lapangan</a></li>
                           <li><a href="#">Karakteristik Lanskap</a></li>
-                          <!-- <li><a href="#">Teory of Change</a></li> -->
                           <li><a href="#">Library</a></li>
                       </ul>
                   </li>
