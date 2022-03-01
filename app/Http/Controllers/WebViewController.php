@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Staf;
 use App\Models\Postinganmedia;
+use App\Models\Pesan;
 use RealRashid\SweetAlert\SweetAlertServiceProvider;
 use RealRashid\SweetAlert\Facades\Alert;
 
@@ -152,5 +153,23 @@ class WebViewController extends Controller
     {
         $ListProgramStrategi = Postinganmedia::where('kategori', 'KabarDariLapangan')->get();
         return view('Program.ProgramStrategi.ListProgramStrategi', compact('ListProgramStrategi'));
+    }
+
+    public function KontakKami()
+    {
+        return view('TentangKami.KontakKami.KontakKami');
+    }
+
+    public function KirimPesan(Request $request)
+    {
+        $pesan = new Pesan;
+        $pesan->name = $request->name;
+        $pesan->email = $request->email;
+        $pesan->subject = $request->subject;
+        $pesan->pesan = $request->pesan;
+        $pesan->created_at = now();
+        $pesan->updated_at = now();
+        $pesan->save();
+        return back()->withSuccess('Pesan terkirim..');
     }
 }

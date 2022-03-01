@@ -3,9 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Pesan;
 
 class KontakKamiController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -13,7 +18,8 @@ class KontakKamiController extends Controller
      */
     public function index()
     {
-        return view('KontakKami');
+        $pesan = Pesan::all();
+        return view('AdminPanel.TentangKami.KontakKami.Index', compact('pesan'));
     }
 
     /**
@@ -23,7 +29,7 @@ class KontakKamiController extends Controller
      */
     public function create()
     {
-        //
+        // return view('AdminPanel.TentangKami.KontakKami.Create');
     }
 
     /**
@@ -68,7 +74,13 @@ class KontakKamiController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $pesan = Pesan::find($id);
+        $pesan->name = $request->name;
+        $pesan->email = $request->email;
+        $pesan->subject = $request->subject;
+        $pesan->pesan = $request->pesan;
+        $pesan->save();
+        return redirect()->route('pesan.index')->withSuccess('Data berhasil diubah..');
     }
 
     /**

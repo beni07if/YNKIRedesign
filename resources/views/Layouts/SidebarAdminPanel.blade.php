@@ -36,7 +36,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{route('pesan.index')}}">
                         <i class="bi bi-circle"></i><span>Kontak Kami</span>
                     </a>
                 </li>

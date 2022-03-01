@@ -16,7 +16,7 @@
                           <li><a href="{{route('StafYnki')}}">Team</a></li>
                           <li><a href="{{route('partner.index')}}">Partner</a></li>
                           <li><a href="#">Portofolio</a></li>
-                          <li><a class="nav-link scrollto" href="{{route('kontak-kami.index')}}">Kontak Kami</a></li>
+                          <li><a class="nav-link scrollto" href="{{route('KontakKami')}}">Kontak Kami</a></li>
                           <li><a href="#">Independent Supervisory Board</a></li>
                           <li class="dropdown"><a href="#"><span>Pendekatan Kami</span> <i class="bi bi-chevron-right"></i></a>
                               <ul>

@@ -79,4 +79,6 @@ Route::get('/detail-kabar-dari-lapangan/{id}', 'App\Http\Controllers\WebViewCont
 // Route::resource('program-magang', 'App\Http\Controllers\ProgramMagangController');
 // Route::resource('ikut-terlibat', 'App\Http\Controllers\IkutTerlibatController');
 
-Route::resource('kontak-kami', 'App\Http\Controllers\KontakKamiController');
+Route::resource('pesan', 'App\Http\Controllers\KontakKamiController');
+Route::get('/kontak-kami', 'App\Http\Controllers\WebViewController@KontakKami')->name('KontakKami');
+Route::post('/kirim-pesan', 'App\Http\Controllers\WebViewController@KirimPesan')->name('KirimPesan');
