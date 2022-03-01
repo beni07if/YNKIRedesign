@@ -12,7 +12,7 @@
     </div>
 </div> -->
 
-<div class="footer-top" style="background-color: #F3F5FA;">
+<div class="footer-top" style="background-color: #F0F8FF;">
     <div class="container">
         <div class="row">
 
