@@ -11,7 +11,7 @@
 
         <ol>
             <li><a href="{{route('home.index')}}">Home</a></li>
-            <li>Halaman Kabar Dari Lapangan</li>
+            <li>Kabar Dari Lapangan</li>
         </ol>
         @foreach($postDetail as $post)
         <h4>{{$post->judul}}</h4>
