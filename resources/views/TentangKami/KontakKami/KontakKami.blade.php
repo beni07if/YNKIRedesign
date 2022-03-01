@@ -64,7 +64,8 @@
                     <h5 class="card-title">Kirim Pesan ke YNKI</h5>
 
                     <!-- General Form Elements -->
-                    <form>
+                    <form method="POST" action="{{ route('KirimPesan') }} " enctype="multipart/form-data">
+                        @csrf
                         <div class="row mb-3">
                             <label for="inputText" class="col-sm-2 col-form-label">Nama</label>
                             <div class="col-sm-10">
@@ -103,15 +104,9 @@
 
             </div>
 
-
-
-
-
-
-
-
         </div>
 
     </div>
+    @include('sweetalert::alert')
 </section><!-- End Contact Section -->
 @endsection

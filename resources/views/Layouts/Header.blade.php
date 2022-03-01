@@ -16,7 +16,6 @@
                           <li><a href="{{route('StafYnki')}}">Team</a></li>
                           <li><a href="{{route('partner.index')}}">Partner</a></li>
                           <li><a href="#">Portofolio</a></li>
-                          <li><a class="nav-link scrollto" href="{{route('KontakKami')}}">Kontak Kami</a></li>
                           <li><a href="#">Independent Supervisory Board</a></li>
                           <li class="dropdown"><a href="#"><span>Pendekatan Kami</span> <i class="bi bi-chevron-right"></i></a>
                               <ul>
@@ -58,6 +57,7 @@
                           <li><a href="#">Ikut Terlibat</a></li>
                       </ul>
                   </li>
+                  <li><a class="nav-link scrollto " href="{{route('KontakKami')}}">Kontak Kami</a></li>
               </ul>
               <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->
