@@ -22,7 +22,7 @@
                 <p>
                     Jalan Karna Sosial No.88 <br>
                     Kota Pontianak<br><br>
-                    <strong>Phone:</strong> +628 9829 5053 1<br>
+                    <strong>Phone/WA:</strong> +628 9829 5053 1<br>
                     <strong>Email:</strong> sekretariat@naturalkapital.com<br>
                 </p>
             </div>
