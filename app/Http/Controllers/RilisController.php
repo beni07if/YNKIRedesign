@@ -22,7 +22,7 @@ class RilisController extends Controller
     public function index()
     {
         // return view('MediaDanPublikasi.Rilis.Rilis');
-        $postinganmedia = Postinganmedia::all();
+        $postinganmedia = Postinganmedia::where('kategori', 'Rilis')->get();
         return view('AdminPanel.MediaDanPublikasi.Rilis.Rilis', compact('postinganmedia'));
     }
 
@@ -148,5 +148,11 @@ class RilisController extends Controller
     {
         $postinganmedia = Postinganmedia::find($id);
         return view('AdminPanel.MediaDanPublikasi.Rilis.DetailRilis', compact('postinganmedia'));
+    }
+
+    public function PostinganYNKI()
+    {
+        $postinganmedia = Postinganmedia::all();
+        return view('AdminPanel.MediaDanPublikasi.Rilis.PostinganYNKI', compact('postinganmedia'));
     }
 }

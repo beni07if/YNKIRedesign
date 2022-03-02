@@ -3,9 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Postinganmedia;
 
 class OpiniController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -13,7 +18,9 @@ class OpiniController extends Controller
      */
     public function index()
     {
-        return view('Opini');
+        // return view('MediaDanPublikasi.Rilis.Rilis');
+        $postinganmedia = Postinganmedia::where('kategori', 'Opini')->get();
+        return view('AdminPanel.MediaDanPublikasi.Opini.Opini', compact('postinganmedia'));
     }
 
     /**

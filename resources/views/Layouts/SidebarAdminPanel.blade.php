@@ -110,6 +110,11 @@
             </a>
             <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                 <li>
+                    <a href="{{route('PostinganYNKI')}}">
+                        <i class="bi bi-circle"></i><span>Publikasi YNKI</span>
+                    </a>
+                </li>
+                <!-- <li>
                     <a href="{{route('rilis.index')}}">
                         <i class="bi bi-circle"></i><span>Rilis</span>
                     </a>
@@ -123,7 +128,7 @@
                     <a href="#">
                         <i class="bi bi-circle"></i><span>Kabar Dari Lapangan</span>
                     </a>
-                </li>
+                </li> -->
                 <li>
                     <a href="#">
                         <i class="bi bi-circle"></i><span>Karakteristik Lanskap</span>

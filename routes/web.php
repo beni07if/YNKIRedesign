@@ -82,3 +82,5 @@ Route::get('/detail-kabar-dari-lapangan/{id}', 'App\Http\Controllers\WebViewCont
 Route::resource('pesan', 'App\Http\Controllers\KontakKamiController');
 Route::get('/kontak-kami', 'App\Http\Controllers\WebViewController@KontakKami')->name('KontakKami');
 Route::post('/kirim-pesan', 'App\Http\Controllers\WebViewController@KirimPesan')->name('KirimPesan');
+
+Route::get('/postingan-ynki', 'App\Http\Controllers\RilisController@PostinganYNKI')->name('PostinganYNKI');

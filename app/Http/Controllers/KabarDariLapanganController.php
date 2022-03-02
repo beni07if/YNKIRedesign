@@ -3,9 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Postinganmedia;
 
 class KabarDariLapanganController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -13,7 +18,9 @@ class KabarDariLapanganController extends Controller
      */
     public function index()
     {
-        return view('KabarDariLapangan');
+        // return view('MediaDanPublikasi.Rilis.Rilis');
+        $postinganmedia = Postinganmedia::where('kategori', 'Kabar Dari Lapangan')->get();
+        return view('AdminPanel.MediaDanPublikasi.KabarDariLapangan.KabarDariLapangan', compact('postinganmedia'));
     }
 
     /**
