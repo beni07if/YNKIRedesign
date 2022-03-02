@@ -125,7 +125,7 @@ class RilisController extends Controller
         $post->updated_at = now();
         $post->save($request->all());
         // $post->save($request());
-        return redirect()->route('rilis.index')->withSuccess('Rilis berhasil diubah..');
+        return redirect()->route('rilis.index')->withSuccess('Data berhasil diubah..');
     }
 
     /**

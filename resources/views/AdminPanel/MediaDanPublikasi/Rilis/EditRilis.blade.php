@@ -59,6 +59,7 @@
                                 <div class="col-sm-9">
                                     <select class="form-select" name="kategori" aria-label="Default select example">
                                         <option selected value="{{ $postinganmedia->kategori }}">{{ $postinganmedia->kategori }}</option>
+                                        <option value="Rilis">Rilis</option>
                                         <option value="Opini">Opini</option>
                                         <option value="Kabar Dari Lapangan">Kabar Dari Lapangan</option>
                                     </select>
@@ -69,6 +70,7 @@
                                 <div class="col-sm-9">
                                     <select class="form-select" name="categories" aria-label="Default select example">
                                         <option selected value="{{ $postinganmedia->categories }}">{{ $postinganmedia->categories }}</option>
+                                        <option value="Rilis">Rilis</option>
                                         <option value="Opinion">Opinion</option>
                                         <option value="Kabar Dari Lapangan">Kabar Dari Lapangan</option>
                                     </select>
