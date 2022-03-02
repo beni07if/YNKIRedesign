@@ -12,7 +12,7 @@
                   <li><a class="nav-link scrollto " href="{{route('index')}}">Beranda</a></li>
                   <li class="dropdown"><a href="#"><span>Tentang Kami</span> <i class="bi bi-chevron-down"></i></a>
                       <ul>
-                          <li><a href="{{route('profil.index')}}">Profil</a></li>
+                          <li><a href="#">Profil</a></li>
                           <li><a href="{{route('StafYnki')}}">Team</a></li>
                           <li><a href="{{route('partner.index')}}">Partner</a></li>
                           <li><a href="#">Portofolio</a></li>
