@@ -174,7 +174,7 @@
             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                 @csrf
             </form>
-        </li><!-- End Logout Page Nav -->
+        </li><!-- End Logout Page Nav- -->
 
 
     </ul>
