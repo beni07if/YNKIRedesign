@@ -2,9 +2,9 @@
 <header id="header" class="header fixed-top d-flex align-items-center">
 
     <div class="d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo d-flex align-items-center">
-            <img src="{{asset('assetAdmin/img/logo.png')}}" alt="">
-            <span class="d-none d-lg-block">YNKI</span>
+        <a href="{{route('Dashboard')}}" class="logo d-flex align-items-center">
+            <img src="{{asset('assets/img/logo-ynki/logo-ynki-bulat.jpg')}}" alt="">
+            <span class="d-none d-lg-block">Natural Kapital</span>
         </a>
         <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
@@ -23,14 +23,16 @@
                 <a class="nav-link nav-icon search-bar-toggle " href="#">
                     <i class="bi bi-search"></i>
                 </a>
-            </li><!-- End Search Icon-->
+            </li>
+            <!-- End Search Icon-->
 
             <li class="nav-item dropdown">
 
-                <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+                <!-- <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
                     <i class="bi bi-bell"></i>
                     <span class="badge bg-primary badge-number">4</span>
-                </a><!-- End Notification Icon -->
+                </a> -->
+                <!-- End Notification Icon -->
 
                 <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
                     <li class="dropdown-header">
@@ -102,10 +104,11 @@
 
             <li class="nav-item dropdown">
 
-                <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+                <!-- <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
                     <i class="bi bi-chat-left-text"></i>
                     <span class="badge bg-success badge-number">3</span>
-                </a><!-- End Messages Icon -->
+                </a> -->
+                <!-- End Messages Icon -->
 
                 <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
                     <li class="dropdown-header">
@@ -169,26 +172,26 @@
             <li class="nav-item dropdown pe-3">
 
                 <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-                    <img src="{{asset('assetAdmin/img/profile-img.jpt')}}" alt="Profile" class="rounded-circle">
-                    <span class="d-none d-md-block dropdown-toggle ps-2">Sifulan</span>
+                    <!-- <img src="{{asset('assetAdmin/img/profile-img.jpt')}}" alt="Profile" class="rounded-circle"> -->
+                    <span class="d-none d-md-block dropdown-toggle ps-2">{{ Auth::user()->name }}</span>
                 </a><!-- End Profile Iamge Icon -->
 
                 <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                     <li class="dropdown-header">
-                        <h6>Kevin Anderson</h6>
-                        <span>Web Designer</span>
+                        <h6>{{ Auth::user()->name }}</h6>
+                        <span>Team Koms YNKI</span>
                     </li>
                     <li>
                         <hr class="dropdown-divider">
                     </li>
 
                     <li>
-                        <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                        <a class="dropdown-item d-flex align-items-center" href="{{ route('profil')}}">
                             <i class="bi bi-person"></i>
                             <span>My Profile</span>
                         </a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <hr class="dropdown-divider">
                     </li>
 
@@ -210,13 +213,17 @@
                     </li>
                     <li>
                         <hr class="dropdown-divider">
-                    </li>
+                    </li> -->
 
                     <li>
-                        <a class="dropdown-item d-flex align-items-center" href="#">
+                        <a class="dropdown-item d-flex align-items-center" href="{{ route('logout') }}" onclick="event.preventDefault();
+                        document.getElementById('logout-form').submit();">
                             <i class="bi bi-box-arrow-right"></i>
                             <span>Sign Out</span>
                         </a>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            @csrf
+                        </form>
                     </li>
                     <li>
                         <a class="dropdown-item d-flex align-items-center" href="/">

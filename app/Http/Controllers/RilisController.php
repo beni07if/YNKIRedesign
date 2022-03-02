@@ -155,4 +155,9 @@ class RilisController extends Controller
         $postinganmedia = Postinganmedia::all();
         return view('AdminPanel.MediaDanPublikasi.Rilis.PostinganYNKI', compact('postinganmedia'));
     }
+
+    public function Profil()
+    {
+        return view('AdminPanel.Profil.Index');
+    }
 }
