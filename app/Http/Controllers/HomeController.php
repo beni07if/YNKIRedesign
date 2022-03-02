@@ -29,6 +29,6 @@ class HomeController extends Controller
     public function DashboardAdminPanel()
     {
         // return view('AdminPanel.DashboardAdminPanel');
-        return view('AdminPanel.Profil.Index');
+        return view('AdminPanel.Profil.Profil');
     }
 }
