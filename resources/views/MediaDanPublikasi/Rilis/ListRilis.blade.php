@@ -9,7 +9,7 @@
 <section id="breadcrumbs" class="breadcrumbs">
     <div class="container">
         <ol>
-            <li><a href="{{route('home.index')}}">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li>Halaman Rilis</li>
         </ol>
         <h2>Rilis YNKI</h2>

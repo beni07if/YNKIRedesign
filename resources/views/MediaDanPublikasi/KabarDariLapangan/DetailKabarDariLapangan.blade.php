@@ -10,7 +10,7 @@
     <div class="container">
 
         <ol>
-            <li><a href="{{route('home.index')}}">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li>Kabar Dari Lapangan</li>
         </ol>
         @foreach($postDetail as $post)
