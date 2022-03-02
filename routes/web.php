@@ -84,4 +84,8 @@ Route::get('/kontak-kami', 'App\Http\Controllers\WebViewController@KontakKami')-
 Route::post('/kirim-pesan', 'App\Http\Controllers\WebViewController@KirimPesan')->name('KirimPesan');
 
 Route::get('/postingan-ynki', 'App\Http\Controllers\RilisController@PostinganYNKI')->name('PostinganYNKI');
-Route::get('/profil', 'App\Http\Controllers\RilisController@Profil')->name('profil');
+Route::get('/profil-user', 'App\Http\Controllers\RilisController@Profil')->name('ProfilUser');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
