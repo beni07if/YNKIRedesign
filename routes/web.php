@@ -43,7 +43,7 @@ Route::any('/register', [App\Http\Controllers\HomeController::class, 'index']);
 
 Route::resource('home', 'App\Http\Controllers\HomeController');
 Route::resource('/', 'App\Http\Controllers\WebViewController');
-// Route::get('/index', 'App\Http\Controllers\WebViewController@index');
+Route::get('/index', 'App\Http\Controllers\WebViewController@index');
 Route::get('/dashboard', 'App\Http\Controllers\HomeController@DashboardAdminPanel')->name('Dashboard');
 
 Route::resource('profil', 'App\Http\Controllers\ProfilController');
