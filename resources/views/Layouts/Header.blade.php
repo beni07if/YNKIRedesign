@@ -5,7 +5,7 @@
           <!-- <h1 class="logo me-auto"><a href="{{route('index')}}">YNKI</a></h1> -->
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <a href="{{route('index')}}" class="logo me-auto"><img src="assets/img/logo-ynki/logo-ynki.png" style="width:250px; height:50px;" alt="gambar" class="img-fluid"></a> -->
-          <a href="{{route('index')}}" class="logo me-auto"><img src="assets/img/logo-ynki/logo-ynki-terbaru.png" alt="" class="img-fluid"></a>
+          <a href="{{route('index')}}" class="logo me-auto"><img src="assets/img/logo-ynki/logo-ynki-terbaru.png" alt="YNKI" class="img-fluid"></a>
 
           <nav id="navbar" class="navbar">
               <ul>
