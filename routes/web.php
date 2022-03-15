@@ -36,6 +36,11 @@ require __DIR__ . '/auth.php';
 Auth::routes();
 
 Route::any('/register', [App\Http\Controllers\HomeController::class, 'index']);
+// Auth::routes([
+//     'register' => false, // Regisster Route
+//     'reset' => false, // Reset Password Route
+//     'verify' => false, // Email Verification Route
+// ]);
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
@@ -45,6 +50,7 @@ Route::resource('home', 'App\Http\Controllers\HomeController');
 Route::resource('/', 'App\Http\Controllers\WebViewController');
 Route::get('/index', 'App\Http\Controllers\WebViewController@index');
 Route::get('/dashboard', 'App\Http\Controllers\HomeController@DashboardAdminPanel')->name('Dashboard');
+Route::post('/change-password', 'App\Http\Controllers\HomeController@ChangePasswordSubmit')->name('ChangePasswordSubmit');
 
 Route::resource('profil', 'App\Http\Controllers\ProfilController');
 Route::resource('staf', 'App\Http\Controllers\StafController');
@@ -86,6 +92,6 @@ Route::post('/kirim-pesan', 'App\Http\Controllers\WebViewController@KirimPesan')
 Route::get('/postingan-ynki', 'App\Http\Controllers\RilisController@PostinganYNKI')->name('PostinganYNKI');
 Route::get('/profil-user', 'App\Http\Controllers\RilisController@Profil')->name('ProfilUser');
 
-Auth::routes();
+// Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

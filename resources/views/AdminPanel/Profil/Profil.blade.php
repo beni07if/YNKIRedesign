@@ -50,37 +50,53 @@
                                 <li class="nav-item">
                                     <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#profile-change-password">Change Password</button>
                                 </li>
+                                @if (session('error'))
+                                <div class="alert alert danger" role="alert">
+                                    {{ session('error') }}
+                                </div>
+                                @endif
 
                             </ul>
                             <div class="tab-content pt-2">
 
                                 <div class="tab-pane fade show active profile-overview" id="profile-overview">
                                     <!-- Change Password Form -->
-                                    <form>
+                                    <form method="POST" action="{{ route('ChangePasswordSubmit') }}">
+                                        @csrf
 
                                         <div class="row mb-3">
                                             <label for="currentPassword" class="col-md-4 col-lg-3 col-form-label">Current Password</label>
                                             <div class="col-md-8 col-lg-9">
-                                                <input name="password" type="password" class="form-control" id="currentPassword">
+                                                <input name="currentPassword" type="password" class="form-control" id="currentPassword">
+                                                @error('password')
+                                                <span class="invalid-feedback" role="alert">
+                                                    <strong>{{ $message }}</strong>
+                                                </span>
+                                                @enderror
                                             </div>
                                         </div>
 
                                         <div class="row mb-3">
                                             <label for="newPassword" class="col-md-4 col-lg-3 col-form-label">New Password</label>
                                             <div class="col-md-8 col-lg-9">
-                                                <input name="newpassword" type="password" class="form-control" id="newPassword">
+                                                <input name="newPassword" type="password" class="form-control" id="newPassword">
+                                                @error('password')
+                                                <span class="invalid-feedback" role="alert">
+                                                    <strong>{{ $message }}</strong>
+                                                </span>
+                                                @enderror
                                             </div>
                                         </div>
 
-                                        <div class="row mb-3">
+                                        <!-- <div class="row mb-3">
                                             <label for="renewPassword" class="col-md-4 col-lg-3 col-form-label">Re-enter New Password</label>
                                             <div class="col-md-8 col-lg-9">
                                                 <input name="renewpassword" type="password" class="form-control" id="renewPassword">
                                             </div>
-                                        </div>
+                                        </div> -->
 
                                         <div class="text-center">
-                                            <button type="submit" class="btn btn-primary">Change Password</button>
+                                            <button type="submit" class="btn btn-primary btn-sm swalPasswordSuccess">Change Password</button>
                                         </div>
                                     </form><!-- End Change Password Formm -->
 
@@ -93,6 +109,7 @@
 
                 </div>
             </div>
+            @include('sweetalert::alert')
         </section>
     </section>
 

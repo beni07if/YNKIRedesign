@@ -166,6 +166,13 @@
         </li><!-- End Charts Nav -->
 
         <li class="nav-item">
+            <a class="nav-link collapsed" href="{{route('pesan.index')}}">
+                <i class="bi bi-grid"></i>
+                <span>Pesan</span>
+            </a>
+        </li><!-- End Dashboard Nav -->
+
+        <li class="nav-item">
             <a class="nav-link collapsed" href="{{ route('logout') }}" onclick="event.preventDefault();
                         document.getElementById('logout-form').submit();">
                 <i class="bi bi-box-arrow-right"></i>

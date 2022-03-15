@@ -19,7 +19,7 @@ class KontakKamiController extends Controller
     public function index()
     {
         $pesan = Pesan::all();
-        return view('AdminPanel.TentangKami.KontakKami.Index', compact('pesan'));
+        return view('AdminPanel.Pesan.Index', compact('pesan'));
     }
 
     /**
@@ -91,6 +91,8 @@ class KontakKamiController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $delete = Pesan::find($id);
+        $delete->delete();
+        return redirect()->route('pesan.index')->withSuccess('Data berhasil dihapus..');
     }
 }
