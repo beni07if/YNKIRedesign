@@ -152,7 +152,7 @@ class RilisController extends Controller
 
     public function PostinganYNKI()
     {
-        $postinganmedia = Postinganmedia::all();
+        $postinganmedia = Postinganmedia::orderBy('id', 'DESC')->get();
         return view('AdminPanel.MediaDanPublikasi.Rilis.PostinganYNKI', compact('postinganmedia'));
     }
 

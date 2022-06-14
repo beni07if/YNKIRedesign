@@ -109,7 +109,7 @@ class WebViewController extends Controller
 
     public function ListRilis()
     {
-        $listRilis = Postinganmedia::where('kategori', 'Rilis')->get();
+        $listRilis = Postinganmedia::orderBy('id', 'DESC')->where('kategori', 'Rilis')->get();
         return view('MediaDanPublikasi.Rilis.ListRilis', compact('listRilis'));
     }
 
