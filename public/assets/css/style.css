@@ -1877,6 +1877,14 @@ section {
     #footer .credits {
         padding-top: 4px;
     }
+
+    iframe{
+        width: 330px;
+        height: 500px;
+    }
+    /* h3 {
+        font-size: 17px;
+    } */
 }
 
 

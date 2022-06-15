@@ -6,19 +6,6 @@
 
 @section('slideShow')
 <!-- ======= Breadcrumbs ======= -->
-<section id="breadcrumbs" class="breadcrumbs">
-    <div class="container">
-
-        <!-- <ol>
-            <li><a href="#">Home</a></li>
-            <li>Halaman Rilis</li>
-        </ol> -->
-        @foreach($postDetail as $post)
-        <h4>{{$post->judul}}</h4>
-        @endforeach
-
-    </div>
-</section><!-- End Breadcrumbs -->
 
 <!-- ======= Why Us Section ======= -->
 <section id="why-us" class="why-us section-bg">
@@ -26,11 +13,11 @@
 
         <div class="row">
 
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+            <div class="col-lg-5 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
                 <div class="content">
                     <h3>Inisiatif Penerapan Pendekatan Lanskap pada Pembangunan Desa</h3>
-                    <p>
+                    <p style="text-align: justify;">
                         Perencanaan tata guna lahan partisipatif tingkat desa merupakan faktor penting dalam proses pembangunan tingkat desa. Pendekatan ini dapat meningkatkan kapasitas masyarakat dan pemerintah untuk menilai kebutuhan saat ini dan perancangan pembangunan di masa depan. Hal ini terkait dengan definisi desa sebagai kesatuan masyarakat hukum yang memiliki batas wilayah yang berwenang untuk mengatur dan mengurus urusan pemerintahan (UU No. 6 Tahun 2014 Tentang Desa).
 
                         Tata guna lahan tingkat desa akan terkait dengan lintas level kewenangan dan kebijakan yang harus diakomodasi, seperti adanya batasan pemanfaatan terkait kawasan hutan, kebijakan perlindungan ekosistem gambut dan mangrove maupun batasan pada praktik penggunaan dan pemanfaatannya.
@@ -78,9 +65,8 @@
                 </div> -->
 
             </div>
-
             <!-- maps service  -->
-            <div class="col-lg-6 align-items-stretch order-1 order-lg-2 img"><iframe width="800" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Landuse Desa Selat Remis" src="//beni07if.maps.arcgis.com/apps/Embed/index.html?webmap=216fea1dc49e4965833a83c8487f8781&extent=109.0514,-0.4068,109.3049,-0.2648&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=details&basemap_gallery=true&disable_scroll=false&theme=light"></iframe></div>
+            <div class="col-lg-7 align-items-stretch order-1 order-lg-2 img"><iframe style="padding-top: 40px;" width="950" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Landuse Desa Selat Remis" src="//beni07if.maps.arcgis.com/apps/Embed/index.html?webmap=216fea1dc49e4965833a83c8487f8781&extent=109.0514,-0.4068,109.3049,-0.2648&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=details&basemap_gallery=true&disable_scroll=false&theme=light"></iframe></div>
 
             <!-- <div class="col-lg-6 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div> -->
             <!-- end maps service  -->
