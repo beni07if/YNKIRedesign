@@ -80,7 +80,7 @@
             </div>
 
             <!-- maps service  -->
-            <div class="col-lg-7 align-items-stretch order-1 order-lg-2 img"><iframe width="950" height="650" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Landuse Desa Selat Remis" src="//beni07if.maps.arcgis.com/apps/Embed/index.html?webmap=216fea1dc49e4965833a83c8487f8781&extent=109.0514,-0.4068,109.3049,-0.2648&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=details&basemap_gallery=true&disable_scroll=false&theme=light"></iframe></div>
+            <div class="col-lg-7 align-items-stretch order-1 order-lg-2 img"><iframe width="950" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Landuse Desa Selat Remis" src="//beni07if.maps.arcgis.com/apps/Embed/index.html?webmap=216fea1dc49e4965833a83c8487f8781&extent=109.0514,-0.4068,109.3049,-0.2648&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=details&basemap_gallery=true&disable_scroll=false&theme=light"></iframe></div>
 
             <!-- <div class="col-lg-6 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div> -->
             <!-- end maps service  -->
