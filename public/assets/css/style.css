@@ -2737,3 +2737,15 @@ iframe{
     }
 
 }
+
+
+
+@media (max-width:360px) {
+
+iframe{
+        width: 330px;
+        height: 500px;
+    }
+
+}
+
