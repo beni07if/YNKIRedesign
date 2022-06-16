@@ -1878,10 +1878,10 @@ section {
         padding-top: 4px;
     }
 
-    iframe{
-        width: 330px;
+    /* iframe{
+        width: 30px;
         height: 500px;
-    }
+    } */
     /* h3 {
         font-size: 17px;
     } */
@@ -2733,10 +2733,10 @@ section {
         background: #37517e;
     }
 
-iframe{
-        width: 330px;
+/* iframe{
+        width: 130px;
         height: 500px;
-    }
+    } */
 
 }
 
