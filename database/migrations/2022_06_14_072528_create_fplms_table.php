@@ -14,8 +14,7 @@ class CreateFplmsTable extends Migration
     public function up()
     {
         Schema::create('fplms', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->integer('id_user');
+            $table->id();
             $table->string('judul');
             $table->string('title')->nullable();
             $table->string('caption')->nullable();
@@ -27,6 +26,12 @@ class CreateFplmsTable extends Migration
             $table->string('foto')->nullable();
             $table->string('kontributor')->nullable();
             $table->timestamps();
+        });
+        Schema::table('fplms', function (Blueprint $table) {
+            $table->foreignId('user_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
+        });
+        Schema::table('fplms', function (Blueprint $table) {
+            $table->foreignId('isu_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
         });
     }
 

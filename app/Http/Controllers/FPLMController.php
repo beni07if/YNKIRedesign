@@ -85,10 +85,10 @@ class FPLMController extends Controller
         //
     }
 
-    public function detailFplm()
+    public function fplm04()
     {
         $postDetail = Fplm::all();
         $postinganmedia = Fplm::all();
-        return view('FPLM.Fplm', compact('postDetail', 'postinganmedia'));
+        return view('FPLM.fplm04', compact('postDetail', 'postinganmedia'));
     }
 }

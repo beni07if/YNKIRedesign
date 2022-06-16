@@ -162,12 +162,12 @@
                         </ul>
                     </div><!-- End sidebar categories-->
 
-                    <h3 class="sidebar-title">Media Sosial YNKI</h3>
+                    <h3 class="sidebar-title">Recent Post Twitter YNKI</h3>
                     <div class="sidebar-item search-form">
-                        <blockquote class="twitter-tweet">
-                            <p lang="in" dir="ltr">YNKI menjadi guru tamu dalam workshop pengolahan kopi pasca panen di SMK Negeri 1 Sungai Kakap pada 28 Januari 2022. Kegiatan ini dimaksudkan untuk berbagi pengalaman mengenai proses pengolahan kopi pasca panen menggunakan alat-alat pengolahan hasil produksi pertanian. <a href="https://t.co/mX4QRVzsPw">pic.twitter.com/mX4QRVzsPw</a></p>&mdash; Natural Kapital Foundation (@kapital_natural) <a href="https://twitter.com/kapital_natural/status/1491393733304406018?ref_src=twsrc%5Etfw">February 9, 2022</a>
+                        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CepqEDipiMg/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+
                         </blockquote>
-                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <script async src="//www.instagram.com/embed.js"></script>
                     </div><!-- End sidebar search formn-->
 
                 </div><!-- End sidebar -->
