@@ -12,8 +12,8 @@
             <li><a href="#">Home</a></li>
             <li>Halaman FPLM</li>
         </ol>
-        <h2>Forest Peatland Landuse Monitoring</h2>
-        <p>Forest Peatland Landuse Monitoring (FPLM) merupakan sebuah platform layanan informasi berbasis spasial untuk mendorong partisipasi para pihak dalam memonitor dan menyampaikan respon perbaikan kebijakan, standar dan praktik dalam konservasi dan pemanfaatan lahan untuk meningkatkan kelentingan lanskap terhadap dampak perubahan iklim.
+        <h2>Forest Peat Landuse Monitoring</h2>
+        <p>Forest Peat Landuse Monitoring (FPLM) merupakan sebuah platform layanan informasi berbasis spasial untuk mendorong partisipasi para pihak dalam memonitor dan menyampaikan respon perbaikan kebijakan, standar dan praktik dalam konservasi dan pemanfaatan lahan untuk meningkatkan kelentingan lanskap terhadap dampak perubahan iklim.
         </p>
     </div>
 </section><!-- End Breadcrumbs -->
@@ -106,7 +106,7 @@
                         <div class="row">
                             <div class="col-lg-8 details order-2 order-lg-1">
                                 <h3 class="titlemaps">Inisiatif Penerapan Pendekatan Lanskap pada Pembangunan Desa </h3>
-                                <p class="fst-italic">Perencanaan tata guna lahan partisipatif tingkat desa merupakan faktor penting dalam proses.. <a class="button-peta" href="{{route('fplm04')}}">Read more: Interactive Story Maps</a>
+                                <p class="fst-italic">Perencanaan tata guna lahan partisipatif tingkat desa merupakan faktor penting dalam proses pembangunan tingkat desa. Pendekatan ini dapat meningkatkan kapasitas masyarakat dan pemerintah untuk menilai kebutuhan saat ini dan perancangan pembangunan di masa depan. Hal ini terkait dengan definisi desa sebagai kesatuan masyarakat hukum yang memiliki batas wilayah yang berwenang untuk mengatur dan mengurus urusan pemerintahan (UU No. 6 Tahun 2014 Tentang Desa).. <a class="button-peta" href="{{route('fplm04')}}">Read more: Interactive Story Maps</a>
                                 </p>
                                 <!-- <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p> -->
                             </div>
