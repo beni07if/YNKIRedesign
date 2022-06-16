@@ -56,7 +56,8 @@
                           <li><a href="#">Ikut Terlibat</a></li>
                       </ul>
                   </li>
-                  <li><a class="getstarted scrollto " href="{{route('fplm')}}">Peta Interaktif</a></li>
+                  <li><a class="getstarted scrollto " href="{{route('fplm')}}">FPLM</a></li>
+                  <!-- <li><a class="getstarted scrollto " href="{{route('detailFplm')}}">Peta Interaktif</a></li> -->
                   <li><a class="nav-link scrollto " href="{{route('KontakKami')}}">Kontak Kami</a></li>
               </ul>
               <i class="bi bi-list mobile-nav-toggle"></i>

@@ -16,7 +16,7 @@ class FPLMController extends Controller
     {
         $postDetail = Fplm::all();
         $postinganmedia = Fplm::all();
-        return view('FPLM.Fplm', compact('postDetail', 'postinganmedia'));
+        return view('FPLM.index', compact('postDetail', 'postinganmedia'));
     }
 
     /**
@@ -83,5 +83,12 @@ class FPLMController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function detailFplm()
+    {
+        $postDetail = Fplm::all();
+        $postinganmedia = Fplm::all();
+        return view('FPLM.Fplm', compact('postDetail', 'postinganmedia'));
     }
 }
