@@ -2733,21 +2733,19 @@ section {
         background: #37517e;
     }
 
-iframe{
+/* iframe{
         width: 330px;
-        height: 500px;
+        height: 500px; */
     }
 
 }
 
-
-
 @media (max-width:360px) {
 
-iframe{
+/* iframe{
         width: 330px;
         height: 500px;
-    }
+    } */
 
 }
 
