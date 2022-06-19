@@ -45,7 +45,6 @@ h6 {
     overflow: hidden;
     background: #37517e;
 }
-
 #preloader:before {
     content: "";
     position: fixed;
@@ -307,6 +306,12 @@ h6 {
     .navbar .dropdown .dropdown:hover>ul {
         left: -100%;
     }
+}
+
+@media (max-width: 1366px){
+    /* .why-us{
+    display: none;
+    } */
 }
 
 /**
@@ -2768,6 +2773,9 @@ iframe{
         width: 330px;
         height: 500px;
     }
+    .departments{
+        display: none;
+    }
 
 }
 
@@ -2839,3 +2847,143 @@ iframe{
 .departments .tab-content .row{
     padding-bottom: 50px;
 }
+
+@media (min-width: 361px){
+    .why-us{
+        display: none;
+    }
+}
+
+
+
+/*--------------------------------------------------------------
+# Why Us peta
+--------------------------------------------------------------*/
+.why-us-peta .content {
+    padding: 60px 100px 0 100px;
+}
+
+.why-us-peta .content h3 {
+    font-weight: 400;
+    font-size: 34px;
+    color: #37517e;
+}
+
+.why-us-peta .content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.why-us-peta .content p {
+    font-size: 15px;
+    color: #848484;
+}
+
+.why-us-peta .img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.why-us-peta .accordion-list {
+    padding: 0 100px 60px 100px;
+}
+
+.why-us-peta .accordion-list ul {
+    padding: 0;
+    list-style: none;
+}
+
+.why-us-peta .accordion-list li+li {
+    margin-top: 15px;
+}
+
+.why-us-peta .accordion-list li {
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.why-us-peta .accordion-list a {
+    display: block;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding-right: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+.why-us-peta .accordion-list span {
+    color: #47b2e4;
+    font-weight: 600;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.why-us-peta .accordion-list i {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.why-us-peta .accordion-list p {
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+}
+
+.why-us-peta .accordion-list .icon-show {
+    display: none;
+}
+
+.why-us-peta .accordion-list a.collapsed {
+    color: #343a40;
+}
+
+.why-us-peta .accordion-list a.collapsed:hover {
+    color: #47b2e4;
+}
+
+.why-us-peta .accordion-list a.collapsed .icon-show {
+    display: inline-block;
+}
+
+.why-us-peta .accordion-list a.collapsed .icon-close {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+
+    .why-us-peta .content,
+    .why-us-peta .accordion-list {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .why-us-peta .img {
+        min-height: 400px;
+    }
+
+    .why-us-peta .content {
+        padding-top: 30px;
+    }
+
+    .why-us-peta .accordion-list {
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .why-us-peta .img {
+        min-height: 200px;
+    }
+}
+
+
+

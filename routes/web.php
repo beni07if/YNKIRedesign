@@ -81,7 +81,9 @@ Route::resource('kabar-dari-lapangan', 'App\Http\Controllers\KabarDariLapanganCo
 Route::get('/list-kabar-dari-lapangan', 'App\Http\Controllers\WebViewController@ListKabarDariLapangan')->name('ListKabarDariLapangan');
 Route::get('/detail-kabar-dari-lapangan/{id}', 'App\Http\Controllers\WebViewController@DetailKabarDariLapangan')->name('DetailKabarDariLapangan');
 Route::get('/forest-peat-landuse-monitoring', 'App\Http\Controllers\FPLMController@index')->name('fplm');
+Route::get('/forest-peat-landuse-monitoring-fplm03', 'App\Http\Controllers\FPLMController@fplm03')->name('fplm03');
 Route::get('/forest-peat-landuse-monitoring-fplm04', 'App\Http\Controllers\FPLMController@fplm04')->name('fplm04');
+Route::get('/forest-peat-landuse-monitoring-fplm10', 'App\Http\Controllers\FPLMController@fplm10')->name('fplm10');
 
 // Route::resource('karir', 'App\Http\Controllers\KarirController');
 // Route::resource('program-magang', 'App\Http\Controllers\ProgramMagangController');
