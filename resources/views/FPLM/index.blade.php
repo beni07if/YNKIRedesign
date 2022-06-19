@@ -229,163 +229,65 @@
 </section><!-- End Departments Section -->
 
 
-<!-- ======= Why Us Section ======= -->
-<section id="why-us" class="why-us-optional2 section-bg">
-    <div class="container-fluid" data-aos="fade-up">
+<!-- ======= Frequently Asked Questions Section ======= -->
+<section id="faq" class="faq section-bg">
+    <div class="container">
 
-        <div class="row">
+        <div class="section-title">
+            <!-- <h2>Frequently Asked Questions</h2>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+        </div>
 
-            <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+        <div class="faq-list">
+            <ul>
+                <li data-aos="fade-up">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Monitoring Konflik Sosial Lingkungan dan Tenurial<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                        <p style="padding-left: 30px;">
+                            YNKI mengucapkan selamat atas perjuangan #masyarakatadat & desa #kinipan, pada putusan di pengadilan Tipikor Palangkaraya 15062022, Willem Hengki kades Kinipan dinyatakan..<a class="button-peta-mobile" href="{{route('fplm03')}}">Read more: Interactive Story Maps</a>
+                        </p>
+                    </div>
+                </li>
 
-                <div class="content">
-                    <!-- <h3><strong>Forest Peat Landuse Monitoring</strong></h3> -->
-                    <!-- <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                    </p> -->
-                </div>
+                <li data-aos="fade-up" data-aos-delay="100">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Monitoring Tata Guna Lahan Desa<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            Perencanaan tata guna lahan partisipatif tingkat desa merupakan faktor penting dalam proses pembangunan tingkat desa. Pendekatan ini dapat meningkatkan kapasitas masyarakat dan pemerintah untuk menilai kebutuhan saat ini dan perancangan pembangunan di masa depan. Hal ini terkait dengan definisi..<a class="button-peta-mobile" href="{{route('fplm04')}}">Read more: Interactive Story Maps</a>
+                        </p>
+                    </div>
+                </li>
 
-                <div class="accordion-list">
-                    <ul>
-                        <li>
-                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-1" class="collapsed"><span>01</span> Monitoring Rantai Pasok Kelapa Sawit Berkelanjutan <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-1" class="collapse" data-bs-parent=".accordion-list">
-                                <p>
-                                    No data..
-                                </p>
-                            </div>
-                        </li>
+                <!-- <li data-aos="fade-up" data-aos-delay="200">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                        </p>
+                    </div>
+                </li>
 
-                        <li>
-                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Monitoring Kepatuhan Standard Usaha Lahan Berkelanjutan: ISPO, RSPO, dan NDPE <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
-                                <p>
-                                    No data..
-                                </p>
-                            </div>
-                        </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                        </p>
+                    </div>
+                </li>
 
-                        <li>
-                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapse"><span>03</span> Monitoring Konflik Sosial Lingkungan dan Tenurial <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-3" class="collapse show" data-bs-parent=".accordion-list">
-                                <h2 style="font-size: 20px;">Ancaman Perampasan Wilayah Adat dan Deforestasi Masih Nyata</h2>
-                                <p class="fst-italic">YNKI mengucapkan selamat atas perjuangan #masyarakatadat & desa #kinipan, pada putusan di pengadilan Tipikor Palangkaraya 15062022, Willem Hengki kades Kinipan dinyatakan tidak bersalah & bebas dari tuduhan Tipikor.. <a class="button-peta" href="{{route('fplm03')}}">Read more: Interactive Story Maps</a>
-                                </p>
-                            </div>
-                        </li>
+                <li data-aos="fade-up" data-aos-delay="400">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                        </p>
+                    </div>
+                </li> -->
 
-                        <li>
-                            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#accordion-list-4"><span>04</span> Monitoring Tata Guna Lahan Desa <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
-                                <h2 style="font-size: 20px;">Inisiatif Penerapan Pendekatan Lanskap pada Pembangunan Desa </h2>
-                                <p class="fst-italic">Perencanaan tata guna lahan partisipatif tingkat desa merupakan faktor penting dalam proses pembangunan tingkat desa.. <a class="button-peta" href="{{route('fplm04')}}">Read more: Interactive Story Maps</a>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#accordion-list-5"><span>05</span> Mitigasi Bencana Karhutla dan Banjir <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-5" class="collapse" data-bs-parent=".accordion-list">
-                                <p>
-                                    No data..
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#accordion-list-6"><span>06</span> Advokasi Kebijakan (pada lahan berkelanjutan) - Areal Pencabutan Izin <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-6" class="collapse" data-bs-parent=".accordion-list">
-                                <p>
-                                    No data..
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#accordion-list-7"><span>07</span> Monitoring Pengelolaan HCV-HCS <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-7" class="collapse" data-bs-parent=".accordion-list">
-                                <p>
-                                    No data..
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#accordion-list-8"><span>08</span> Monitoring Aduan Independen <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-8" class="collapse" data-bs-parent=".accordion-list">
-                                <p>
-                                    No data..
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#accordion-list-9"><span>09</span> Monitoring Pemanfaatan Ruang: Tambang, Kehutanan, dan Perkebunan <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-9" class="collapse" data-bs-parent=".accordion-list">
-                                <p>
-                                    No data..
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#accordion-list-10"><span>10</span> Monitoring Pengelolaan Perhutanan Sosial: HD-HA-HTR-HKm <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-10" class="collapse" data-bs-parent=".accordion-list">
-                                <p>
-                                    No data..
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#accordion-list-11"><span>11</span> Monitoring WPK REDD+ <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-11" class="collapse" data-bs-parent=".accordion-list">
-                                <p>
-                                    No data..
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#accordion-list-12"><span>12</span> Status Pengelolaan Lanskap Gambut: Kerentanan dan Kerusakan <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-12" class="collapse" data-bs-parent=".accordion-list">
-                                <p>
-                                    No data..
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#accordion-list-13"><span>13</span> Commodity and Smallholder <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-13" class="collapse" data-bs-parent=".accordion-list">
-                                <p>
-                                    No data..
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#accordion-list-14"><span>14</span> Monitoring Standard Jaring Pengaman Sosial dan Lingkungan - Safeguard <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-14" class="collapse" data-bs-parent=".accordion-list">
-                                <p>
-                                    No data..
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#accordion-list-15"><span>15</span> Human wildlife conflict (HWC) <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-15" class="collapse" data-bs-parent=".accordion-list">
-                                <p>
-                                    No data..
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#accordion-list-16"><span>16</span> Illegal wildlife trade (IWT) <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-16" class="collapse" data-bs-parent=".accordion-list">
-                                <p>
-                                    No data..
-                                </p>
-                            </div>
-                        </li>
-
-                    </ul>
-                </div>
-
-            </div>
-
-            <!-- <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div> -->
+            </ul>
         </div>
 
     </div>
-</section><!-- End Why Us Section -->
+</section><!-- End Frequently Asked Questions Section -->
 @endsection
