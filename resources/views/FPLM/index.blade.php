@@ -230,7 +230,7 @@
 
 
 <!-- ======= Why Us Section ======= -->
-<section id="why-us" class="why-us-option2 section-bg">
+<section id="why-us" class="why-us-optional2 section-bg">
     <div class="container-fluid" data-aos="fade-up">
 
         <div class="row">
