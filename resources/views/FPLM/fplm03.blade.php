@@ -8,7 +8,7 @@
 <!-- ======= Breadcrumbs ======= -->
 
 <!-- ======= Why Us Section ======= -->
-<section id="why-us-peta" class="why-us-peta section-bg">
+<section id="why-us" class="why-us section-bg">
     <div class="container-fluid" data-aos="fade-up">
 
         <div class="row">
