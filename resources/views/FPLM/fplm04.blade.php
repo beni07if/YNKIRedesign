@@ -70,7 +70,7 @@
                 <br>
                 <div class="blog-comments">
 
-                    <h4 class="comments-count">Komentar</h4>
+                    <h4 class="comments-count">Partners Grievance Channel</h4>
 
                     <div id="comment-1" class="comment">
                         <div class="d-flex">
