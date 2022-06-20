@@ -64,95 +64,69 @@
             <!-- maps service  -->
             <div class="col-lg-8 align-items-stretch order-1 order-lg-2 img"><iframe style="padding-top: 40px;" width="1200" height="800" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Kinipan" src="//beni07if.maps.arcgis.com/apps/Embed/index.html?webmap=f833d49512f8496e8ea97b44c5914b7c&extent=110.7482,-2.032,111.7267,-1.5152&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=legend&basemap_gallery=true&disable_scroll=false&theme=light"></iframe>
                 <br>
-                <!-- ======= Contact Section ======= -->
-                <section id="contact" class="contact">
-                    <div class="container" data-aos="fade-up">
+                <div class="blog-comments">
 
-                        <div class="section-title">
-                            <!-- <h2>Komentar</h2> -->
-                            <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
-                        </div>
+                    <h4 class="comments-count">Komentar</h4>
 
-                        <div class="row">
-
-                            <!-- <div class="col-lg-5 d-flex align-items-stretch">
-                                <div class="info">
-                                    <div class="address">
-                                        <i class="bi bi-geo-alt"></i>
-                                        <h4>Alamat:</h4>
-                                        <p>Jalan Karna Sosial No.88 Kota Pontianak</p>
-                                    </div>
-
-                                    <div class="email">
-                                        <i class="bi bi-envelope"></i>
-                                        <h4>Email:</h4>
-                                        <p>sekretariat@naturalkapital.or.id</p>
-                                    </div>
-
-                                    <div class="phone">
-                                        <i class="bi bi-phone"></i>
-                                        <h4>Telephone:</h4>
-                                        <p>+628 9829 5053 1</p>
-                                    </div>
-
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8166845807646!2d109.31833541526026!3d-0.05188253554095343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d5926ff9397b3%3A0x90663a125c803dde!2sYayasan%20Natural%20Kapital!5e0!3m2!1sid!2sid!4v1636959219278!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
-                                </div>
-
-                            </div> -->
-
-
-                            <div class="col-lg-12">
-
-                                <div class="info">
-                                    <!-- <div class="card-body"> -->
-                                    <h5 class="card-title">Kirim Masukan untuk Konten Diatas</h5>
-
-                                    <!-- General Form Elements -->
-                                    <form method="POST" action="#" enctype="multipart/form-data">
-                                        @csrf
-                                        <div class="row mb-3">
-                                            <label for="inputText" class="col-sm-2 col-form-label">Nama</label>
-                                            <div class="col-sm-10">
-                                                <input type="text" name="name" class="form-control">
-                                            </div>
-                                        </div>
-                                        <div class="row mb-3">
-                                            <label for="email" class="col-sm-2 col-form-label">Email</label>
-                                            <div class="col-sm-10">
-                                                <input type="email" name="email" class="form-control">
-                                            </div>
-                                        </div>
-                                        <div class="row mb-3">
-                                            <label for="subject" class="col-sm-2 col-form-label">Instansi/Lembaga</label>
-                                            <div class="col-sm-10">
-                                                <input type="text" name="subject" class="form-control">
-                                            </div>
-                                        </div>
-                                        <div class="row mb-3">
-                                            <label for="pesan" class="col-sm-2 col-form-label">Pesan</label>
-                                            <div class="col-sm-10">
-                                                <textarea class="form-control" name="pesan" style="height: 100px"></textarea>
-                                            </div>
-                                        </div>
-
-                                        <div class="row mb-3">
-                                            <div class="col-sm-10">
-                                                <button type="submit" class="btn btn-primary">Kirim</button>
-                                            </div>
-                                        </div>
-
-                                    </form><!-- End General Form Elements -->
-
-                                    <!-- </div> -->
-                                </div>
-
+                    <div id="comment-1" class="comment">
+                        <div class="d-flex">
+                            <div class="comment-img"><img src="assets/img/blog/comments-1.jpg" alt=""></div>
+                            <div>
+                                <h5><a href="#">Adira</a> <a href="#" class="reply"></a></h5>
+                                <time datetime="2020-01-01">01 Juni 2022</time>
+                                <p>
+                                    Et rerum totam nisi. Molestiae vel quam dolorum vel voluptatem et et. Est ad aut sapiente quis molestiae est qui cum soluta.
+                                    Vero aut rerum vel. Rerum quos laboriosam placeat ex qui. Sint qui facilis et.
+                                </p>
                             </div>
-
                         </div>
+                    </div><!-- End comment #1 -->
+
+                    <div id="comment-3" class="comment">
+                        <div class="d-flex">
+                            <div class="comment-img"><img src="assets/img/blog/comments-5.jpg" alt=""></div>
+                            <div>
+                                <h5><a href="#">Pute ri</a> <a href="#" class="reply"></a></h5>
+                                <time datetime="2020-01-01">16 Juni 2022</time>
+                                <p>
+                                    Distinctio nesciunt rerum reprehenderit sed. Iste omnis eius repellendus quia nihil ut accusantium tempore. Nesciunt expedita id dolor exercitationem aspernatur aut quam ut. Voluptatem est accusamus iste at.
+                                    Non aut et et esse qui sit modi neque. Exercitationem et eos aspernatur. Ea est consequuntur officia beatae ea aut eos soluta. Non qui dolorum voluptatibus et optio veniam. Quam officia sit nostrum dolorem.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div><!-- End comment #3 -->
+
+                    <div class="reply-form">
+                        <h4>Kirim Komentar Anda</h4>
+                        <!-- <p>Your email address will not be published. Required fields are marked * </p> -->
+                        <form action="">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input name="name" type="text" class="form-control" placeholder="Your Name*">
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input name="email" type="text" class="form-control" placeholder="Your Email*">
+                                </div>
+                            </div>
+                            <!-- <div class="row">
+                                <div class="col form-group">
+                                    <input name="website" type="text" class="form-control" placeholder="Your Website">
+                                </div>
+                            </div> -->
+                            <div class="row">
+                                <div class="col form-group">
+                                    <textarea name="comment" class="form-control" placeholder="Your Comment*"></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Kirim</button>
+
+                        </form>
 
                     </div>
-                    @include('sweetalert::alert')
-                </section><!-- End Contact Section -->
+
+                </div><!-- End blog comments -->
+
             </div>
 
             <!-- end maps service  -->
