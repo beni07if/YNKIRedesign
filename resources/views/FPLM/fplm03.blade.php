@@ -61,12 +61,12 @@
                 </div> -->
 
             </div>
-            <!-- maps service  -->
+            <!-- maps service  test-->
             <div class="col-lg-8 align-items-stretch order-1 order-lg-2 img"><iframe style="padding-top: 40px;" width="1200" height="800" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Kinipan" src="//beni07if.maps.arcgis.com/apps/Embed/index.html?webmap=f833d49512f8496e8ea97b44c5914b7c&extent=110.7482,-2.032,111.7267,-1.5152&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=legend&basemap_gallery=true&disable_scroll=false&theme=light"></iframe>
                 <br>
                 <div class="blog-comments">
 
-                    <h4 class="comments-count">Komentar</h4>
+                    <h4 class="comments-count">Partners Grievance Channel </h4>
 
                     <div id="comment-1" class="comment">
                         <div class="d-flex">
