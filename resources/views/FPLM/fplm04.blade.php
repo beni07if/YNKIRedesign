@@ -101,7 +101,7 @@
                     </div><!-- End comment #4 -->
 
                     <div class="reply-form">
-                        <h4>Kirim Komentar Anda</h4>
+                        <h4>Partners Grievance Channel</h4>
                         <!-- <p>Your email address will not be published. Required fields are marked * </p> -->
                         <form action="">
                             <div class="row">
