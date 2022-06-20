@@ -127,7 +127,7 @@
                                             </div>
                                         </div>
                                         <div class="row mb-3">
-                                            <label for="subject" class="col-sm-2 col-form-label">Lembaga</label>
+                                            <label for="subject" class="col-sm-2 col-form-label">Instansi/Lembaga</label>
                                             <div class="col-sm-10">
                                                 <input type="text" name="subject" class="form-control">
                                             </div>
