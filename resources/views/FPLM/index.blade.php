@@ -12,7 +12,7 @@
             <li><a href="#">Home</a></li>
             <li>Halaman FPLM</li>
         </ol>
-        <h2>Forest Peat Landuse Monitoring</h2>
+        <h2>Forest Peat Landuse Partisipatory Monitoring</h2>
         <p>Forest Peat Landuse Monitoring (FPLM) merupakan sebuah platform layanan informasi berbasis spasial untuk mendorong partisipasi para pihak dalam memonitor dan menyampaikan respon perbaikan kebijakan, standar dan praktik dalam konservasi dan pemanfaatan lahan untuk meningkatkan kelentingan lanskap terhadap dampak perubahan iklim.
         </p>
     </div>
@@ -30,7 +30,7 @@
     <div class="container">
 
         <div class="section-title">
-            <h2>Forest Peat Landuse Monitoring</h2>
+            <h2>Forest Peat Landuse Partisipatory Monitoring</h2>
             <!-- <p>Beberapa isu yang di dorong dalam permasalahan Forest Peatland Landuse Monitoring (FPLM) yang ada di Kalimantan Barat - Indonesia.</p> -->
         </div>
 
@@ -51,7 +51,7 @@
                         <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Monitoring Tata Guna Lahan Desa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Mitigasi Bencana Karhutla dan Banjir</a>
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Pengelolaan DAS, Mitigasi Bencana Karhutla dan Banjir</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-bs-toggle="tab" href="#tab-6">Advokasi Kebijakan (pada lahan berkelanjutan) - Areal Pencabutan Izin</a>
@@ -86,6 +86,15 @@
                     <li class="nav-item">
                         <a class="nav-link" data-bs-toggle="tab" href="#tab-16">Illegal wildlife trade (IWT)</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-16">Biodiversity</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-16">Ethnicity, Culture and History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-16">HCS and Deforestation Threat</a>
+                    </li>
                 </ul>
             </div>
             <div class="col-lg-8 mt-4 mt-lg-0">
@@ -101,13 +110,29 @@
                     <div class="tab-pane active show" id="tab-3">
                         <div class="row">
                             <div class="col-lg-8 details order-2 order-lg-1">
-                                <h3 class="titlemaps">Ancaman Perampasan Wilayah Adat dan Deforestasi Masih Nyata </h3>
-                                <p class="fst-italic">YNKI mengucapkan selamat atas perjuangan #masyarakatadat & desa #kinipan, pada putusan di pengadilan Tipikor Palangkaraya 15062022, Willem Hengki kades Kinipan dinyatakan tidak bersalah & bebas dari tuduhan Tipikor... <a class="button-peta" href="{{route('fplm03')}}">Read more: Interactive Story Maps</a>
+                                <h3 class="titlemaps">Ancaman Perampasan Wilayah Adat dan Deforestasi Masih Nyata - Desa Kinipan</h3>
+                                <a class="button-peta" href="{{route('fplm03')}}">Show Interactive Story Maps</a>
+                                <br><br>
+                                <p class="fst-italic">YNKI mengucapkan selamat atas perjuangan #masyarakatadat & desa #kinipan, pada putusan di pengadilan Tipikor Palangkaraya 15062022, Willem Hengki kades Kinipan dinyatakan tidak bersalah & bebas dari tuduhan Tipikor.
+                                    Putusan ini tidak lepas dari luasnya dukungan moral #masyarakatlokal #organisasimasyarakatsipil termasuk para ahli hukum. Para pihak mengenal Willem Hengki sebagai wakil perjuangan masyarakat adat Kinipan, terhadap perampasan Tanah Adat & deforetasi, di wilayah adat desanya dari PT. SML, PT. SLR & PT. TAN. <br><br>
+                                    Dukungan material datang dari beberapa pakar hukum, dikutip CNNIndonesia, ELSAM, FITRA, ICW, & Febri Diansyah menyerahkan Amicus Curiae ke Pengadilan Tipikor Palangkaraya. Mereka mendesak agar majelis hakim menghentikan langkah keliru aparat penegak hukum dengan membebaskan Willem Hengki. Pendampingan kasus juga diberikan oleh @walhikalteng @amankalteng, @save_our_borneo & @LBH se-Kalimantan, didampingi penasihat hukum @ParlinBayuHutabarat.
+                                    YNKI memberikan apresiasi kepada Majelis Hakim yang secara bijaksana telah mengambil keputusan bebas. YNKI meyakini proses pelaporan & penuntutan kasus Tipikor sebelumnya terindikasi “rekayasa” untuk melemahkan perjuangan masyarakat adat & desa Kinipan.<br><br>
+                                    Kedepan dengan hasil putusan bebas murni & indikasi rekayasa, YNKI berharap pemerintah pusat @gakkum_klhk @kemenkumhamri @kantorstafpresidenri yang sebelumnya telah turun ke Kinipan untuk memverifikasi kasus penyerobotan lahan & deforestasi untuk meningkatkan dukungan dengan memberhentikan operasional, mengaudit & meninjau kembali izin konsesi sawit @kemenkomarves PT. SML, PT. SLR & PT. TAN yang sampai saat ini masih valid untuk melanjutkan ekspansi di Kinipan. YNKI juga berharap kepada perusahaan dengan kebijakan rantai pasokan yang bertanggung jawab @supportsustainablepalmoil @wilmar_international @GAR @musimmas_group @pertamina & lainnya untuk tidak memasukkan CPO perusahaan tersebut dalam rantai pasokan.
+                                    Kepada para pihak untuk tetap memberikan dukungan, terkait mudahnya mekanisme hukum saat ini dipergunakan untuk mematahkan perjuangan #masyarakatadat #masyarakatlokal oleh oknum yang berkepentingan atau mendukung sekelompok bisnis.
+                                    #tatagunalahan
+                                    <br>
+                                    Sumber dan Kontributor (penulis)
+                                    <br>
+                                    Sumber dan Kontributor (penulis)
                                 </p>
                                 <!-- <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p> -->
                             </div>
                             <div class="col-lg-4 text-center order-1 order-lg-2">
                                 <!-- <img src="assetAdmin/img/PostinganMedia/landuse-selat-remis.jpg" alt="" class="img-fluid"> -->
+                                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Ce8iggQpFUR/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+
+                                </blockquote>
+                                <script async src="//www.instagram.com/embed.js"></script>
                             </div>
                         </div>
                     </div>
@@ -116,6 +141,8 @@
                             <div class="col-lg-8 details order-2 order-lg-1">
                                 <h3 class="titlemaps">Inisiatif Penerapan Pendekatan Lanskap pada Pembangunan Desa </h3>
                                 <p class="fst-italic">Perencanaan tata guna lahan partisipatif tingkat desa merupakan faktor penting dalam proses pembangunan tingkat desa. Pendekatan ini dapat meningkatkan kapasitas masyarakat dan pemerintah untuk menilai kebutuhan saat ini dan perancangan pembangunan di masa depan. Hal ini terkait dengan definisi desa sebagai kesatuan masyarakat hukum yang memiliki batas wilayah yang berwenang untuk mengatur dan mengurus urusan pemerintahan (UU No. 6 Tahun 2014 Tentang Desa).. <a class="button-peta" href="{{route('fplm04')}}">Read more: Interactive Story Maps</a>
+                                    <br>
+                                    Sumber dan Kontributor (penulis)
                                 </p>
                                 <!-- <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p> -->
                             </div>

@@ -29,6 +29,8 @@
                         #yayasannaturalkapital
                         #democracyfornature
                         #tatagunalahan
+                        <br>
+                        Sumber dan Kontributor (penulis)
                     </p>
                 </div>
 
@@ -101,7 +103,7 @@
                     </div><!-- End comment #4 -->
 
                     <div class="reply-form">
-                        <h4>Partners Grievance Channel</h4>
+                        <h4>Tambahkan Komentar Anda</h4>
                         <!-- <p>Your email address will not be published. Required fields are marked * </p> -->
                         <form action="">
                             <div class="row">

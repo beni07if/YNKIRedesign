@@ -13,18 +13,17 @@
 
         <div class="row">
 
-            <div class="col-lg-4 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+            <div class="col-lg-4 d-flex flex-column justify-content-flex-start align-items-stretch  order-2 order-lg-1">
 
                 <div class="content">
-                    <h3>Ancaman Perampasan Wilayah Adat dan Deforestasi Masih Nyata</h3>
+                    <h3>Ancaman Perampasan Wilayah Adat dan Deforestasi Masih Nyata - Desa Kinipan</h3>
                     <p>
-                        YNKI mengucapkan selamat atas perjuangan #masyarakatadat & desa #kinipan, pada putusan di pengadilan Tipikor Palangkaraya 15062022, Willem Hengki kades Kinipan dinyatakan tidak bersalah & bebas dari tuduhan Tipikor.
-                        Putusan ini tidak lepas dari luasnya dukungan moral #masyarakatlokal #organisasimasyarakatsipil termasuk para ahli hukum. Para pihak mengenal Willem Hengki sebagai wakil perjuangan masyarakat adat Kinipan, terhadap perampasan Tanah Adat & deforetasi, di wilayah adat desanya dari PT. SML, PT. SLR & PT. TAN. <br><br>
-                        Dukungan material datang dari beberapa pakar hukum, dikutip CNNIndonesia, ELSAM, FITRA, ICW, & Febri Diansyah menyerahkan Amicus Curiae ke Pengadilan Tipikor Palangkaraya. Mereka mendesak agar majelis hakim menghentikan langkah keliru aparat penegak hukum dengan membebaskan Willem Hengki. Pendampingan kasus juga diberikan oleh @walhikalteng @amankalteng, @save_our_borneo & @LBH se-Kalimantan, didampingi penasihat hukum @ParlinBayuHutabarat.
-                        YNKI memberikan apresiasi kepada Majelis Hakim yang secara bijaksana telah mengambil keputusan bebas. YNKI meyakini proses pelaporan & penuntutan kasus Tipikor sebelumnya terindikasi “rekayasa” untuk melemahkan perjuangan masyarakat adat & desa Kinipan.<br><br>
-                        Kedepan dengan hasil putusan bebas murni & indikasi rekayasa, YNKI berharap pemerintah pusat @gakkum_klhk @kemenkumhamri @kantorstafpresidenri yang sebelumnya telah turun ke Kinipan untuk memverifikasi kasus penyerobotan lahan & deforestasi untuk meningkatkan dukungan dengan memberhentikan operasional, mengaudit & meninjau kembali izin konsesi sawit @kemenkomarves PT. SML, PT. SLR & PT. TAN yang sampai saat ini masih valid untuk melanjutkan ekspansi di Kinipan. YNKI juga berharap kepada perusahaan dengan kebijakan rantai pasokan yang bertanggung jawab @supportsustainablepalmoil @wilmar_international @GAR @musimmas_group @pertamina & lainnya untuk tidak memasukkan CPO perusahaan tersebut dalam rantai pasokan.
-                        Kepada para pihak untuk tetap memberikan dukungan, terkait mudahnya mekanisme hukum saat ini dipergunakan untuk mematahkan perjuangan #masyarakatadat #masyarakatlokal oleh oknum yang berkepentingan atau mendukung sekelompok bisnis.
-                        #tatagunalahan
+
+                        <iframe width="399" height="246" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTBcMeJ-8l5ULAXdaqkpZPjGvhsmkvmM4W8yW28_HZ1P60zFOUBk4T61PjvTaS_wPxkwQhP0UAwdkxf/pubchart?oid=788819742&amp;format=interactive"></iframe>
+                        <iframe width="406" height="251" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTBcMeJ-8l5ULAXdaqkpZPjGvhsmkvmM4W8yW28_HZ1P60zFOUBk4T61PjvTaS_wPxkwQhP0UAwdkxf/pubchart?oid=76667578&amp;format=interactive"></iframe>
+                        <!-- <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Ce8iggQpFUR/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                    </blockquote>
+                    <script async src="//www.instagram.com/embed.js"></script> -->
                     </p>
                 </div>
 
@@ -62,7 +61,20 @@
 
             </div>
             <!-- maps service  test-->
-            <div class="col-lg-8 align-items-stretch order-1 order-lg-2 img"><iframe style="padding-top: 40px;" width="1200" height="800" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Kinipan" src="//beni07if.maps.arcgis.com/apps/Embed/index.html?webmap=f833d49512f8496e8ea97b44c5914b7c&extent=110.7482,-2.032,111.7267,-1.5152&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=legend&basemap_gallery=true&disable_scroll=false&theme=light"></iframe>
+            <!-- <div class="col-lg-8 align-items-stretch order-1 order-lg-2 img"><iframe style="padding-top: 40px;" width="1200" height="800" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Kinipan" src="//beni07if.maps.arcgis.com/apps/Embed/index.html?webmap=f833d49512f8496e8ea97b44c5914b7c&extent=110.7482,-2.032,111.7267,-1.5152&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=legend&basemap_gallery=true&disable_scroll=false&theme=light"></iframe> -->
+            <div class="col-lg-8 align-items-stretch order-1 order-lg-2 img">
+                <!-- map clasic -->
+                <!-- <iframe style="padding-top: 40px;" width="1200" height="800" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Kinipan" src="//beni07if.maps.arcgis.com/apps/Embed/index.html?webmap=f833d49512f8496e8ea97b44c5914b7c&extent=110.7482,-2.032,111.7267,-1.5152&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=legend&basemap_gallery=true&disable_scroll=false&theme=light"></iframe> -->
+                <!-- end map classic -->
+
+                <!-- map viewer -->
+                <!-- <iframe style="width: 1200 px; height: 700px;" src=https://beni07if.maps.arcgis.com/apps/mapviewer/index.html?webmap=216fea1dc49e4965833a83c8487f8781 width=”1200px″ height=”800px″ frameborder=”0″ style=”border:0″ allowfullscreen>iFrames are not supported on this page.</iframe> -->
+                <!-- end maps viever  -->
+
+                <!-- maps dashboard -->
+                <!-- <iframe src="https://arcgis.com/apps/dashboards/5aecfd28de7746e481e3e800596fdc30" width="1200" height="800" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe> -->
+                <iframe src="https://arcgis.com/apps/dashboards/5aecfd28de7746e481e3e800596fdc30" style="padding-top: 40px;" width="1200" height="800" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
+                <!-- end maps dashboard  -->
                 <br>
                 <div class="blog-comments">
 
@@ -90,7 +102,7 @@
                                 <time datetime="2020-01-01">16 Juni 2022</time>
                                 <p>
                                     Distinctio nesciunt rerum reprehenderit sed. Iste omnis eius repellendus quia nihil ut accusantium tempore. Nesciunt expedita id dolor exercitationem aspernatur aut quam ut. Voluptatem est accusamus iste at.
-                                    Non aut et et esse qui sit modi neque. Exercitationem et eos aspernatur. Ea est consequuntur officia beatae ea aut eos soluta. Non qui dolorum voluptatibus et optio veniam. Quam officia sit nostrum dolorem.
+                                    Non aut et et esse qui sit modi neque.
                                 </p>
                             </div>
                         </div>
@@ -98,7 +110,7 @@
                     </div><!-- End comment #3 -->
 
                     <div class="reply-form">
-                        <h4>Partners Grievance Channel</h4>
+                        <h4>Tambahkan Komentar Anda</h4>
                         <!-- <p>Your email address will not be published. Required fields are marked * </p> -->
                         <form action="">
                             <div class="row">
