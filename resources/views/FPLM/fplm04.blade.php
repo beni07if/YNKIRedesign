@@ -1,7 +1,7 @@
 @extends('Layouts.MasterWeb')
 
 @section('title')
-<title>Detail Rilis Page</title>
+<title>Landuse Desa Selat Remis</title>
 @endsection
 
 @section('slideShow')
@@ -13,11 +13,10 @@
 
         <div class="row">
 
-
             <div class="col-lg-4 d-flex flex-column justify-content-flex-start align-items-stretch  order-2 order-lg-1">
 
                 <div class="content">
-                    <h3>Ancaman Perampasan Wilayah Adat dan Deforestasi Masih Nyata - Desa Kinipan</h3>
+                    <h3>Landuse Desa Selat Remis</h3>
                     <p>
 
                         <iframe width="399" height="246" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTBcMeJ-8l5ULAXdaqkpZPjGvhsmkvmM4W8yW28_HZ1P60zFOUBk4T61PjvTaS_wPxkwQhP0UAwdkxf/pubchart?oid=788819742&amp;format=interactive"></iframe>
