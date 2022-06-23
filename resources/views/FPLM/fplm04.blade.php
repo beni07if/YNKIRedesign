@@ -12,8 +12,19 @@
     <div class="container-fluid" data-aos="fade-up">
 
         <div class="row">
+            <div class="content">
+                <h3>Ancaman Perampasan Wilayah Adat dan Deforestasi Masih Nyata - Desa Kinipan</h3>
+                <p>
 
-            <div class="col-lg-4 d-flex flex-column justify-content-flex-start align-items-stretch  order-2 order-lg-1">
+                    <iframe width="399" height="246" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTBcMeJ-8l5ULAXdaqkpZPjGvhsmkvmM4W8yW28_HZ1P60zFOUBk4T61PjvTaS_wPxkwQhP0UAwdkxf/pubchart?oid=788819742&amp;format=interactive"></iframe>
+                    <iframe width="406" height="251" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTBcMeJ-8l5ULAXdaqkpZPjGvhsmkvmM4W8yW28_HZ1P60zFOUBk4T61PjvTaS_wPxkwQhP0UAwdkxf/pubchart?oid=76667578&amp;format=interactive"></iframe>
+                    <!-- <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Ce8iggQpFUR/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                    </blockquote>
+                    <script async src="//www.instagram.com/embed.js"></script> -->
+                </p>
+            </div>
+
+            <!-- <div class="col-lg-4 d-flex flex-column justify-content-flex-start align-items-stretch  order-2 order-lg-1">
 
                 <div class="content">
                     <h3>Inisiatif Penerapan Pendekatan Lanskap pada Pembangunan Desa</h3>
@@ -34,7 +45,7 @@
                     </p>
                 </div>
 
-                <!-- <div class="accordion-list">
+                <div class="accordion-list">
                     <ul>
                         <li>
                             <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
@@ -64,9 +75,9 @@
                         </li>
 
                     </ul>
-                </div> -->
+                </div>
 
-            </div>
+            </div> -->
             <!-- maps service  -->
             <div class="col-lg-8 align-items-stretch order-1 order-lg-2 img">
                 <!-- map clasic -->
