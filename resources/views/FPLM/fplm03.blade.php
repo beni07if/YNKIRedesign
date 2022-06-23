@@ -64,85 +64,87 @@
             <!-- <div class="col-lg-8 align-items-stretch order-1 order-lg-2 img"><iframe style="padding-top: 40px;" width="1200" height="800" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Kinipan" src="//beni07if.maps.arcgis.com/apps/Embed/index.html?webmap=f833d49512f8496e8ea97b44c5914b7c&extent=110.7482,-2.032,111.7267,-1.5152&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=legend&basemap_gallery=true&disable_scroll=false&theme=light"></iframe> -->
             <div class="col-lg-8 align-items-stretch order-1 order-lg-2 img">
                 <!-- map clasic -->
-                <!-- <iframe style="padding-top: 40px;" width="1200" height="800" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Kinipan" src="//beni07if.maps.arcgis.com/apps/Embed/index.html?webmap=f833d49512f8496e8ea97b44c5914b7c&extent=110.7482,-2.032,111.7267,-1.5152&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=legend&basemap_gallery=true&disable_scroll=false&theme=light"></iframe> -->
-                <!-- end map classic -->
 
-                <!-- map viewer -->
-                <!-- <iframe style="width: 1200 px; height: 700px;" src=https://beni07if.maps.arcgis.com/apps/mapviewer/index.html?webmap=216fea1dc49e4965833a83c8487f8781 width=”1200px″ height=”800px″ frameborder=”0″ style=”border:0″ allowfullscreen>iFrames are not supported on this page.</iframe> -->
-                <!-- end maps viever  -->
+                <iframe width="1200" height="800" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Kinipan Series 1" src="//beni07if.maps.arcgis.com/apps/Embed/index.html?webmap=f833d49512f8496e8ea97b44c5914b7c&extent=110.615,-2.1126,111.8599,-1.4345&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=legend&basemap_gallery=true&disable_scroll=false&theme=light"></iframe>
+            </div>
+            <!-- end map classic -->
 
-                <!-- maps dashboard -->
-                <!-- <iframe src="https://arcgis.com/apps/dashboards/5aecfd28de7746e481e3e800596fdc30" width="1200" height="800" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe> -->
-                <iframe src="https://arcgis.com/apps/dashboards/5aecfd28de7746e481e3e800596fdc30" style="padding-top: 40px;" width="1200" height="800" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
-                <!-- end maps dashboard  -->
-                <br>
-                <div class="blog-comments">
+            <!-- map viewer -->
+            <!-- <iframe style="width: 1200 px; height: 700px;" src=https://beni07if.maps.arcgis.com/apps/mapviewer/index.html?webmap=216fea1dc49e4965833a83c8487f8781 width=”1200px″ height=”800px″ frameborder=”0″ style=”border:0″ allowfullscreen>iFrames are not supported on this page.</iframe> -->
+            <!-- end maps viever  -->
 
-                    <h4 class="comments-count">Komentar </h4>
+            <!-- maps dashboard -->
+            <!-- <iframe src="https://arcgis.com/apps/dashboards/5aecfd28de7746e481e3e800596fdc30" width="1200" height="800" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe> -->
+            <!-- <iframe src="https://arcgis.com/apps/dashboards/5aecfd28de7746e481e3e800596fdc30" style="padding-top: 40px;" width="1200" height="800" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe> -->
+            <!-- end maps dashboard  -->
+            <br>
+            <div class="blog-comments">
 
-                    <div id="comment-1" class="comment">
-                        <div class="d-flex">
-                            <div class="comment-img"><img src="assets/img/blog/comments-1.jpg" alt=""></div>
-                            <div>
-                                <h5><a href="#">Adira</a> <a href="#" class="reply"></a></h5>
-                                <time datetime="2020-01-01">01 Juni 2022</time>
-                                <p>
-                                    Et rerum totam nisi. Molestiae vel quam dolorum vel voluptatem et et. Est ad aut sapiente quis molestiae est qui cum soluta.
-                                    Vero aut rerum vel. Rerum quos laboriosam placeat ex qui. Sint qui facilis et.
-                                </p>
+                <h4 class="comments-count">Komentar </h4>
+
+                <div id="comment-1" class="comment">
+                    <div class="d-flex">
+                        <div class="comment-img"><img src="assets/img/blog/comments-1.jpg" alt=""></div>
+                        <div>
+                            <h5><a href="#">Adira</a> <a href="#" class="reply"></a></h5>
+                            <time datetime="2020-01-01">01 Juni 2022</time>
+                            <p>
+                                Et rerum totam nisi. Molestiae vel quam dolorum vel voluptatem et et. Est ad aut sapiente quis molestiae est qui cum soluta.
+                                Vero aut rerum vel. Rerum quos laboriosam placeat ex qui. Sint qui facilis et.
+                            </p>
+                        </div>
+                    </div>
+                </div><!-- End comment #1 -->
+
+                <div id="comment-3" class="comment">
+                    <div class="d-flex">
+                        <div class="comment-img"><img src="assets/img/blog/comments-5.jpg" alt=""></div>
+                        <div>
+                            <h5><a href="#">Pute ri</a> <a href="#" class="reply"></a></h5>
+                            <time datetime="2020-01-01">16 Juni 2022</time>
+                            <p>
+                                Distinctio nesciunt rerum reprehenderit sed. Iste omnis eius repellendus quia nihil ut accusantium tempore. Nesciunt expedita id dolor exercitationem aspernatur aut quam ut. Voluptatem est accusamus iste at.
+                                Non aut et et esse qui sit modi neque.
+                            </p>
+                        </div>
+                    </div>
+
+                </div><!-- End comment #3 -->
+
+                <div class="reply-form">
+                    <h4>Tambahkan Komentar Anda</h4>
+                    <!-- <p>Your email address will not be published. Required fields are marked * </p> -->
+                    <form action="">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input name="name" type="text" class="form-control" placeholder="Your Name*">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input name="email" type="text" class="form-control" placeholder="Your Email*">
                             </div>
                         </div>
-                    </div><!-- End comment #1 -->
-
-                    <div id="comment-3" class="comment">
-                        <div class="d-flex">
-                            <div class="comment-img"><img src="assets/img/blog/comments-5.jpg" alt=""></div>
-                            <div>
-                                <h5><a href="#">Pute ri</a> <a href="#" class="reply"></a></h5>
-                                <time datetime="2020-01-01">16 Juni 2022</time>
-                                <p>
-                                    Distinctio nesciunt rerum reprehenderit sed. Iste omnis eius repellendus quia nihil ut accusantium tempore. Nesciunt expedita id dolor exercitationem aspernatur aut quam ut. Voluptatem est accusamus iste at.
-                                    Non aut et et esse qui sit modi neque.
-                                </p>
-                            </div>
-                        </div>
-
-                    </div><!-- End comment #3 -->
-
-                    <div class="reply-form">
-                        <h4>Tambahkan Komentar Anda</h4>
-                        <!-- <p>Your email address will not be published. Required fields are marked * </p> -->
-                        <form action="">
-                            <div class="row">
-                                <div class="col-md-6 form-group">
-                                    <input name="name" type="text" class="form-control" placeholder="Your Name*">
-                                </div>
-                                <div class="col-md-6 form-group">
-                                    <input name="email" type="text" class="form-control" placeholder="Your Email*">
-                                </div>
-                            </div>
-                            <!-- <div class="row">
+                        <!-- <div class="row">
                                 <div class="col form-group">
                                     <input name="website" type="text" class="form-control" placeholder="Your Website">
                                 </div>
                             </div> -->
-                            <div class="row">
-                                <div class="col form-group">
-                                    <textarea name="comment" class="form-control" placeholder="Your Comment*"></textarea>
-                                </div>
+                        <div class="row">
+                            <div class="col form-group">
+                                <textarea name="comment" class="form-control" placeholder="Your Comment*"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">Kirim</button>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim</button>
 
-                        </form>
+                    </form>
 
-                    </div>
+                </div>
 
-                </div><!-- End blog comments -->
+            </div><!-- End blog comments -->
 
-            </div>
-
-            <!-- end maps service  -->
         </div>
+
+        <!-- end maps service  -->
+    </div>
 
     </div>
 </section><!-- End Why Us Section -->

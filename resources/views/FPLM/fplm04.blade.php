@@ -13,7 +13,7 @@
 
         <div class="row">
 
-            <div class="col-lg-4 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+            <div class="col-lg-4 d-flex flex-column justify-content-flex-start align-items-stretch  order-2 order-lg-1">
 
                 <div class="content">
                     <h3>Inisiatif Penerapan Pendekatan Lanskap pada Pembangunan Desa</h3>
@@ -68,7 +68,19 @@
 
             </div>
             <!-- maps service  -->
-            <div class="col-lg-8 align-items-stretch order-1 order-lg-2 img"><iframe style="padding-top: 40px;" width="1200" height="800" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Landuse Desa Selat Remis" src="//beni07if.maps.arcgis.com/apps/Embed/index.html?webmap=216fea1dc49e4965833a83c8487f8781&extent=109.046,-0.4006,109.2947,-0.281&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=legend&basemap_gallery=true&disable_scroll=false&theme=light"></iframe>
+            <div class="col-lg-8 align-items-stretch order-1 order-lg-2 img">
+                <!-- map clasic -->
+                <!-- <iframe style="padding-top: 40px;" width="1200" height="800" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Kinipan" src="//beni07if.maps.arcgis.com/apps/Embed/index.html?webmap=f833d49512f8496e8ea97b44c5914b7c&extent=110.7482,-2.032,111.7267,-1.5152&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=legend&basemap_gallery=true&disable_scroll=false&theme=light"></iframe> -->
+                <!-- end map classic -->
+
+                <!-- map viewer -->
+                <!-- <iframe style="width: 1200 px; height: 700px;" src=https://beni07if.maps.arcgis.com/apps/mapviewer/index.html?webmap=216fea1dc49e4965833a83c8487f8781 width=”1200px″ height=”800px″ frameborder=”0″ style=”border:0″ allowfullscreen>iFrames are not supported on this page.</iframe> -->
+                <!-- end maps viever  -->
+
+                <!-- maps dashboard -->
+                <!-- <iframe src="https://arcgis.com/apps/dashboards/5aecfd28de7746e481e3e800596fdc30" width="1200" height="800" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe> -->
+                <iframe src="https://arcgis.com/apps/dashboards/5aecfd28de7746e481e3e800596fdc30" style="padding-top: 40px;" width="1200" height="800" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
+                <!-- end maps dashboard  -->
                 <br>
                 <div class="blog-comments">
 
