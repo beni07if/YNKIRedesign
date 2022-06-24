@@ -13,7 +13,7 @@
             <li>Halaman FPLM</li>
         </ol>
         <h2>Forest Peat Landuse Partisipatory Monitoring</h2>
-        <p>Forest Peat Landuse Monitoring (FPLM) merupakan sebuah platform layanan informasi berbasis spasial untuk mendorong partisipasi para pihak dalam memonitor dan menyampaikan respon perbaikan kebijakan, standar dan praktik dalam konservasi dan pemanfaatan lahan untuk meningkatkan kelentingan lanskap terhadap dampak perubahan iklim.
+        <p>Forest Peat Landuse Partnership Monitoring (FPLPM) merupakan sebuah platform layanan informasi berbasis spasial untuk mendorong partisipasi para pihak dalam memonitor dan menyampaikan respon perbaikan kebijakan, standar dan praktik dalam konservasi dan pemanfaatan lahan untuk meningkatkan kelentingan lanskap terhadap dampak perubahan iklim.
         </p>
     </div>
 </section><!-- End Breadcrumbs -->

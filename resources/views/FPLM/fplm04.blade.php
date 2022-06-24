@@ -6,13 +6,15 @@
 
 @section('slideShow')
 <!-- ======= Breadcrumbs ======= -->
+
 <!-- ======= Why Us Section ======= -->
-<section id="why-us" class="why-us">
-    <div class="container-fluid">
+<section id="why-us" class="why-us section-bg">
+    <div class="container-fluid" data-aos="fade-up">
 
         <div class="row">
 
-            <div class="col-lg-4 d-flex flex-column justify-content-flext-left align-items-stretch" data-aos="fade-left">
+            <div class="col-lg-4 d-flex flex-column justify-content-flex-start align-items-stretch  order-2 order-lg-1">
+
                 <div class="content">
                     <h3>Landuse Desa Selat Remis</h3>
                     <p>
@@ -24,10 +26,10 @@
                     <script async src="//www.instagram.com/embed.js"></script> -->
                     </p>
                 </div>
+
             </div>
-
-            <div class="col-lg-8 d-flex flex-column justify-content-center align-items-stretch" data-aos="fade-left">
-
+            <!-- maps service  -->
+            <div class="col-lg-8 align-items-stretch order-1 order-lg-2 img">
                 <!-- map clasic -->
                 <!-- <iframe style="padding-top: 40px;" width="1200" height="800" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Kinipan" src="//beni07if.maps.arcgis.com/apps/Embed/index.html?webmap=f833d49512f8496e8ea97b44c5914b7c&extent=110.7482,-2.032,111.7267,-1.5152&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=legend&basemap_gallery=true&disable_scroll=false&theme=light"></iframe> -->
                 <!-- end map classic -->
@@ -102,14 +104,12 @@
                     </div>
 
                 </div><!-- End blog comments -->
-
             </div>
 
+            <!-- end maps service  -->
         </div>
 
     </div>
 </section><!-- End Why Us Section -->
-
-
-
+<!-- End Blog Section -->
 @endsection
