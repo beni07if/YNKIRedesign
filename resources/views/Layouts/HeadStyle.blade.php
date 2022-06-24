@@ -25,7 +25,8 @@
 <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
 <!-- Template Main CSS File -->
-<link href="{{ URL::asset('assets/css/style.css') }}" rel="stylesheet">
+<!-- <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet"> -->
+<link href="https://naturalkapital.or.id/style-css" rel="stylesheet">
 <link href="{{ asset('assets/css/aos.css')}}" rel="stylesheet">
 
 <!-- style utk slider  -->
