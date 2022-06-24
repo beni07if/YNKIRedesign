@@ -160,11 +160,6 @@ class WebViewController extends Controller
         return view('TentangKami.KontakKami.KontakKami');
     }
 
-    public function StyleCss()
-    {
-        return view('Layouts.Style');
-    }
-
     public function KirimPesan(Request $request)
     {
         $pesan = new Pesan;

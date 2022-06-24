@@ -95,7 +95,6 @@ Route::post('/kirim-pesan', 'App\Http\Controllers\WebViewController@KirimPesan')
 
 Route::get('/postingan-ynki', 'App\Http\Controllers\RilisController@PostinganYNKI')->name('PostinganYNKI');
 Route::get('/profil-user', 'App\Http\Controllers\RilisController@Profil')->name('ProfilUser');
-Route::get('/style-css', 'App\Http\Controllers\WebViewController@StyleCss')->name('StyleCss');
 
 // Auth::routes();
 
