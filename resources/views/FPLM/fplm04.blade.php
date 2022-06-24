@@ -6,30 +6,28 @@
 
 @section('slideShow')
 <!-- ======= Breadcrumbs ======= -->
-
 <!-- ======= Why Us Section ======= -->
-<section id="why-us" class="why-us section-bg">
-    <div class="container-fluid" data-aos="fade-up">
+<section id="why-us" class="why-us">
+    <div class="container-fluid">
 
         <div class="row">
 
-            <div class="col-lg-4 d-flex flex-column justify-content-flex-start align-items-stretch  order-2 order-lg-1">
-
+            <div class="col-lg-4 d-flex flex-column justify-content-flext-left align-items-stretch" data-aos="fade-left">
                 <div class="content">
                     <h3>Landuse Desa Selat Remis</h3>
                     <p>
 
-                        <iframe width="399" height="246" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTBcMeJ-8l5ULAXdaqkpZPjGvhsmkvmM4W8yW28_HZ1P60zFOUBk4T61PjvTaS_wPxkwQhP0UAwdkxf/pubchart?oid=788819742&amp;format=interactive"></iframe>
-                        <iframe width="406" height="251" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTBcMeJ-8l5ULAXdaqkpZPjGvhsmkvmM4W8yW28_HZ1P60zFOUBk4T61PjvTaS_wPxkwQhP0UAwdkxf/pubchart?oid=76667578&amp;format=interactive"></iframe>
+                        <iframe width="404" height="250" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMCR5Fv7QthL1gdZ6GPc0B2Qz5qBDYeJq_5SVjWVancAUbtXW3X4iggm6U_x_mwxy3jeIKdJ2Bm6gL/pubchart?oid=1823610441&amp;format=interactive"></iframe><br><br>
+                        <iframe width="404" height="290" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMCR5Fv7QthL1gdZ6GPc0B2Qz5qBDYeJq_5SVjWVancAUbtXW3X4iggm6U_x_mwxy3jeIKdJ2Bm6gL/pubchart?oid=960844737&amp;format=interactive"></iframe>
                         <!-- <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Ce8iggQpFUR/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
                     </blockquote>
                     <script async src="//www.instagram.com/embed.js"></script> -->
                     </p>
                 </div>
-
             </div>
-            <!-- maps service  -->
-            <div class="col-lg-8 align-items-stretch order-1 order-lg-2 img">
+
+            <div class="col-lg-8 d-flex flex-column justify-content-center align-items-stretch" data-aos="fade-left">
+
                 <!-- map clasic -->
                 <!-- <iframe style="padding-top: 40px;" width="1200" height="800" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Kinipan" src="//beni07if.maps.arcgis.com/apps/Embed/index.html?webmap=f833d49512f8496e8ea97b44c5914b7c&extent=110.7482,-2.032,111.7267,-1.5152&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=legend&basemap_gallery=true&disable_scroll=false&theme=light"></iframe> -->
                 <!-- end map classic -->
@@ -104,12 +102,14 @@
                     </div>
 
                 </div><!-- End blog comments -->
+
             </div>
 
-            <!-- end maps service  -->
         </div>
 
     </div>
 </section><!-- End Why Us Section -->
-<!-- End Blog Section -->
+
+
+
 @endsection

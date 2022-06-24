@@ -14,11 +14,8 @@ class Isuesfplm extends Model
 
     public function fplm()
     {
-        return $this->hasMany(Fplm::class, 'isu_id', 'id');
-    }
-
-    public function user()
-    {
-        return $this->hasMany(User::class, 'user_id', 'id');
+        // return $this->hasMany(Fplm::class, 'isu_id', 'id');
+        return $this->hasMany('App\Models\Fplm');
+        return $this->hasMany(Fplm::class);
     }
 }
