@@ -5,7 +5,7 @@
 <meta content="" name="description">
 <meta content="" name="keywords">
 
-<link href="{{ asset('assets/css/style.css?<?php echo time(); ?>') }}" rel="stylesheet">
+<link href="{{ asset('assets/css/style.css'?<?php echo time(); ?>) }}" rel="stylesheet">
 <link href="{{ asset('assets/css/aos.css')}}" rel="stylesheet">
 <!-- Favicons -->
 
