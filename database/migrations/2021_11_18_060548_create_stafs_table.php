@@ -22,6 +22,7 @@ class CreateStafsTable extends Migration
             $table->string('jabatan');
             $table->string('no_hp');
             $table->string('foto');
+            // $table->text('embedded_foto');
             $table->text('biodata');
             $table->string('password');
             $table->timestamps();

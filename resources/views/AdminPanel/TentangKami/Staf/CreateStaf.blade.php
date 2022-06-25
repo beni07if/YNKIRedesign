@@ -73,6 +73,12 @@
                                     <input class="form-control" name="foto" type="file" id="foto">
                                 </div>
                             </div>
+                            <!-- <div class="row mb-3">
+                                <label for="embedded_foto" class="col-sm-3 col-form-label">Service Foto</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="embedded_foto" class="form-control" id="embedded_foto">
+                                </div>
+                            </div> -->
                             <div class="row mb-3">
                                 <label for="foto" class="col-sm-3 col-form-label">Biodata</label>
                                 <div class="col-sm-9">

@@ -58,13 +58,15 @@ class StafController extends Controller
         $staf->jabatan = $request->jabatan;
         $staf->biodata = $request->biodata;
         $staf->no_hp = $request->no_hp;
+        // $staf->embedded_foto = $request->embedded_foto;
         $file       = $request->file('foto');
         $fileName   = $file->getClientOriginalName();
         $request->file('foto')->move("assetAdmin/img/staf/", $fileName);
         $staf->foto = $fileName;
-        // $tambah->save();
 
+        // $tambah->save();
         // return redirect()->to('/');
+
         $staf->password =  bcrypt($request->password);
         $staf->created_at = now();
         $staf->updated_at = now();

@@ -30,6 +30,7 @@
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                 <div class="member">
                     <div class="member-img">
+                        <!-- <img src="{!!$team->embedded_boto!!}" alt=""> -->
                         <img src="assetAdmin/img/staf/{{$team->foto}}" class="img-fluid" alt="">
                         <!-- <div class="social">
                             <a href=""><i class="bi bi-twitter"></i></a>
