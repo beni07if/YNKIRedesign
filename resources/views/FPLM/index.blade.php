@@ -45,10 +45,10 @@
                     </li>
                     <!-- mightyearth -->
                     <li class="nav-item">
-                        <a class="nav-link active show" data-bs-toggle="tab" href="#tab-3">Monitoring Konflik Sosial Lingkungan dan Tenurial</a>
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Monitoring Konflik Sosial Lingkungan dan Tenurial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Monitoring Tata Guna Lahan Desa</a>
+                        <a class="nav-link active show" data-bs-toggle="tab" href="#tab-4">Monitoring Tata Guna Lahan Desa</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Pengelolaan DAS, Mitigasi Bencana Karhutla dan Banjir</a>
@@ -107,7 +107,7 @@
                         <div class="row">No data..
                         </div>
                     </div>
-                    <div class="tab-pane active show" id="tab-3">
+                    <div class="tab-pane" id="tab-3">
                         <div class="row">
                             <div class="col-lg-8 details order-2 order-lg-1">
                                 <h3 class="titlemaps">Ancaman Perampasan Wilayah Adat dan Deforestasi Masih Nyata - Desa Kinipan</h3>
@@ -136,18 +136,33 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane" id="tab-4">
+                    <div class="tab-pane active show" id="tab-4">
                         <div class="row">
                             <div class="col-lg-8 details order-2 order-lg-1">
                                 <h3 class="titlemaps">Inisiatif Penerapan Pendekatan Lanskap pada Pembangunan Desa </h3>
-                                <p class="fst-italic">Perencanaan tata guna lahan partisipatif tingkat desa merupakan faktor penting dalam proses pembangunan tingkat desa. Pendekatan ini dapat meningkatkan kapasitas masyarakat dan pemerintah untuk menilai kebutuhan saat ini dan perancangan pembangunan di masa depan. Hal ini terkait dengan definisi desa sebagai kesatuan masyarakat hukum yang memiliki batas wilayah yang berwenang untuk mengatur dan mengurus urusan pemerintahan (UU No. 6 Tahun 2014 Tentang Desa).. <a class="button-peta" href="{{route('fplm04')}}">Read more: Interactive Story Maps</a>
+                                <a class="button-peta" href="{{route('fplm04')}}">Show Interactive Story Maps</a>
+                                <br><br>
+                                <p class="fst-italic">Perencanaan tata guna lahan partisipatif tingkat desa merupakan faktor penting dalam proses pembangunan tingkat desa. Pendekatan ini dapat meningkatkan kapasitas masyarakat dan pemerintah untuk menilai kebutuhan saat ini dan perancangan pembangunan di masa depan. Hal ini terkait dengan definisi desa sebagai kesatuan masyarakat hukum yang memiliki batas wilayah yang berwenang untuk mengatur dan mengurus urusan pemerintahan (UU No. 6 Tahun 2014 Tentang Desa). <br>
+
+                                    Tata guna lahan tingkat desa akan terkait dengan lintas level kewenangan dan kebijakan yang harus diakomodasi, seperti adanya batasan pemanfaatan terkait kawasan hutan, kebijakan perlindungan ekosistem gambut dan mangrove maupun batasan pada praktik penggunaan dan pemanfaatannya. <br>
+
+                                    Lebih jauh tidak sedikit desa yang berada di sekitar kawasan hutan, lindung dan konservasi seringkali menjadi penghambat dalam pembangunan sosial ekonomi dan infrastruktur. Dalam panduan perencanaan pembangunan desa, perlindungan lingkungan termasuk pelestarian alam dan keanekaragaman hayati termasuk dalam klaster belanja pembangunan desa bidang Pemberdayaan Masyarakat. Kegiatan yang dapat diprogramkan antara lain penghijauan, pengelolaan hutan bakau, perlindungan lahan gambut, perlindungan mata air, pembersihan dan perawatan aliran sungai, perlindungan terumbu karang dan lainnya sesuai dengan kondisi desa. <br>
+
+                                    Pemerintah melalui Permendesa PDT dan Transmigrasi nomor 13 tahun 2020, pemerintah mendorong program Pemetaan potensi dan sumber daya lahan pembangunan desa akan berkontribusi pada rancangan adanya peta rancangan tata guna lahan desa dalam rangka menuju perencanaan desa serta pencapaian SDGs desa. Lebih lanjut pemetaan ini menjadi outcome bagi hadirnya intervensi program atau proyek dari otoritas di atasnya (supra desa) antara lain pemerintah pusat, provinsi dan kabupaten. <br>
+
+                                    #yayasannaturalkapital
+                                    #democracyfornature
+                                    #tatagunalahan
                                     <br>
-                                    Sumber dan Kontributor (penulis)
                                 </p>
                                 <!-- <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p> -->
                             </div>
                             <div class="col-lg-4 text-center order-1 order-lg-2">
                                 <!-- <img src="assetAdmin/img/PostinganMedia/landuse-selat-remis.jpg" alt="" class="img-fluid"> -->
+                                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CbM-JzOL0vz/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+
+                                </blockquote>
+                                <script async src="//www.instagram.com/embed.js"></script>
                             </div>
                         </div>
                     </div>
