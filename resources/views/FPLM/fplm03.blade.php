@@ -47,7 +47,7 @@
 
                     <h4 class="comments-count">Komentar</h4>
 
-                    <div id="comment-1" class="comment">
+                    <!-- <div id="comment-1" class="comment">
                         <div class="d-flex">
                             <div class="comment-img"><img src="assets/img/blog/comments-1.jpg" alt=""></div>
                             <div>
@@ -59,9 +59,10 @@
                                 </p>
                             </div>
                         </div>
-                    </div><!-- End comment #1 -->
+                    </div> -->
+                    <!-- End comment #1 -->
 
-                    <div id="comment-4" class="comment">
+                    <!-- <div id="comment-4" class="comment">
                         <div class="d-flex">
                             <div class="comment-img"><img src="assets/img/blog/comments-6.jpg" alt=""></div>
                             <div>
@@ -73,7 +74,8 @@
                             </div>
                         </div>
 
-                    </div><!-- End comment #4 -->
+                    </div> -->
+                    <!-- End comment #4 -->
 
                     <div class="reply-form">
                         <h4>Tambahkan Komentar Anda</h4>
