@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Fplm;
+use App\Models\Contentisu;
 
 class FPLMController extends Controller
 {
@@ -14,8 +14,8 @@ class FPLMController extends Controller
      */
     public function index()
     {
-        $postDetail = Fplm::all();
-        $postinganmedia = Fplm::all();
+        $postDetail = Contentisu::all();
+        $postinganmedia = Contentisu::all();
         return view('FPLM.index', compact('postDetail', 'postinganmedia'));
     }
 
@@ -82,25 +82,25 @@ class FPLMController extends Controller
      */
     public function destroy($id)
     {
-        //
+        //destroy
     }
 
     public function fplm03()
     {
-        $postDetail = Fplm::all();
-        $postinganmedia = Fplm::all();
+        $postDetail = Contentisu::all();
+        $postinganmedia = Contentisu::all();
         return view('FPLM.fplm03', compact('postDetail', 'postinganmedia'));
     }
     public function fplm04()
     {
-        $postDetail = Fplm::all();
-        $postinganmedia = Fplm::all();
+        $postDetail = Contentisu::all();
+        $postinganmedia = Contentisu::all();
         return view('FPLM.fplm04', compact('postDetail', 'postinganmedia'));
     }
     public function fplm10()
     {
-        $postDetail = Fplm::all();
-        $postinganmedia = Fplm::all();
+        $postDetail = Contentisu::all();
+        $postinganmedia = Contentisu::all();
         return view('FPLM.fplm10', compact('postDetail', 'postinganmedia'));
     }
 }
