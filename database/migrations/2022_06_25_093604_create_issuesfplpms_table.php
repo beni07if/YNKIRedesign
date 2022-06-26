@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateIsuesfplmsTable extends Migration
+class CreateIssuesfplpmsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateIsuesfplmsTable extends Migration
      */
     public function up()
     {
-        Schema::create('isuesfplms', function (Blueprint $table) {
+        Schema::create('issuesfplpms', function (Blueprint $table) {
             $table->id();
             $table->text('isu');
             $table->timestamps();
@@ -27,6 +27,6 @@ class CreateIsuesfplmsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('isuesfplms');
+        Schema::dropIfExists('issuesfplpms');
     }
 }
