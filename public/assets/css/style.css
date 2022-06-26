@@ -2796,12 +2796,15 @@ section {
 
 @media (max-width:360px) {
 
-iframe{
+/* iframe{
         width: 330px;
         height: 500px;
         padding-top: 40px;
     }
     .departments{
+        display: none;
+    } */
+    .mapsdesktopview iframe{
         display: none;
     }
 
@@ -2809,14 +2812,17 @@ iframe{
 
 @media (min-width:361px) {
 
-iframe{
+/* iframe{
         width: 1200px;
         height: 800px;
         padding-top: 40px;
-    }
+    } */
     /* .departments{
         display: none;ssss
     } */
+    .mapsmobileview iframe{
+        display: none;
+    }
 
 }
 
