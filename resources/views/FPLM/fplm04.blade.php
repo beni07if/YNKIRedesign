@@ -45,7 +45,7 @@
                     <iframe src="https://arcgis.com/apps/dashboards/5aecfd28de7746e481e3e800596fdc30" style="padding-top: 40px;" width="1200" height="800" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
                 </div>
                 <div class="mapsmobileview">
-                    <iframe src="https://arcgis.com/apps/dashboards/5aecfd28de7746e481e3e800596fdc30" style="padding-top: 40px;" width="360" height="500" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
+                    <iframe src="https://arcgis.com/apps/dashboards/5aecfd28de7746e481e3e800596fdc30" style="padding-top: 40px;" width="366" height="500" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
                 </div>
                 <!-- end maps dashboard  -->
                 <br>
