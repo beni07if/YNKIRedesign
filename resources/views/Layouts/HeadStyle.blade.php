@@ -39,3 +39,37 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+<style>
+  @media (max-width:360px) {
+
+    /* iframe{
+        width: 330px;
+        height: 500px;
+        padding-top: 40px;
+    }
+    .departments{
+        display: none;
+    } */
+    .mapsdesktopview iframe {
+      display: none;
+    }
+
+  }
+
+  @media (min-width:450px) {
+
+    /* iframe{
+        width: 1200px;
+        height: 800px;
+        padding-top: 40px;
+    } */
+    /* .departments{
+        display: none;ssss
+    } */
+    .mapsmobileview iframe {
+      display: none;
+    }
+
+  }
+</style>
