@@ -55,7 +55,7 @@
       width: 404px;
       height: 400px;
     } */
-    .chart iframe {
+    .chart1366 iframe {
       display: none;
     }
 
