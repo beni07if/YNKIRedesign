@@ -41,7 +41,7 @@
   ======================================================== -->
 
 <style>
-  @media (max-width:360px) {
+  @media (max-width:450px) {
 
     /* iframe{
         width: 330px;
