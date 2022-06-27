@@ -43,32 +43,56 @@
 <style>
   @media (max-width:450px) {
 
-    /* iframe{
-        width: 330px;
-        height: 500px;
-        padding-top: 40px;
-    }
-    .departments{
-        display: none;
-    } */
     .mapsdesktopview iframe {
       display: none;
     }
 
+    .mapsdesktopview1366 iframe {
+      display: none;
+    }
+
+    .why-us .content iframe {
+      width: 404px;
+      height: 250px;
+    }
+
   }
 
-  @media (min-width:450px) {
+  @media (width:1366px) {
 
-    /* iframe{
-        width: 1200px;
-        height: 800px;
-        padding-top: 40px;
-    } */
-    /* .departments{
-        display: none;ssss
-    } */
+    .mapsdesktopview iframe {
+      display: none;
+    }
+
     .mapsmobileview iframe {
       display: none;
+    }
+
+    /* .why-us .content iframe {
+      width: 300px;
+    } */
+
+    .why-us .content iframe {
+      width: 350px;
+      height: 250px;
+    }
+
+  }
+
+
+  @media (min-width:1367px) {
+
+    .mapsmobileview iframe {
+      display: none;
+    }
+
+    .mapsdesktopview1366 iframe {
+      display: none;
+    }
+
+    .why-us .content iframe {
+      width: 404px;
+      height: 250px;
     }
 
   }

@@ -19,8 +19,10 @@
                     <h3>Landuse Desa Selat Remis</h3>
                     <p>
 
-                        <iframe width="404" height="250" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMCR5Fv7QthL1gdZ6GPc0B2Qz5qBDYeJq_5SVjWVancAUbtXW3X4iggm6U_x_mwxy3jeIKdJ2Bm6gL/pubchart?oid=1823610441&amp;format=interactive"></iframe><br><br>
-                        <iframe width="404" height="290" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMCR5Fv7QthL1gdZ6GPc0B2Qz5qBDYeJq_5SVjWVancAUbtXW3X4iggm6U_x_mwxy3jeIKdJ2Bm6gL/pubchart?oid=960844737&amp;format=interactive"></iframe>
+                        <!-- <iframe seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMCR5Fv7QthL1gdZ6GPc0B2Qz5qBDYeJq_5SVjWVancAUbtXW3X4iggm6U_x_mwxy3jeIKdJ2Bm6gL/pubchart?oid=1823610441&amp;format=interactive"></iframe><br><br> -->
+                        <iframe seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMCR5Fv7QthL1gdZ6GPc0B2Qz5qBDYeJq_5SVjWVancAUbtXW3X4iggm6U_x_mwxy3jeIKdJ2Bm6gL/pubchart?oid=1823610441&amp;format=interactive"></iframe><br><br>
+                        <!-- <iframe seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMCR5Fv7QthL1gdZ6GPc0B2Qz5qBDYeJq_5SVjWVancAUbtXW3X4iggm6U_x_mwxy3jeIKdJ2Bm6gL/pubchart?oid=806669100&amp;format=interactive"></iframe><br><br> -->
+                        <iframe seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMCR5Fv7QthL1gdZ6GPc0B2Qz5qBDYeJq_5SVjWVancAUbtXW3X4iggm6U_x_mwxy3jeIKdJ2Bm6gL/pubchart?oid=960844737&amp;format=interactive"></iframe>
                         <!-- <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Ce8iggQpFUR/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
                     </blockquote>
                     <script async src="//www.instagram.com/embed.js"></script> -->
@@ -43,6 +45,9 @@
 
                 <div class="mapsdesktopview">
                     <iframe src="https://arcgis.com/apps/dashboards/5aecfd28de7746e481e3e800596fdc30" style="padding-top: 40px;" width="1200" height="800" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
+                </div>
+                <div class="mapsdesktopview1366">
+                    <iframe src="https://arcgis.com/apps/dashboards/5aecfd28de7746e481e3e800596fdc30" style="padding-top: 40px;" width="850" height="800" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
                 </div>
                 <div class="mapsmobileview">
                     <iframe src="https://arcgis.com/apps/dashboards/a2a11d647827438db3c3c1e0f11cfe98" style="padding-top: 40px;" width="390" height="650" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>

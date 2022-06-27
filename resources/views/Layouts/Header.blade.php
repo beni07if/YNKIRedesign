@@ -25,6 +25,7 @@
                                   <li><a href="#">Kebijakan Keberlanjutan</a></li>
                               </ul>
                           </li>
+                          <li><a class="nav-link scrollto " href="{{route('KontakKami')}}">Kontak Kami</a></li>
                       </ul>
                   </li>
                   <li class="dropdown"><a href="#"><span>Program</span> <i class="bi bi-chevron-down"></i></a>
@@ -57,7 +58,7 @@
                       </ul>
                   </li>
                   <li><a class="getstarted scrollto " href="{{route('fplm')}}">Interactive Story Maps - FPLPM</a></li>
-                  <li><a class="nav-link scrollto " href="{{route('KontakKami')}}">Kontak Kami</a></li>
+
               </ul>
               <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->
