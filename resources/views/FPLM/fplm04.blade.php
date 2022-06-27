@@ -17,16 +17,21 @@
 
                 <div class="content">
                     <h3>Landuse Desa Selat Remis</h3>
-                    <p>
+                    <div class="chart">
 
                         <!-- <iframe seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMCR5Fv7QthL1gdZ6GPc0B2Qz5qBDYeJq_5SVjWVancAUbtXW3X4iggm6U_x_mwxy3jeIKdJ2Bm6gL/pubchart?oid=1823610441&amp;format=interactive"></iframe><br><br> -->
-                        <iframe seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMCR5Fv7QthL1gdZ6GPc0B2Qz5qBDYeJq_5SVjWVancAUbtXW3X4iggm6U_x_mwxy3jeIKdJ2Bm6gL/pubchart?oid=1823610441&amp;format=interactive"></iframe><br><br>
+                        <iframe width="401" height="233" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMCR5Fv7QthL1gdZ6GPc0B2Qz5qBDYeJq_5SVjWVancAUbtXW3X4iggm6U_x_mwxy3jeIKdJ2Bm6gL/pubchart?oid=1823610441&amp;format=interactive"></iframe><br><br>
+
                         <!-- <iframe seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMCR5Fv7QthL1gdZ6GPc0B2Qz5qBDYeJq_5SVjWVancAUbtXW3X4iggm6U_x_mwxy3jeIKdJ2Bm6gL/pubchart?oid=806669100&amp;format=interactive"></iframe><br><br> -->
-                        <iframe seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMCR5Fv7QthL1gdZ6GPc0B2Qz5qBDYeJq_5SVjWVancAUbtXW3X4iggm6U_x_mwxy3jeIKdJ2Bm6gL/pubchart?oid=960844737&amp;format=interactive"></iframe>
+                        <!-- <iframe seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMCR5Fv7QthL1gdZ6GPc0B2Qz5qBDYeJq_5SVjWVancAUbtXW3X4iggm6U_x_mwxy3jeIKdJ2Bm6gL/pubchart?oid=960844737&amp;format=interactive"></iframe> -->
                         <!-- <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Ce8iggQpFUR/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
                     </blockquote>
                     <script async src="//www.instagram.com/embed.js"></script> -->
-                    </p>
+                    </div>
+                    <div class="chart1366">
+                        <iframe width="351" height="207" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMCR5Fv7QthL1gdZ6GPc0B2Qz5qBDYeJq_5SVjWVancAUbtXW3X4iggm6U_x_mwxy3jeIKdJ2Bm6gL/pubchart?oid=2137114708&amp;format=interactive"></iframe><br><br>
+                    </div>
+
                 </div>
 
             </div>
@@ -57,8 +62,8 @@
                 <div class="blog-comments">
 
                     <h4 class="comments-count">Komentar</h4>
-
-                    <!-- <div id="comment-1" class="comment">
+                    <!-- 
+                    <div id="comment-1" class="comment">
                         <div class="d-flex">
                             <div class="comment-img"><img src="assets/img/blog/comments-1.jpg" alt=""></div>
                             <div>
@@ -72,21 +77,6 @@
                         </div>
                     </div> -->
                     <!-- End comment #1 -->
-
-                    <!-- <div id="comment-4" class="comment">
-                        <div class="d-flex">
-                            <div class="comment-img"><img src="assets/img/blog/comments-6.jpg" alt=""></div>
-                            <div>
-                                <h5><a href="#">Evelin</a> <a href="#" class="reply"></a></h5>
-                                <time datetime="2020-01-01">20 Juni 2022</time>
-                                <p>
-                                    Dolorem atque aut. Omnis doloremque blanditiis quia eum porro quis ut velit tempore. Cumque sed quia ut maxime. Est ad aut cum. Ut exercitationem non in fugiat.
-                                </p>
-                            </div>
-                        </div>
-
-                    </div> -->
-                    <!-- End comment #4 -->
 
                     <div class="reply-form">
                         <h4>Tambahkan Komentar Anda</h4>

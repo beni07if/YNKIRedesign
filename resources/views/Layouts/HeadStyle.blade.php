@@ -51,9 +51,12 @@
       display: none;
     }
 
-    .why-us .content iframe {
+    /* .chart iframe {
       width: 404px;
-      height: 250px;
+      height: 400px;
+    } */
+    .chart iframe {
+      display: none;
     }
 
   }
@@ -68,13 +71,16 @@
       display: none;
     }
 
-    /* .why-us .content iframe {
+    /* .chart iframe {
       width: 300px;
     } */
 
-    .why-us .content iframe {
-      width: 350px;
-      height: 250px;
+    /* .chart iframe {
+      width: 240px;
+      height: 350px;
+    } */
+    .chart iframe {
+      display: none;
     }
 
   }
@@ -90,9 +96,13 @@
       display: none;
     }
 
-    .why-us .content iframe {
-      width: 404px;
-      height: 250px;
+    /* .chart iframe {
+      width: 400px;
+      height: 400px;
+    } */
+
+    .chart1366 iframe {
+      display: none;
     }
 
   }
