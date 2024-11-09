@@ -37,6 +37,7 @@
                                     <th scope="col">Kategori</th>
                                     <th scope="col">Tanggal</th>
                                     <th scope="col">Edit</th>
+                                    <th scope="col">Delete</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -48,11 +49,28 @@
                                     <td>{{$films->judul}}</td>
                                     <td>{{$films->kategori}}</td>
                                     <td>{{$films->created_at}}</td>
-                                    <td><a href="{{route('film.edit', $films->id)}}"><span class="badge bg-info"><i class="bxs-user-plus me-1"></i>Edit</span></a></td>
+                                    <td>
+                                        <a href="{{ route('film.edit', $films->id) }}">
+                                            <span class="badge bg-info">
+                                                <i class="bxs-user-plus me-1"></i>Edit
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <!-- Delete Form -->
+                                        <form action="{{ route('film.destroy', $films->id) }}" method="POST" style="display:inline;" onsubmit="return confirm('Are you sure you want to delete this film?')">
+                                            @csrf
+                                            @method('DELETE')
+                                            <button type="submit" class="badge bg-danger">
+                                                <i class="bxs-trash"></i> Delete
+                                            </button>
+                                        </form>
+                                    </td>
                                 </tr>
                                 @endforeach
                             </tbody>
                         </table>
+                        
                         <!-- End Table with stripped rows -->
 
                     </div>

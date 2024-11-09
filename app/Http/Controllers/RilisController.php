@@ -103,7 +103,7 @@ class RilisController extends Controller
     public function update(Request $request, $id)
     {
         $this->validate($request, [
-            'foto' => 'required|image|mimes:jpg,png,jpeg'
+            'foto' => '|image|mimes:jpg,png,jpeg'
         ]);
         $post = Postinganmedia::findOrFail($id);
         $post->id_user = $request->input('id_user');
@@ -136,7 +136,19 @@ class RilisController extends Controller
      */
     public function destroy($id)
     {
-        //
+        // Mencari resource berdasarkan ID
+        $resource = Postinganmedia::find($id);
+
+        // Jika resource tidak ditemukan, kembalikan response 404
+        if (!$resource) {
+            return redirect()->route('rilis.index')->with('error', 'Resource not found');
+        }
+
+        // Menghapus resource
+        $resource->delete();
+
+        // Mengembalikan response sukses
+        return redirect()->route('rilis.index')->with('success', 'Resource deleted successfully');
     }
 
     public function ListRilis()

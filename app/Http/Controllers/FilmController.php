@@ -139,13 +139,13 @@ class FilmController extends Controller
 
         // Jika resource tidak ditemukan, kembalikan response 404
         if (!$resource) {
-            return redirect()->route('Film.index')->with('error', 'Resource not found');
+            return redirect()->route('film.index')->with('error', 'Resource not found');
         }
 
         // Menghapus resource
         $resource->delete();
 
         // Mengembalikan response sukses
-        return redirect()->route('Film.index')->with('success', 'Resource deleted successfully');
+        return redirect()->route('film.index')->with('success', 'Resource deleted successfully');
     }
 }

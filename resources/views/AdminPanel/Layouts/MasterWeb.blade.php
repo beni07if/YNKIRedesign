@@ -26,6 +26,9 @@
     <link href="{{asset('assetAdmin/vendor/quill/quill.bubble.css')}}" rel="stylesheet">
     <link href="{{asset('assetAdmin/vendor/simple-datatables/style.css')}}" rel="stylesheet">
 
+    <!-- SweetAlert2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.8/dist/sweetalert2.min.css" rel="stylesheet">
+
     <!-- Template Main CSS File -->
     <link href="{{asset('assetAdmin/css/style.css')}}" rel="stylesheet">
 

@@ -65,7 +65,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="row mb-3">
+                            {{-- <div class="row mb-3">
                                 <label class="col-sm-3 col-form-label">Categories</label>
                                 <div class="col-sm-9">
                                     <select class="form-select" name="categories" aria-label="Default select example">
@@ -75,7 +75,7 @@
                                         <option value="Kabar Dari Lapangan">Kabar Dari Lapangan</option>
                                     </select>
                                 </div>
-                            </div>
+                            </div> --}}
                             <div class="row mb-3">
                                 <label for="foto" class="col-sm-3 col-form-label">Foto</label>
                                 <div class="col-sm-9">

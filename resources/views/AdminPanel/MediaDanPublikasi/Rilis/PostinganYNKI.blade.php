@@ -41,6 +41,7 @@
                                     <th scope="col">Kategori</th>
                                     <th scope="col">Tanggal</th>
                                     <th scope="col">Edit</th>
+                                    <th scope="col">Delete</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -53,6 +54,16 @@
                                     <td>{{$postingan->kategori}}</td>
                                     <td>{{$postingan->created_at}}</td>
                                     <td><a href="{{route('rilis.edit', $postingan->id)}}"><span class="badge bg-info"><i class="bxs-user-plus me-1"></i>Edit</span></a></td>
+                                    <td>
+                                        <!-- Delete Form -->
+                                        <form action="{{ route('rilis.destroy', $postingan->id) }}" method="POST" style="display:inline;" onsubmit="return confirm('Are you sure you want to delete this data?')">
+                                            @csrf
+                                            @method('DELETE')
+                                            <button type="submit" class="badge bg-danger">
+                                                <i class="bxs-trash"></i> Delete
+                                            </button>
+                                        </form>
+                                    </td>
                                 </tr>
                                 @endforeach
                             </tbody>
