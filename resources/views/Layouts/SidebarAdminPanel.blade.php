@@ -114,6 +114,11 @@
                         <i class="bi bi-circle"></i><span>Publikasi YNKI</span>
                     </a>
                 </li>
+                <li>
+                    <a href="{{route('film.index')}}">
+                        <i class="bi bi-circle"></i><span>Film</span>
+                    </a>
+                </li>
                 <!-- <li>
                     <a href="{{route('rilis.index')}}">
                         <i class="bi bi-circle"></i><span>Rilis</span>

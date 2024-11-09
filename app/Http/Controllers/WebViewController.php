@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Staf;
 use App\Models\Postinganmedia;
+use App\Models\Film;
 use App\Models\Pesan;
 use RealRashid\SweetAlert\SweetAlertServiceProvider;
 use RealRashid\SweetAlert\Facades\Alert;
@@ -153,6 +154,20 @@ class WebViewController extends Controller
     {
         $ListProgramStrategi = Postinganmedia::where('kategori', 'KabarDariLapangan')->get();
         return view('Program.ProgramStrategi.ListProgramStrategi', compact('ListProgramStrategi'));
+    }
+
+    public function ListFilm()
+    {
+        $ListFilm = Film::where('kategori', 'Film')->get();
+        return view('MediaDanPublikasi.Film.ListFilm', compact('ListFilm'));
+    }
+
+    public function DetailFilm($id)
+    {
+        $film = Film::where('id', $id)->get();
+        $films = Film::where('kategori', 'Film')->get();
+        return view('MediaDanPublikasi.Film.DetailFilm', compact('film', 'films'));
+        // return $postDetail;
     }
 
     public function KontakKami()

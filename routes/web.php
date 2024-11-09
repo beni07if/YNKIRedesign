@@ -4,6 +4,7 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use App\Http\Controllers\RilisController;
+use App\Http\Controllers\FilmController;
 
 // use App\Http\Controllers\ProgramLanskapController;
 
@@ -35,7 +36,7 @@ require __DIR__ . '/auth.php';
 
 Auth::routes();
 
-Route::any('/register', [App\Http\Controllers\HomeController::class, 'index']);
+// Route::any('/register', [App\Http\Controllers\HomeController::class, 'index']);
 // Auth::routes([
 //     'register' => false, // Regisster Route
 //     'reset' => false, // Reset Password Route
@@ -80,6 +81,9 @@ Route::get('/detail-opini/{id}', 'App\Http\Controllers\WebViewController@DetailO
 Route::resource('kabar-dari-lapangan', 'App\Http\Controllers\KabarDariLapanganController');
 Route::get('/list-kabar-dari-lapangan', 'App\Http\Controllers\WebViewController@ListKabarDariLapangan')->name('ListKabarDariLapangan');
 Route::get('/detail-kabar-dari-lapangan/{id}', 'App\Http\Controllers\WebViewController@DetailKabarDariLapangan')->name('DetailKabarDariLapangan');
+Route::resource('film', 'App\Http\Controllers\FilmController');
+Route::get('/list-film', 'App\Http\Controllers\WebViewController@ListFilm')->name('ListFilm');
+Route::get('/detail-film/{id}', 'App\Http\Controllers\WebViewController@DetailFilm')->name('DetailFilm');
 Route::get('/forest-peat-landuse-monitoring', 'App\Http\Controllers\FPLMController@index')->name('fplm');
 Route::get('/forest-peat-landuse-monitoring-fplm03', 'App\Http\Controllers\FPLMController@fplm03')->name('fplm03');
 Route::get('/forest-peat-landuse-monitoring-fplm04', 'App\Http\Controllers\FPLMController@fplm04')->name('fplm04');
